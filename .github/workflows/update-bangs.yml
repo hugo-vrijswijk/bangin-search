@@ -1,4 +1,4 @@
-name: Update schemas
+name: Update bangs
 
 on:
   schedule:
