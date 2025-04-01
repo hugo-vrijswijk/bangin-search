@@ -2,6 +2,8 @@
 
 Fast search with [bangs](https://duckduckgo.com/bangs). Maybe DuckDuckGo is too slow for you, or you want to use another search engine, but miss the bangs? This is the solution.
 
+Still uses server-side redirects, but your home server is closer to you than the search engine.
+
 ## Getting started
 
 Run with Docker:

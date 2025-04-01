@@ -3,34 +3,32 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout>
-  <div class="flex-column flex h-screen items-center justify-center">
-    <div class="container max-w-3xl px-4 text-center transition-all">
-      <h1 class="mb-4 text-4xl font-semibold">Bangin' Search</h1>
-      <p>
-        Super fast Bang redirects. Add this site as a custom search engine to your browser for super fast Bangs. Enables <a
-          href="https://duckduckgo.com/bang.html"
-          class="text-gray-600 underline hover:text-gray-500 dark:text-gray-300 dark:hover:text-gray-100"
-          target="_blank">all of DuckDuckGo's bangs.</a
-        >
-      </p>
+  <div class="container max-w-3xl px-4 text-center transition-all">
+    <h1 class="mb-4 text-4xl font-semibold">Bangin' Search</h1>
+    <p>
+      Super fast Bang redirects. Add this site as a custom search engine to your browser for super fast Bangs. Enables <a
+        href="https://duckduckgo.com/bang.html"
+        class="text-gray-600 underline hover:text-gray-500 dark:text-gray-300 dark:hover:text-gray-100"
+        target="_blank">all of DuckDuckGo's bangs.</a
+      >
+    </p>
 
-      <form action="/" class="mt-5 flex items-center gap-2" method="GET">
-        <input
-          type="search"
-          name="q"
-          class="w-full rounded-md border border-gray-200 bg-gray-50 px-3 py-2 dark:text-gray-950"
-          placeholder="Enter your search query"
-        />
-        <button
-          type="submit"
-          class="copy-button rounded-md p-2 text-gray-600 transition-colors hover:bg-gray-200 active:bg-gray-300 dark:text-gray-300 dark:hover:bg-zinc-700 dark:active:bg-zinc-500"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-            <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-            ></path>
-          </svg>
-        </button>
-      </form>
-    </div>
+    <form action="/" class="mt-5 flex items-center gap-2" method="GET">
+      <input
+        type="search"
+        name="q"
+        class="w-full rounded-md border border-gray-200 bg-gray-50 px-3 py-2 dark:text-gray-950"
+        placeholder="Enter your search query"
+      />
+      <button
+        type="submit"
+        class="copy-button rounded-md p-2 text-gray-600 transition-colors hover:bg-gray-200 active:bg-gray-300 dark:text-gray-300 dark:hover:bg-zinc-700 dark:active:bg-zinc-500"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+          ></path>
+        </svg>
+      </button>
+    </form>
   </div>
 </Layout>
