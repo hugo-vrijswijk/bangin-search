@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.2](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.0.1...v1.0.2) (2025-04-01)
+
+
+### Bug Fixes
+
+* fix docker publish action ([0afc589](https://github.com/hugo-vrijswijk/bangin-search/commit/0afc58961f9899b8612acc3fd5ac506a2b4d267b))
+* fix docker publish action ([b2fbbfb](https://github.com/hugo-vrijswijk/bangin-search/commit/b2fbbfb1f1e074c54c28b1c9ce97b3dcfc7a1bf9))
+
 ## [1.0.1](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.0.0...v1.0.1) (2025-04-01)
 
 
