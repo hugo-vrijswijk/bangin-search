@@ -1,4 +1,4 @@
-name: Update schemas
+name: Update bangs
 
 on:
   schedule:
@@ -26,8 +26,8 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v7
         with:
-          title: "feat(bangs): update to latest bangs"
-          commit-message: "feat(bangs): update to latest bangs"
+          title: 'feat(bangs): update to latest bangs'
+          commit-message: 'feat(bangs): update to latest bangs'
           branch: update/bangs
           delete-branch: true
 
