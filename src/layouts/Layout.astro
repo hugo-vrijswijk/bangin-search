@@ -1,0 +1,22 @@
+---
+import '@fontsource-variable/inter';
+
+import '../styles/global.css';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Bangin' Search</title>
+    <meta name="description" content="A better default search engine (with bangs!)" />
+    <link rel="search" type="application/opensearchdescription+xml" title="Bangin' Search" href="/opensearch.xml" />
+  </head>
+  <body
+    class="bg-gradient-to-br from-gray-50 via-zinc-50 to-stone-50 font-sans font-medium text-gray-800 dark:from-gray-900 dark:via-zinc-900 dark:to-stone-900 dark:text-gray-50 dark:scheme-dark"
+  >
+    <slot />
+  </body>
+</html>

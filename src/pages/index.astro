@@ -1,0 +1,12 @@
+---
+import { getBangredirectUrl } from '../bang';
+import NoSearchRender from '../components/NoSearchRender.astro';
+import { DEFAULT_BANG } from 'astro:env/server';
+
+const searchUrl = getBangredirectUrl(new URL(Astro.request.url), DEFAULT_BANG);
+if (searchUrl) {
+  return Astro.redirect(searchUrl);
+}
+---
+
+<NoSearchRender />
