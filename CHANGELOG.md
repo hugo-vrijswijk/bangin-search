@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.0.0...v1.0.1) (2025-04-01)
+
+
+### Miscellaneous Chores
+
+* release 1.0.1 ([640268b](https://github.com/hugo-vrijswijk/bangin-search/commit/640268b0d694e119f3c53da358626cb282ba99b0))
+
 ## [1.0.0](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.0.0...v1.0.0) (2025-04-01)
 
 
