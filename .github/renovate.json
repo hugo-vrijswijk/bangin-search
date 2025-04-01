@@ -7,6 +7,12 @@
   "lockFileMaintenance": {
     "enabled": true
   },
+  "dockerfile": {
+    "extends": [":preserveSemverRanges"]
+  },
+  "github-actions": {
+    "extends": [":preserveSemverRanges"]
+  },
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],
