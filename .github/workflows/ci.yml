@@ -26,7 +26,6 @@ jobs:
   docker:
     permissions:
       contents: write
-      pull-requests: write
       packages: write
     env:
       REGISTRY: ghcr.io

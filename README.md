@@ -1,48 +1,23 @@
-# Astro Starter Kit: Basics
+# Bangin' Search
 
-```sh
-pnpm create astro@latest -- --template basics
+Fast search with [bangs](https://duckduckgo.com/bangs). Maybe DuckDuckGo is too slow for you, or you want to use another search engine, but miss the bangs? This is the solution.
+
+## Getting started
+
+Run with Docker:
+
+```bash
+docker run -p 4321:4321 --name bangin-search ghcr.io/hugo-vrijswijk/bangin-search
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+The container will also listen to the `PORT` environment variable, so you can set that to your desired port.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+The default search engine is [Qwant](https://www.qwant.com/), but you can change that by setting the `DEFAULT_BANG` environment variable. For example, to use [DuckDuckGo](https://duckduckgo.com/):
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+```bash
+docker run -p 4321:4321 --name bangin-search -e DEFAULT_BANG=ddg ghcr.io/hugo-vrijswijk/bangin-search
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+Put the service behind your favorite reverse proxy, and you're good to go. Open the site and your browser should let you add the search engine to your browser.
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                | Action                                           |
-| :--------------------- | :----------------------------------------------- |
-| `pnpm install`         | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+No tracking, no ads, no bullshit. Just a simple search engine with bangs. You can also use it as a bookmarklet in your browser.
