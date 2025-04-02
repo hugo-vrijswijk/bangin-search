@@ -14,12 +14,14 @@
     "preview": "astro preview",
     "astro": "astro",
     "prepare": "node .husky/install.js",
+    "test": "playwright test",
     "bangs:update": "wget -O src/bangs.json https://raw.githubusercontent.com/kagisearch/bangs/refs/heads/main/data/bangs.json"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.4",
     "@astrojs/node": "9.1.3",
     "@fontsource-variable/inter": "5.2.5",
+    "@playwright/test": "1.51.1",
     "@tailwindcss/vite": "4.1.0",
     "astro": "5.5.6",
     "concurrently": "9.1.2",
