@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.0.2...v1.1.0) (2025-04-02)
+
+
+### Features
+
+* add offline PWA support ([#27](https://github.com/hugo-vrijswijk/bangin-search/issues/27)) ([9331701](https://github.com/hugo-vrijswijk/bangin-search/commit/93317019d384a9f653228b3d945ecc4a2e334672))
+
+
+### Bug Fixes
+
+* use correct Qwant autocomplete suggestions API ([#17](https://github.com/hugo-vrijswijk/bangin-search/issues/17)) ([9e6cec8](https://github.com/hugo-vrijswijk/bangin-search/commit/9e6cec87286ba95a86bed8c485352db5dc0abd8c))
+
 ## [1.0.2](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.0.1...v1.0.2) (2025-04-01)
 
 
