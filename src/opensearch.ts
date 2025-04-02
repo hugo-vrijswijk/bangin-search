@@ -16,7 +16,7 @@ export function makeOpenSearchXml(params: OpenSearchParams): string {
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">${params.baseUrl}/favicon.ico</Image>
   <Url type="text/html" template="${params.baseUrl}/?q={searchTerms}"/>
-  <Url type="application/x-suggestions+json" template="${params.suggestions}"/>
+  <Url type="application/x-suggestions+json" method="GET" template="${params.suggestions}"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="${params.baseUrl}/opensearch.xml" />
 </OpenSearchDescription>`;
 }
