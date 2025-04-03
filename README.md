@@ -4,6 +4,8 @@ Fast search with [bangs](https://duckduckgo.com/bangs). Maybe DuckDuckGo is too 
 
 Uses server-side redirects on a first visit to avoid downloading the large bangs file. On subsequent visits, a service-worker will be used for instantaneous client-side redirects.
 
+![screenshot](https://github.com/user-attachments/assets/45cfb35f-2bd9-4012-a382-51acebbe2ae1)
+
 ## Getting started
 
 Run with Docker:
