@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.1.0...v1.1.1) (2025-04-03)
+
+
+### Bug Fixes
+
+* consistent name, short-name and descriptions ([#28](https://github.com/hugo-vrijswijk/bangin-search/issues/28)) ([4bb47ef](https://github.com/hugo-vrijswijk/bangin-search/commit/4bb47ef214fd7d380f80376296738a2cbdcef379))
+
 ## [1.1.0](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.0.2...v1.1.0) (2025-04-02)
 
 
