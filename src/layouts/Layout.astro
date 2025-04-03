@@ -13,8 +13,8 @@ import { DEFAULT_BANG } from 'astro:env/server';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>Bangin' Search</title>
-    <meta name="description" content="A better default search engine (with bangs!)" />
-    <link rel="search" type="application/opensearchdescription+xml" title="Bangin' Search" href="/opensearch.xml" />
+    <meta name="description" content="Search the web with fast Bangs" />
+    <link rel="search" type="application/opensearchdescription+xml" title="Bangin' Search" href={new URL('/opensearch.xml', Astro.url.origin)} />
     <script src="/src/pwa.ts"></script>
     {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
     {pwaAssetsHead.themeColor && <meta name="theme-color" content={pwaAssetsHead.themeColor.content} />}

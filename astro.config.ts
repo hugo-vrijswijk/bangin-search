@@ -26,10 +26,10 @@ export default defineConfig({
       registerType: 'autoUpdate',
       manifest: {
         name: "Bangin' Search",
-        short_name: "Bangin' Search",
-      },
-      devOptions: {
-        enabled: true,
+        short_name: "Bangin'",
+        theme_color: '#f9fafb',
+        background_color: '#18181b',
+        description: 'Search the web with fast Bangs',
       },
     }),
   ],
