@@ -3,7 +3,7 @@
   "type": "module",
   "version": "1.2.0",
   "private": true,
-  "packageManager": "pnpm@10.11.1",
+  "packageManager": "pnpm@10.12.1",
   "main": "dist/server/entry.mjs",
   "scripts": {
     "check": "concurrently -c auto \"npm:lint:*\" \"npm:build\"",
