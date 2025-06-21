@@ -23,7 +23,7 @@
     "@fontsource-variable/inter": "5.2.6",
     "@playwright/test": "1.53.1",
     "@tailwindcss/vite": "4.1.10",
-    "@types/node": "22.15.31",
+    "@types/node": "22.15.32",
     "@vite-pwa/assets-generator": "1.0.0",
     "@vite-pwa/astro": "1.1.0",
     "astro": "5.9.3",
