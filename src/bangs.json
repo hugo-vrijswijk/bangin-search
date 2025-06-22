@@ -8,6 +8,14 @@
     "sc": "Downloads (apps)"
   },
   {
+    "s": "ADS-B Exchange",
+    "d": "www.adsbexchange.com",
+    "t": "adsb",
+    "u": "https://www.adsbexchange.com/?icao={{{s}}}",
+    "c": "Research",
+    "sc": "Travel"
+  },
+  {
     "s": "BMW 2002 FAQ",
     "d": "www.bmw2002faq.com",
     "t": "02faq",
@@ -1273,10 +1281,10 @@
     "sc": "Games (offline)"
   },
   {
-    "s": "Abe's Market",
-    "d": "www.abesmarket.com",
+    "s": "Amazon Belgium",
+    "d": "www.amazon.com.be",
     "t": "abe",
-    "u": "https://www.abesmarket.com/catalogsearch/result/?cat=5&order=relevance&dir=desc&q={{{s}}}",
+    "u": "https://www.amazon.com.be/s?k={{{s}}}",
     "c": "Shopping",
     "sc": "Online"
   },
@@ -2895,9 +2903,9 @@
   },
   {
     "s": "alesund kommune",
-    "d": "www.alesund.kommune.no",
+    "d": "alesund.kommune.no",
     "t": "alesund",
-    "u": "https://www.alesund.kommune.no/component/finder/search?q={{{s}}}&Itemid=406",
+    "u": "https://alesund.kommune.no/sok.aspx?MId1=8&searchTerm={{{s}}}",
     "c": "Online Services",
     "sc": "Social"
   },
@@ -3510,12 +3518,12 @@
     "sc": "Services"
   },
   {
-    "s": "Amazon.com",
-    "d": "www.amazon.com",
+    "s": "Apple Maps",
+    "d": "maps.apple.com",
     "t": "am",
-    "u": "https://www.amazon.com/s?k={{{s}}}",
-    "c": "Shopping",
-    "sc": "Online"
+    "u": "https://maps.apple.com/?q={{{s}}}",
+    "c": "Online Services",
+    "sc": "Maps"
   },
   {
     "s": "Amanz",
@@ -14403,6 +14411,14 @@
     "sc": "AI Chatbots"
   },
   {
+    "s": "Le Chat",
+    "d": "chat.mistral.ai",
+    "t": "mistral",
+    "u": "https://chat.mistral.ai/chat?q={{{s}}}",
+    "c": "Online Services",
+    "sc": "AI Chatbots"
+  },
+  {
     "s": "OpenRouter",
     "d": "openrouter.ai",
     "t": "opr",
@@ -17427,10 +17443,34 @@
     "sc": "Games (specific)"
   },
   {
-    "s": "Chromium bugs",
-    "d": "bugs.chromium.org",
+    "s": "Chromium Code",
+    "d": "source.chromium.org",
+    "t": "chromium",
+    "u": "https://source.chromium.org/search?q={{{s}}}&ss=chromium/chromium/src",
+    "c": "Tech",
+    "sc": "Programming"
+  },
+  {
+    "s": "Chromium Code",
+    "d": "source.chromium.org",
+    "t": "crcode",
+    "u": "https://source.chromium.org/search?q={{{s}}}&ss=chromium/chromium/src",
+    "c": "Tech",
+    "sc": "Programming"
+  },
+  {
+    "s": "Chromium Issues",
+    "d": "issues.chromium.org",
     "t": "crbug",
-    "u": "https://bugs.chromium.org/p/chromium/issues/list?q={{{s}}}",
+    "u": "https://issues.chromium.org/issues?q={{{s}}}",
+    "c": "Tech",
+    "sc": "Programming"
+  },
+  {
+    "s": "Chromium Issues",
+    "d": "issues.chromium.org",
+    "t": "crissue",
+    "u": "https://issues.chromium.org/issues?q={{{s}}}",
     "c": "Tech",
     "sc": "Programming"
   },
@@ -20478,9 +20518,9 @@
   },
   {
     "s": "Deichmanske Biblotek",
-    "d": "sok.deichman.no",
+    "d": "deichman.no",
     "t": "deic",
-    "u": "https://sok.deichman.no/search?query={{{s}}}",
+    "u": "https://deichman.no/sok/{{{s}}}",
     "c": "Research",
     "sc": "Academic"
   },
@@ -45930,7 +45970,7 @@
     "s": "Innsida NTNU",
     "d": "innsida.ntnu.no",
     "t": "innsida",
-    "u": "https://innsida.ntnu.no/sok?site=innsida&query={{{s}}}&category=all",
+    "u": "https://innsida.ntnu.no/sok/?q={{{s}}}",
     "c": "Research",
     "sc": "Academic"
   },
@@ -47723,6 +47763,14 @@
     "u": "https://www.jetpens.com/search?q={{{s}}}",
     "c": "Shopping",
     "sc": "Online (marketplace)"
+  },
+  {
+    "s": "JetPhotos",
+    "d": "www.jetphotos.com",
+    "t": "jetphoto",
+    "u": "https://www.jetphotos.com/photo/keyword/{{{s}}}",
+    "c": "Research",
+    "sc": "Travel"
   },
   {
     "s": "JeuxVideo",
@@ -55812,7 +55860,7 @@
     "s": "MatPrat",
     "d": "www.matprat.no",
     "t": "matprat",
-    "u": "https://www.matprat.no/sok/#1/all/{{{s}}}/",
+    "u": "https://www.matprat.no/sok?searchFor={{{s}}}",
     "c": "Research",
     "sc": "Food"
   },
@@ -58186,14 +58234,6 @@
     "u": "https://mistborn.wikia.com/wiki/Special:Search?search={{{s}}}",
     "c": "Multimedia",
     "sc": "Books"
-  },
-  {
-    "s": "Mistral Chat",
-    "d": "chat.mistral.ai",
-    "t": "mistral",
-    "u": "https://chat.mistral.ai/chat?q={{{s}}}",
-    "c": "Online Services",
-    "sc": "Tools"
   },
   {
     "s": "Misumi USA",
@@ -61616,7 +61656,7 @@
     "s": "Nasjonalbiblioteket",
     "d": "www.nb.no",
     "t": "nb",
-    "u": "https://www.nb.no/nbsok/search?page=0&menuOpen=false&instant=true&action=search&currentHit=-1&searchString={{{s}}}",
+    "u": "https://www.nb.no/search?q={{{s}}}",
     "c": "Multimedia",
     "sc": "Books"
   },
@@ -61800,7 +61840,7 @@
     "s": "NDLA",
     "d": "ndla.no",
     "t": "ndla",
-    "u": "https://ndla.no/en/search/apachesolr_search/{{{s}}}?language[]=und&filters=1/",
+    "u": "https://ndla.no/search?query={{{s}}}",
     "c": "Research",
     "sc": "Academic"
   },
@@ -62998,6 +63038,14 @@
     "sc": "Downloads"
   },
   {
+    "s": "MyNixOS",
+    "d": "mynixos.com",
+    "t": "mynixos",
+    "u": "https://mynixos.com/search?q={{{s}}}",
+    "c": "Tech",
+    "sc": "Sysadmin"
+  },
+  {
     "s": "Njalla",
     "d": "njal.la",
     "t": "njalla",
@@ -63124,6 +63172,14 @@
     "u": "https://nolife-wiki.fr/index.php?title=Spécial:Recherche&go=Lire&search={{{s}}}",
     "c": "Research",
     "sc": "Reference"
+  },
+  {
+    "s": "Llyfrgell Genedlaethol Cymru = The National Library of Wales",
+    "d": "discover.library.wales",
+    "t": "nlwc",
+    "u": "https://discover.library.wales/discovery/search?query=any,contains,{{{s}}}&tab=In_The_Library&search_scope=In_The_Library&vid=44WHELF_NLW:44WHELF_NLW_NUI&offset=0",
+    "c": "Research",
+    "sc": "Academic"
   },
   {
     "s": "Naver Map",
@@ -63402,7 +63458,7 @@
     "s": "Norid",
     "d": "www.norid.no",
     "t": "norid",
-    "u": "https://www.norid.no/index.html?charset=UTF-8&page=index&sok=Søk&query={{{s}}}",
+    "u": "https://www.norid.no/?s={{{s}}}",
     "c": "Tech",
     "sc": "Domains"
   },
@@ -66522,9 +66578,9 @@
     "s": "openSUSE",
     "d": "software.opensuse.org",
     "t": "os",
-    "u": "https://software.opensuse.org/search?utf8=%E2%9C%93&q={{{s}}}&search_devel=false&search_unsupported=false&baseproject=openSUSE:13.1",
+    "u": "https://software.opensuse.org/search?q={{{s}}}",
     "c": "Tech",
-    "sc": "Sysadmin (RedHat)"
+    "sc": "Sysadmin"
   },
   {
     "s": "Open Source Routing Machine",
@@ -70914,7 +70970,7 @@
     "s": "Posten",
     "d": "sporing.posten.no",
     "t": "posten",
-    "u": "https://sporing.posten.no/sporing.html?lang=no&q={{{s}}}&submit=",
+    "u": "https://sporing.posten.no/sporing.html/{{{s}}}",
     "c": "Online Services",
     "sc": "Tracking"
   },
@@ -85192,6 +85248,14 @@
     "sc": "Tracking"
   },
   {
+    "s": "Swiss Post",
+    "d": "www.post.ch",
+    "t": "postch",
+    "u": "https://www.post.ch/EasyTrack/submitParcelData.do?formattedParcelCodes={{{s}}}",
+    "c": "Shopping",
+    "sc": "Services"
+  },
+  {
     "s": "SWI-Prolog",
     "d": "www.swi-prolog.org",
     "t": "swi",
@@ -93361,7 +93425,7 @@
     "s": "VårtOslo",
     "d": "www.vartoslo.no",
     "t": "vartoslo",
-    "u": "https://www.vartoslo.no/?s={{{s}}}",
+    "u": "https://www.vartoslo.no/cse?q={{{s}}}",
     "c": "News",
     "sc": "Newspaper"
   },
@@ -107197,7 +107261,7 @@
     "s": "Kagi Translate (Proofread)",
     "d": "translate.kagi.com",
     "t": "kpr",
-    "u": "https://translate.kagi.com/?text={{{s}}}&from=Automatic&to=Proofread",
+    "u": "https://translate.kagi.com/proofread?text={{{s}}}&from=auto",
     "c": "Translation",
     "sc": "General"
   },
@@ -107277,11 +107341,11 @@
     "sc": "Music"
   },
   {
-    "s": "Chromium Code Search",
-    "d": "source.chromium.org",
-    "t": "chromium",
-    "u": "https://source.chromium.org/search?q={{{s}}}&ss=chromium/chromium/src",
-    "c": "Tech",
-    "sc": "Programming"
+    "s": "Libro.fm",
+    "d": "libro.fm",
+    "t": "Libro",
+    "u": "https://libro.fm/search?utf8=%E2%9C%93&q={{{s}}}",
+    "c": "Shopping",
+    "sc": "Online"
   }
 ]
