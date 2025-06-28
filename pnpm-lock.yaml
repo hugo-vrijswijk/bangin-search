@@ -13,7 +13,7 @@ importers:
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.5.3)(typescript@5.8.3)
       '@astrojs/node':
         specifier: 9.2.2
-        version: 9.2.2(astro@5.10.0(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0))
+        version: 9.2.2(astro@5.10.1(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0))
       '@fontsource-variable/inter':
         specifier: 5.2.6
         version: 5.2.6
@@ -31,10 +31,10 @@ importers:
         version: 1.0.0
       '@vite-pwa/astro':
         specifier: 1.1.0
-        version: 1.1.0(@vite-pwa/assets-generator@1.0.0)(astro@5.10.0(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0))(vite-plugin-pwa@1.0.0(@vite-pwa/assets-generator@1.0.0)(vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.43.1)(yaml@2.8.0))(workbox-build@7.3.0)(workbox-window@7.3.0))
+        version: 1.1.0(@vite-pwa/assets-generator@1.0.0)(astro@5.10.1(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0))(vite-plugin-pwa@1.0.0(@vite-pwa/assets-generator@1.0.0)(vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.43.1)(yaml@2.8.0))(workbox-build@7.3.0)(workbox-window@7.3.0))
       astro:
-        specifier: 5.10.0
-        version: 5.10.0(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0)
+        specifier: 5.10.1
+        version: 5.10.1(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0)
       concurrently:
         specifier: 9.2.0
         version: 9.2.0
@@ -1342,8 +1342,8 @@ packages:
     resolution: {integrity: sha512-BNoCY6SXXPQ7gF2opIP4GBE+Xw7U+pHMYKuzjgCN3GwiaIR09UUeKfheyIry77QtrCBlC0KK0q5/TER/tYh3PQ==}
     engines: {node: '>= 0.4'}
 
-  astro@5.10.0:
-    resolution: {integrity: sha512-g/t54kVzQnFVijs+GbbbX/NBAFTl/3yNAEA/AQYq4FumLLVv7n4BIF+jKhcPGn9iFGyT1Cjvr7KB/qYyNvHEIg==}
+  astro@5.10.1:
+    resolution: {integrity: sha512-DJVmt+51jU1xmgmAHCDwuUgcG/5aVFSU+tcX694acAZqPVt8EMUAmUZcJDX36Z7/EztnPph9HR3pm72jS2EgHQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3773,10 +3773,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/node@9.2.2(astro@5.10.0(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0))':
+  '@astrojs/node@9.2.2(astro@5.10.1(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0))':
     dependencies:
       '@astrojs/internal-helpers': 0.6.1
-      astro: 5.10.0(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0)
+      astro: 5.10.1(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0)
       send: 1.2.0
       server-destroy: 1.0.1
     transitivePeerDependencies:
@@ -4947,9 +4947,9 @@ snapshots:
       sharp-ico: 0.1.5
       unconfig: 7.3.2
 
-  '@vite-pwa/astro@1.1.0(@vite-pwa/assets-generator@1.0.0)(astro@5.10.0(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0))(vite-plugin-pwa@1.0.0(@vite-pwa/assets-generator@1.0.0)(vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.43.1)(yaml@2.8.0))(workbox-build@7.3.0)(workbox-window@7.3.0))':
+  '@vite-pwa/astro@1.1.0(@vite-pwa/assets-generator@1.0.0)(astro@5.10.1(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0))(vite-plugin-pwa@1.0.0(@vite-pwa/assets-generator@1.0.0)(vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.43.1)(yaml@2.8.0))(workbox-build@7.3.0)(workbox-window@7.3.0))':
     dependencies:
-      astro: 5.10.0(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0)
+      astro: 5.10.1(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0)
       vite-plugin-pwa: 1.0.0(@vite-pwa/assets-generator@1.0.0)(vite@6.3.5(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(terser@5.43.1)(yaml@2.8.0))(workbox-build@7.3.0)(workbox-window@7.3.0)
     optionalDependencies:
       '@vite-pwa/assets-generator': 1.0.0
@@ -5057,7 +5057,7 @@ snapshots:
       get-intrinsic: 1.3.0
       is-array-buffer: 3.0.5
 
-  astro@5.10.0(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0):
+  astro@5.10.1(@types/node@22.15.33)(jiti@2.4.2)(lightningcss@1.30.1)(rollup@2.79.2)(terser@5.43.1)(typescript@5.8.3)(yaml@2.8.0):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.6.1
