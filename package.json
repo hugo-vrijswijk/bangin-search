@@ -15,7 +15,7 @@
     "astro": "astro",
     "prepare": "node .husky/install.js",
     "test": "playwright test",
-    "bangs:update": "wget -O src/bangs.json https://raw.githubusercontent.com/kagisearch/bangs/refs/heads/main/data/bangs.json"
+    "bangs:update": "curl https://raw.githubusercontent.com/kagisearch/bangs/refs/heads/main/data/bangs.json | jq 'map([.t, .u])' > src/bangs.json"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.4",
