@@ -12,10 +12,16 @@ export function getBangredirectUrl(url: URL, fallback: string): string | null {
   const match = query.match(/!(\S+)/i);
 
   const bangCandidate = match?.[1]?.toLowerCase();
-  const selectedBang = bangsMap.get(bangCandidate ?? fallback);
+  let selectedBang = bangCandidate ? bangsMap.get(bangCandidate) : null;
 
-  // Remove the first bang from the query
-  const cleanQuery = query.replace(/!\S+\s*/i, '').trim();
+  let cleanQuery;
+  if (!selectedBang) {
+    selectedBang = bangsMap.get(fallback);
+    cleanQuery = query;
+  } else {
+    // Remove the first bang from the query
+    cleanQuery = query.replace(/!\S+\s*/i, '').trim();
+  }
 
   // Format of the url is:
   // https://www.google.com/search?q={{{s}}}
