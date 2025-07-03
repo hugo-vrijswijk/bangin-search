@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.4.0](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.3.0...v1.4.0) (2025-07-03)
+
+
+### Features
+
+* **bangs:** update to latest bangs ([#111](https://github.com/hugo-vrijswijk/bangin-search/issues/111)) ([31f955b](https://github.com/hugo-vrijswijk/bangin-search/commit/31f955b7e5f4d469883117d12b2cf22277371584))
+
+
+### Bug Fixes
+
+* handle unknown bangs by redirecting to default search engine ([#112](https://github.com/hugo-vrijswijk/bangin-search/issues/112)) ([dff0a20](https://github.com/hugo-vrijswijk/bangin-search/commit/dff0a20d620816e2f75b42ad110ab7fa2850cc82))
+
+
+### Performance Improvements
+
+* reduce bangs filesize ([#118](https://github.com/hugo-vrijswijk/bangin-search/issues/118)) ([12e371f](https://github.com/hugo-vrijswijk/bangin-search/commit/12e371f8be69be98ca503fca924b1779dea56138))
+
 ## [1.3.0](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.2.0...v1.3.0) (2025-06-23)
 
 
