@@ -1,6 +1,6 @@
 /// <reference lib="WebWorker" />
 import { cleanupOutdatedCaches, precacheAndRoute } from 'workbox-precaching';
-import { getBangredirectUrl } from './bang';
+import { getBangRedirectUrl } from './bang';
 
 declare let self: ServiceWorkerGlobalScope;
 
@@ -28,7 +28,7 @@ self.addEventListener('fetch', async (event: FetchEvent) => {
 async function handleFormSubmit(event: FetchEvent, url: URL) {
   const redirectPromise = getValue(bangCacheName, defaultBangCacheName).then(async (bang) => {
     const defaultBang = bang ?? 'qw';
-    const searchUrl = getBangredirectUrl(url, defaultBang);
+    const searchUrl = getBangRedirectUrl(url, defaultBang);
     console.log(`Redirecting to search URL`, searchUrl);
 
     return Response.redirect(searchUrl ?? '/', 301);
