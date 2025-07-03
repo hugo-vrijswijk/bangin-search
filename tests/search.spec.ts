@@ -39,3 +39,35 @@ test('properly handles slashes', async ({ page }) => {
 
   expect(page.url()).toBe('https://github.com/hugo-vrijswijk/bangin-search');
 });
+
+test('only ! results in default search', async ({ page }) => {
+  await page.getByLabel('Search').fill('! hello world');
+
+  await page.getByRole('button', { name: 'Search' }).click();
+
+  expect(page.url()).toBe('https://www.qwant.com/?q=%21+hello+world');
+});
+
+test('two !! results in default search', async ({ page }) => {
+  await page.getByLabel('Search').fill('!! hello world');
+
+  await page.getByRole('button', { name: 'Search' }).click();
+
+  expect(page.url()).toBe('https://www.qwant.com/?q=%21%21+hello+world');
+});
+
+test('only ! with no query results in default search', async ({ page }) => {
+  await page.getByLabel('Search').fill('!');
+
+  await page.getByRole('button', { name: 'Search' }).click();
+
+  expect(page.url()).toBe('https://www.qwant.com/?q=%21');
+});
+
+test('only bang with no query redirects to search engine', async ({ page }) => {
+  await page.getByLabel('Search').fill('!w');
+
+  await page.getByRole('button', { name: 'Search' }).click();
+
+  expect(page.url()).toBe('https://en.wikipedia.org/w/index.php?search=');
+});
