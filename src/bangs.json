@@ -53488,6 +53488,10 @@
     "https://vibe.naver.com/search?query={{{s}}}"
   ],
   [
+    "winget",
+    "https://winget.run/search?query={{{s}}}"
+  ],
+  [
     "libro",
     "https://libro.fm/search?utf8=%E2%9C%93&q={{{s}}}"
   ]
