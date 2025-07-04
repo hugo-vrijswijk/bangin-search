@@ -21,19 +21,15 @@ self.addEventListener('message', (event: ExtendableMessageEvent) => {
 self.addEventListener('fetch', async (event: FetchEvent) => {
   const url = new URL(event.request.url);
   if (event.request.method === 'GET' && url.pathname === '/' && url.searchParams.has('q')) {
-    return handleFormSubmit(event, url);
+    return event.respondWith(redirectToBangSearch(url));
   }
 });
 
-async function handleFormSubmit(event: FetchEvent, url: URL) {
-  const redirectPromise = getValue(bangCacheName, defaultBangCacheName).then(async (bang) => {
-    const defaultBang = bang ?? 'qw';
-    const searchUrl = getBangRedirectUrl(url, defaultBang);
-    console.log(`Redirecting to search URL`, searchUrl);
-
-    return Response.redirect(searchUrl ?? '/', 301);
-  });
-  return event.respondWith(redirectPromise);
+export async function redirectToBangSearch(url: URL) {
+  const bang = (await getValue(bangCacheName, defaultBangCacheName)) || 'qw';
+  const searchUrl = getBangRedirectUrl(url, bang);
+  console.log(`Redirecting to search URL`, searchUrl);
+  return Response.redirect(searchUrl ?? '/', 301);
 }
 
 async function saveValue(cacheName: string, key: string, value: string) {

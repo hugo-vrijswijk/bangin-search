@@ -31,6 +31,10 @@ export default defineConfig({
         background_color: '#18181b',
         description: 'Search the web with fast Bangs',
       },
+      pwaAssets: {
+        preset: 'minimal-2023',
+        image: 'public/favicon.svg',
+      },
     }),
   ],
 });
