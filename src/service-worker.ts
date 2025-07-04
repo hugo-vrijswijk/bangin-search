@@ -20,7 +20,7 @@ self.addEventListener('message', (event: ExtendableMessageEvent) => {
 
 self.addEventListener('fetch', async (event: FetchEvent) => {
   const url = new URL(event.request.url);
-  if (event.request.method === 'GET' && url.pathname === '/' && url.searchParams.has('q')) {
+  if (event.request.method === 'GET' && url.pathname === '/search' && url.searchParams.has('q')) {
     return event.respondWith(redirectToBangSearch(url));
   }
 });
