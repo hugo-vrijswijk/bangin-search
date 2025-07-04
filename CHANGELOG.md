@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.5.0...v1.5.1) (2025-07-04)
+
+
+### Bug Fixes
+
+* **service-worker:** filter out 404 from precaching ([#131](https://github.com/hugo-vrijswijk/bangin-search/issues/131)) ([2a3b0b9](https://github.com/hugo-vrijswijk/bangin-search/commit/2a3b0b91d25f2950af7d16f7d85884756fbb0724))
+
 ## [1.5.0](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.4.3...v1.5.0) (2025-07-04)
 
 
