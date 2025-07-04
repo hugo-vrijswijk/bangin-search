@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.3](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.4.2...v1.4.3) (2025-07-04)
+
+
+### Miscellaneous Chores
+
+* release 1.4.3 ([2893467](https://github.com/hugo-vrijswijk/bangin-search/commit/28934674be1d6837598bfbc7490931cf6c7b65f8))
+
 ## [1.4.2](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.4.1...v1.4.2) (2025-07-04)
 
 
