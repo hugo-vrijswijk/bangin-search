@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.1](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.4.0...v1.4.1) (2025-07-04)
+
+
+### Features
+
+* **bangs:** update to latest bangs ([#122](https://github.com/hugo-vrijswijk/bangin-search/issues/122)) ([086ff47](https://github.com/hugo-vrijswijk/bangin-search/commit/086ff4773838ec847498dcc0222b66f3ec1aa0cb))
+
+
+### Miscellaneous Chores
+
+* generate favicon and PWA assets ([#120](https://github.com/hugo-vrijswijk/bangin-search/issues/120)) ([258d1d4](https://github.com/hugo-vrijswijk/bangin-search/commit/258d1d47fb7161c81a8f501ef76a4f7b94102ef0))
+
 ## [1.4.0](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.3.0...v1.4.0) (2025-07-03)
 
 
