@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.2](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.5.1...v1.5.2) (2025-07-04)
+
+
+### Bug Fixes
+
+* search engine detection ([#133](https://github.com/hugo-vrijswijk/bangin-search/issues/133)) ([02250e2](https://github.com/hugo-vrijswijk/bangin-search/commit/02250e256e824b0f5216c4143d13058641290fe0))
+
 ## [1.5.1](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.5.0...v1.5.1) (2025-07-04)
 
 
