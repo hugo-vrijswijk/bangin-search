@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.4.3...v1.5.0) (2025-07-04)
+
+
+### Features
+
+* **search:** separate search page to cache index.html ([#129](https://github.com/hugo-vrijswijk/bangin-search/issues/129)) ([174382d](https://github.com/hugo-vrijswijk/bangin-search/commit/174382db888e72054fc9197cb4359eafa343b4f0))
+
 ## [1.4.3](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.4.2...v1.4.3) (2025-07-04)
 
 
