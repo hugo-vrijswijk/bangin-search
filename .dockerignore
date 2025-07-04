@@ -10,3 +10,6 @@ tasks
 .github
 .env*
 eslint.config.js
+Dockerfile
+.dockerignore
+LICENSE
