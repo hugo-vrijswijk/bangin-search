@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.4.1...v1.4.2) (2025-07-04)
+
+
+### Features
+
+* add 404 page ([3ec527a](https://github.com/hugo-vrijswijk/bangin-search/commit/3ec527a58bb2579fc428bd17d1354b28087798dd))
+
 ## [1.4.1](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.4.0...v1.4.1) (2025-07-04)
 
 
