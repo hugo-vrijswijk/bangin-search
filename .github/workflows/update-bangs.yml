@@ -19,9 +19,9 @@ jobs:
         with:
           path: |
             ~/.bun/install/cache
-          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lockb') }}
+          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lock') }}
       - uses: oven-sh/setup-bun@v2
-      - run: bun run install --frozen-lockfile
+      - run: bun install --frozen-lockfile
       - run: bun run bangs:update
       - name: Create Pull Request
         id: cpr
