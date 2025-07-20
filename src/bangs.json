@@ -721,7 +721,7 @@
   ],
   [
     "ac",
-    "https://www.allocine.fr/recherche/?q={{{s}}}"
+    "https://www.allocine.fr/rechercher/?q={{{s}}}"
   ],
   [
     "accc",
@@ -1609,15 +1609,15 @@
   ],
   [
     "allo",
-    "https://www.allocine.fr/recherche/?q={{{s}}}"
+    "https://www.allocine.fr/rechercher/?q={{{s}}}"
   ],
   [
     "allocine",
-    "https://www.allocine.fr/recherche/?q={{{s}}}"
+    "https://www.allocine.fr/rechercher/?q={{{s}}}"
   ],
   [
     "allociné",
-    "https://www.allocine.fr/recherche/?q={{{s}}}"
+    "https://www.allocine.fr/rechercher/?q={{{s}}}"
   ],
   [
     "allposters",
@@ -28132,6 +28132,14 @@
     "https://namemc.com/search?q={{{s}}}"
   ],
   [
+    "laby",
+    "https://laby.net/@{{{s}}}"
+  ],
+  [
+    "crafty",
+    "https://crafty.gg/players?search={{{s}}}"
+  ],
+  [
     "mcpan",
     "https://metacpan.org/search?q={{{s}}}"
   ],
@@ -30533,7 +30541,7 @@
   ],
   [
     "namemc",
-    "https://de.namemc.com/search?q={{{s}}}"
+    "https://namemc.com/search?q={{{s}}}"
   ],
   [
     "name",
@@ -43324,6 +43332,10 @@
     "https://www.tematimi.com/ara&search={{{s}}}"
   ],
   [
+    "temu",
+    "https://www.temu.com/search_result.html?search_key={{{s}}}"
+  ],
+  [
     "tempmail",
     "https://temp-mail.org/{{{s}}}/"
   ],
@@ -44481,7 +44493,7 @@
   ],
   [
     "tosdr",
-    "https://tosdr.org/#search={{{s}}}"
+    "https://tosdr.org/search/{{{s}}}"
   ],
   [
     "tostar",
