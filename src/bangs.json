@@ -14249,7 +14249,7 @@
   ],
   [
     "examine",
-    "https://examine.com/search.php?q={{{s}}}"
+    "https://examine.com/search/?q={{{s}}}"
   ],
   [
     "exastris",
@@ -31489,7 +31489,7 @@
   ],
   [
     "nm",
-    "https://www.nexusmods.com/search/?gsearch={{{s}}}&gsearchtype=mods"
+    "https://www.nexusmods.com/search?keyword={{{s}}}"
   ],
   [
     "nms",
