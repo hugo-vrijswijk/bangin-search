@@ -4077,7 +4077,7 @@
   ],
   [
     "bbfc",
-    "https://www.bbfc.co.uk/search/releases/{{{s}}}"
+    "https://www.bbfc.co.uk/search?q={{{s}}}"
   ],
   [
     "b",
@@ -5685,7 +5685,7 @@
   ],
   [
     "baseball",
-    "https://www.baseball-reference.com/pl/player_search.cgi?search={{{s}}}"
+    "https://www.baseball-reference.com/search/search.fcgi?hint=&search={{{s}}}"
   ],
   [
     "brd",
@@ -27685,7 +27685,7 @@
   ],
   [
     "mario",
-    "https://www.mariowiki.com/{{{s}}}"
+    "https://www.mariowiki.com/index.php?title=Special:Search&search={{{s}}}&go=Go"
   ],
   [
     "mariowiki",
