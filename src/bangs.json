@@ -2269,15 +2269,15 @@
   ],
   [
     "ansible",
-    "https://docs.ansible.com/ansible/latest/#stq={{{s}}}&stp=1"
+    "https://docs.ansible.com/ansible/latest/search.html?q={{{s}}}"
   ],
   [
     "ansible-galaxy",
-    "https://galaxy.ansible.com/list#/roles?page=1&page_size=10&autocomplete={{{s}}}"
+    "https://galaxy.ansible.com/ui/search/?keywords={{{s}}}"
   ],
   [
     "ansiblemod",
-    "https://docs.ansible.com/ansible/{{{s}}}_module.html"
+    "https://docs.ansible.com/ansible/latest/collections/ansible/builtin/{{{s}}}_module.html"
   ],
   [
     "ans.splunk",
@@ -2925,7 +2925,7 @@
   ],
   [
     "arkwiki",
-    "https://ark.gamepedia.com/index.php?search={{{s}}}"
+    "https://ark.wiki.gg/index.php?search={{{s}}}"
   ],
   [
     "arl",
@@ -4801,7 +4801,7 @@
   ],
   [
     "bili",
-    "https://www.bilibili.com/search?keyword={{{s}}}:"
+    "https://www.bilibili.com/search?keyword={{{s}}}"
   ],
   [
     "bilka",
@@ -5381,7 +5381,7 @@
   ],
   [
     "boi",
-    "https://bindingofisaacrebirth.gamepedia.com/index.php?search={{{s}}}"
+    "https://bindingofisaacrebirth.wiki.gg/index.php?search={{{s}}}"
   ],
   [
     "boingboing",
@@ -9625,7 +9625,7 @@
   ],
   [
     "dbd",
-    "https://deadbydaylight.gamepedia.com/index.php?search={{{s}}}&title=Special:Search&go=Go"
+    "https://deadbydaylight.wiki.gg/index.php?search={{{s}}}"
   ],
   [
     "db",
@@ -9937,7 +9937,7 @@
   ],
   [
     "ddwiki",
-    "https://darkestdungeon.gamepedia.com/index.php?search={{{s}}}"
+    "https://darkestdungeon.wiki.gg/index.php?search={{{s}}}"
   ],
   [
     "ddwrt",
@@ -12633,7 +12633,7 @@
   ],
   [
     "ecowiki",
-    "https://eco.gamepedia.com/index.php?search={{{s}}}&title=Special:Search"
+    "https://wiki.play.eco/index.php?search={{{s}}}&title=Special:Search"
   ],
   [
     "ecs",
@@ -13941,7 +13941,7 @@
   ],
   [
     "etg",
-    "https://enterthegungeon.gamepedia.com/index.php?search={{{s}}}"
+    "https://enterthegungeon.wiki.gg/index.php?search={{{s}}}"
   ],
   [
     "etherscan",
@@ -16165,7 +16165,7 @@
   ],
   [
     "ftbwiki",
-    "https://ftb.gamepedia.com/index.php?title=Special:Search&search={{{s}}}"
+    "https://ftbwiki.org/index.php?title=Special:Search&search={{{s}}}"
   ],
   [
     "ft-db",
@@ -16497,7 +16497,7 @@
   ],
   [
     "galaxy",
-    "https://galaxy.ansible.com/search?keywords={{{s}}}"
+    "https://galaxy.ansible.com/ui/search/?keywords={{{s}}}"
   ],
   [
     "galerts",
@@ -23213,7 +23213,7 @@
   ],
   [
     "isaac",
-    "https://bindingofisaacrebirth.gamepedia.com/index.php?search={{{s}}}"
+    "https://bindingofisaacrebirth.wiki.gg/index.php?search={{{s}}}"
   ],
   [
     "isaca",
@@ -32621,7 +32621,7 @@
   ],
   [
     "oni",
-    "https://oxygennotincluded.gamepedia.com/index.php?search={{{s}}}"
+    "https://oxygennotincluded.wiki.gg/index.php?search={{{s}}}"
   ],
   [
     "onm",
@@ -37061,7 +37061,7 @@
   ],
   [
     "rebirth",
-    "https://bindingofisaacrebirth.gamepedia.com/index.php?search={{{s}}}"
+    "https://bindingofisaacrebirth.wiki.gg/index.php?search={{{s}}}"
   ],
   [
     "rebiun",
@@ -49949,7 +49949,7 @@
   ],
   [
     "wynn",
-    "https://wynncraft.gamepedia.com/index.php?search={{{s}}}"
+    "https://wynncraft.wiki.gg/index.php?search={{{s}}}"
   ],
   [
     "wy",
