@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.3](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.5.2...v1.5.3) (2025-09-10)
+
+
+### Bug Fixes
+
+* handle additional triggers for bangs properly ([#166](https://github.com/hugo-vrijswijk/bangin-search/issues/166)) ([c71229c](https://github.com/hugo-vrijswijk/bangin-search/commit/c71229c526514fd73ce49e6dec04d28f3a7d9d26))
+
 ## [1.5.2](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.5.1...v1.5.2) (2025-07-04)
 
 
