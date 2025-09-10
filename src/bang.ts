@@ -1,7 +1,7 @@
 import bangs from './bangs.json';
 
 // Fast lookup
-const bangsMap = new Map(bangs as [string, string][]);
+const bangsMap = new Map((bangs as [string[], string][]).flatMap(([ts, u]) => ts.map((t) => [t, u] as const)));
 
 export function getBangRedirectUrl(url: URL, fallback: string): string | null {
   const query = url.searchParams.get('q')?.trim();
