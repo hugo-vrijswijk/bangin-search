@@ -1331,6 +1331,13 @@
   ],
   [
     [
+      "rain",
+      "raindrop"
+    ],
+    "https://app.raindrop.io/my/0/{{{s}}}"
+  ],
+  [
+    [
       "adefb"
     ],
     "https://www.amazon.de/s?k={{{s}}}&i=english-books"
@@ -10030,9 +10037,10 @@
       "chromewebstore",
       "cstore",
       "cwebstore",
-      "cws"
+      "cws",
+      "crx"
     ],
-    "https://chrome.google.com/webstore/search/{{{s}}}"
+    "https://chromewebstore.google.com/search/{{{s}}}"
   ],
   [
     [
@@ -12008,12 +12016,6 @@
       "crw"
     ],
     "https://clashroyale.fandom.com/wiki/Special:Search?query={{{s}}}"
-  ],
-  [
-    [
-      "crx"
-    ],
-    "https://chrome.google.com/webstore/search?q={{{s}}}"
   ],
   [
     [
@@ -21959,7 +21961,7 @@
     [
       "g2a"
     ],
-    "https://www.g2a.com/?search={{{s}}}"
+    "https://www.g2a.com/search?query={{{s}}}"
   ],
   [
     [
@@ -26717,13 +26719,13 @@
   ],
   [
     [
-      "hnsearch",
+      "hn",
       "newsyc",
       "searchyc",
-      "hn",
+      "hnsearch",
       "hackernews"
     ],
-    "https://hn.algolia.com/#!/story/forever/0/{{{s}}}"
+    "https://hn.algolia.com/?q={{{s}}}"
   ],
   [
     [
