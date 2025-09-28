@@ -1331,6 +1331,13 @@
   ],
   [
     [
+      "rain",
+      "raindrop"
+    ],
+    "https://app.raindrop.io/my/0/{{{s}}}"
+  ],
+  [
+    [
       "adefb"
     ],
     "https://www.amazon.de/s?k={{{s}}}&i=english-books"
@@ -5070,6 +5077,12 @@
   ],
   [
     [
+      "backloggd"
+    ],
+    "https://backloggd.com/search/games/{{{s}}}"
+  ],
+  [
+    [
       "backpack",
       "tf2bp"
     ],
@@ -5665,7 +5678,7 @@
     [
       "bctag"
     ],
-    "https://bandcamp.com/tag/{{{s}}}"
+    "https://bandcamp.com/discover/{{{s}}}"
   ],
   [
     [
@@ -10030,9 +10043,10 @@
       "chromewebstore",
       "cstore",
       "cwebstore",
-      "cws"
+      "cws",
+      "crx"
     ],
-    "https://chrome.google.com/webstore/search/{{{s}}}"
+    "https://chromewebstore.google.com/search/{{{s}}}"
   ],
   [
     [
@@ -12008,12 +12022,6 @@
       "crw"
     ],
     "https://clashroyale.fandom.com/wiki/Special:Search?query={{{s}}}"
-  ],
-  [
-    [
-      "crx"
-    ],
-    "https://chrome.google.com/webstore/search?q={{{s}}}"
   ],
   [
     [
@@ -15633,6 +15641,12 @@
       "dpmt"
     ],
     "https://anonscm.debian.org/git/python-modules/packages/{{{s}}}.git"
+  ],
+  [
+    [
+      "dpm"
+    ],
+    "https://dpm.lol/{{{s}}}"
   ],
   [
     [
@@ -21959,7 +21973,7 @@
     [
       "g2a"
     ],
-    "https://www.g2a.com/?search={{{s}}}"
+    "https://www.g2a.com/search?query={{{s}}}"
   ],
   [
     [
@@ -26717,13 +26731,13 @@
   ],
   [
     [
-      "hnsearch",
+      "hn",
       "newsyc",
       "searchyc",
-      "hn",
+      "hnsearch",
       "hackernews"
     ],
-    "https://hn.algolia.com/#!/story/forever/0/{{{s}}}"
+    "https://hn.algolia.com/?q={{{s}}}"
   ],
   [
     [
@@ -36843,6 +36857,18 @@
   ],
   [
     [
+      "figura"
+    ],
+    "https://wiki.figuramc.org/index.php?search={{{s}}}"
+  ],
+  [
+    [
+      "figs"
+    ],
+    "https://applejuiceyy.github.io/figs/latest/search/?q={{{s}}}"
+  ],
+  [
+    [
       "md5"
     ],
     "https://md5.gromweb.com/?md5={{{s}}}"
@@ -44681,6 +44707,12 @@
       "pexels"
     ],
     "http://www.pexels.com/search/{{{s}}}/"
+  ],
+  [
+    [
+      "plex"
+    ],
+    "https://app.plex.tv/desktop/#!/search?pivot=top&query={{{s}}}"
   ],
   [
     [
