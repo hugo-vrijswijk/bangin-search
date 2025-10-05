@@ -1331,6 +1331,13 @@
   ],
   [
     [
+      "rain",
+      "raindrop"
+    ],
+    "https://app.raindrop.io/my/0/{{{s}}}"
+  ],
+  [
+    [
       "adefb"
     ],
     "https://www.amazon.de/s?k={{{s}}}&i=english-books"
@@ -5070,6 +5077,12 @@
   ],
   [
     [
+      "backloggd"
+    ],
+    "https://backloggd.com/search/games/{{{s}}}"
+  ],
+  [
+    [
       "backpack",
       "tf2bp"
     ],
@@ -5665,7 +5678,7 @@
     [
       "bctag"
     ],
-    "https://bandcamp.com/tag/{{{s}}}"
+    "https://bandcamp.com/discover/{{{s}}}"
   ],
   [
     [
@@ -7887,7 +7900,7 @@
     [
       "bsb"
     ],
-    "https://opacplus.bsb-muenchen.de/InfoGuideClient/start.do?Login=opacext&BaseURL=https://opacplus.bsb-muenchen.de/InfoGuideClient/start.do?Login=opacext&Query=-1=\"{{{s}}}\""
+    "https://opacplus.bsb-muenchen.de/discovery/search?query=any,contains,{{{s}}}&tab=Everything&search_scope=MyInst_and_CI&vid=49BVB_BSB:VU1&offset=0"
   ],
   [
     [
@@ -9674,7 +9687,8 @@
   ],
   [
     [
-      "chatgpt"
+      "chatgpt",
+      "cgpt"
     ],
     "https://chatgpt.com/?q={{{s}}}"
   ],
@@ -10030,9 +10044,10 @@
       "chromewebstore",
       "cstore",
       "cwebstore",
-      "cws"
+      "cws",
+      "crx"
     ],
-    "https://chrome.google.com/webstore/search/{{{s}}}"
+    "https://chromewebstore.google.com/search/{{{s}}}"
   ],
   [
     [
@@ -12011,12 +12026,6 @@
   ],
   [
     [
-      "crx"
-    ],
-    "https://chrome.google.com/webstore/search?q={{{s}}}"
-  ],
-  [
-    [
       "crxviewer"
     ],
     "https://robwu.nl/crxviewer/?crx={{{s}}}"
@@ -12999,6 +13008,12 @@
       "dawiki"
     ],
     "https://dragonage.fandom.com/wiki/Special:Search?query={{{s}}}"
+  ],
+  [
+    [
+      "decipher"
+    ],
+    "https://www.deciphergenomics.org/search?q={{{s}}}"
   ],
   [
     [
@@ -15633,6 +15648,12 @@
       "dpmt"
     ],
     "https://anonscm.debian.org/git/python-modules/packages/{{{s}}}.git"
+  ],
+  [
+    [
+      "dpm"
+    ],
+    "https://dpm.lol/{{{s}}}"
   ],
   [
     [
@@ -21959,7 +21980,7 @@
     [
       "g2a"
     ],
-    "https://www.g2a.com/?search={{{s}}}"
+    "https://www.g2a.com/search?query={{{s}}}"
   ],
   [
     [
@@ -22960,6 +22981,12 @@
       "generasia"
     ],
     "https://www.generasia.com/w/index.php?title=Special:Search&search={{{s}}}&go=Go"
+  ],
+  [
+    [
+      "genereviews"
+    ],
+    "https://www.ncbi.nlm.nih.gov/books/n/gene/?term={{{s}}}"
   ],
   [
     [
@@ -26717,13 +26744,13 @@
   ],
   [
     [
-      "hnsearch",
+      "hn",
       "newsyc",
       "searchyc",
-      "hn",
+      "hnsearch",
       "hackernews"
     ],
-    "https://hn.algolia.com/#!/story/forever/0/{{{s}}}"
+    "https://hn.algolia.com/?q={{{s}}}"
   ],
   [
     [
@@ -36843,6 +36870,18 @@
   ],
   [
     [
+      "figura"
+    ],
+    "https://wiki.figuramc.org/index.php?search={{{s}}}"
+  ],
+  [
+    [
+      "figs"
+    ],
+    "https://applejuiceyy.github.io/figs/latest/search/?q={{{s}}}"
+  ],
+  [
+    [
       "md5"
     ],
     "https://md5.gromweb.com/?md5={{{s}}}"
@@ -44681,6 +44720,12 @@
       "pexels"
     ],
     "http://www.pexels.com/search/{{{s}}}/"
+  ],
+  [
+    [
+      "plex"
+    ],
+    "https://app.plex.tv/desktop/#!/search?pivot=top&query={{{s}}}"
   ],
   [
     [
@@ -59849,6 +59894,18 @@
       "usal"
     ],
     "https://www.usal.es/webusal/usal_buscador?query={{{s}}}"
+  ],
+  [
+    [
+      "ucsc"
+    ],
+    "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position={{{s}}}"
+  ],
+  [
+    [
+      "ucsc-eu"
+    ],
+    "https://genome-euro.ucsc.edu/cgi-bin/hgTracks?db=hg38&position={{{s}}}"
   ],
   [
     [
