@@ -831,17 +831,17 @@
   ],
   [
     [
-      "a.at",
+      "amazonde",
       "a.de",
       "ade",
       "age",
       "ager",
       "ama",
       "amazon_de",
-      "amazonde",
       "amde",
       "amznde",
-      "azd"
+      "azd",
+      "a.at"
     ],
     "https://www.amazon.de/s?k={{{s}}}"
   ],
@@ -952,7 +952,7 @@
   ],
   [
     [
-      "abe"
+      "amazonbe"
     ],
     "https://www.amazon.com.be/s?k={{{s}}}"
   ],
@@ -1331,6 +1331,13 @@
   ],
   [
     [
+      "rain",
+      "raindrop"
+    ],
+    "https://app.raindrop.io/my/0/{{{s}}}"
+  ],
+  [
+    [
       "adefb"
     ],
     "https://www.amazon.de/s?k={{{s}}}&i=english-books"
@@ -1340,13 +1347,6 @@
       "adelung"
     ],
     "https://woerterbuchnetz.de/Adelung/?lemma={{{s}}}"
-  ],
-  [
-    [
-      "ades",
-      "smde"
-    ],
-    "https://smile.amazon.de/s?field-keywords={{{s}}}"
   ],
   [
     [
@@ -2687,25 +2687,6 @@
       "ampwhat"
     ],
     "https://www.amp-what.com/unicode/search/{{{s}}}"
-  ],
-  [
-    [
-      "asm",
-      "smam",
-      "smile",
-      "ams"
-    ],
-    "https://smile.amazon.com/s/?field-keywords={{{s}}}"
-  ],
-  [
-    [
-      "amsuk",
-      "asmuk",
-      "asuk",
-      "smamuk",
-      "smileuk"
-    ],
-    "https://smile.amazon.co.uk/s?field-keywords={{{s}}}"
   ],
   [
     [
@@ -4164,18 +4145,6 @@
   ],
   [
     [
-      "asd"
-    ],
-    "https://smile.amazon.de/s?url=search-alias=aps&field-keywords={{{s}}}"
-  ],
-  [
-    [
-      "asde"
-    ],
-    "https://smile.amazon.de/s/field-keywords={{{s}}}"
-  ],
-  [
-    [
       "asearchoficeandfire"
     ],
     "https://asearchoficeandfire.com/?q={{{s}}}"
@@ -4185,13 +4154,6 @@
       "asee"
     ],
     "https://peer.asee.org/?q={{{s}}}"
-  ],
-  [
-    [
-      "asg",
-      "sade"
-    ],
-    "https://smile.amazon.de/s/?field-keywords={{{s}}}"
   ],
   [
     [
@@ -5070,6 +5032,12 @@
   ],
   [
     [
+      "backloggd"
+    ],
+    "https://backloggd.com/search/games/{{{s}}}"
+  ],
+  [
+    [
       "backpack",
       "tf2bp"
     ],
@@ -5665,7 +5633,7 @@
     [
       "bctag"
     ],
-    "https://bandcamp.com/tag/{{{s}}}"
+    "https://bandcamp.com/discover/{{{s}}}"
   ],
   [
     [
@@ -6621,7 +6589,7 @@
       "bird",
       "birds"
     ],
-    "https://www.allaboutbirds.org/search/?q={{{s}}}"
+    "https://www.allaboutbirds.org/news/search/?q={{{s}}}"
   ],
   [
     [
@@ -7390,7 +7358,7 @@
     [
       "boomkat"
     ],
-    "http://boomkat.com/search?q={{{s}}}"
+    "http://boomkat.com/products?q[keywords]={{{s}}}"
   ],
   [
     [
@@ -7887,7 +7855,7 @@
     [
       "bsb"
     ],
-    "https://opacplus.bsb-muenchen.de/InfoGuideClient/start.do?Login=opacext&BaseURL=https://opacplus.bsb-muenchen.de/InfoGuideClient/start.do?Login=opacext&Query=-1=\"{{{s}}}\""
+    "https://opacplus.bsb-muenchen.de/discovery/search?query=any,contains,{{{s}}}&tab=Everything&search_scope=MyInst_and_CI&vid=49BVB_BSB:VU1&offset=0"
   ],
   [
     [
@@ -9674,7 +9642,8 @@
   ],
   [
     [
-      "chatgpt"
+      "chatgpt",
+      "cgpt"
     ],
     "https://chatgpt.com/?q={{{s}}}"
   ],
@@ -10030,9 +9999,10 @@
       "chromewebstore",
       "cstore",
       "cwebstore",
-      "cws"
+      "cws",
+      "crx"
     ],
-    "https://chrome.google.com/webstore/search/{{{s}}}"
+    "https://chromewebstore.google.com/search/{{{s}}}"
   ],
   [
     [
@@ -11657,7 +11627,7 @@
       "cppref",
       "c++ref"
     ],
-    "https://en.cppreference.com/mwiki/index.php?search={{{s}}}"
+    "/search?q={{{s}}}+site:cppreference.com"
   ],
   [
     [
@@ -12008,12 +11978,6 @@
       "crw"
     ],
     "https://clashroyale.fandom.com/wiki/Special:Search?query={{{s}}}"
-  ],
-  [
-    [
-      "crx"
-    ],
-    "https://chrome.google.com/webstore/search?q={{{s}}}"
   ],
   [
     [
@@ -12999,6 +12963,12 @@
       "dawiki"
     ],
     "https://dragonage.fandom.com/wiki/Special:Search?query={{{s}}}"
+  ],
+  [
+    [
+      "decipher"
+    ],
+    "https://www.deciphergenomics.org/search?q={{{s}}}"
   ],
   [
     [
@@ -15633,6 +15603,12 @@
       "dpmt"
     ],
     "https://anonscm.debian.org/git/python-modules/packages/{{{s}}}.git"
+  ],
+  [
+    [
+      "dpm"
+    ],
+    "https://dpm.lol/{{{s}}}"
   ],
   [
     [
@@ -21959,7 +21935,7 @@
     [
       "g2a"
     ],
-    "https://www.g2a.com/?search={{{s}}}"
+    "https://www.g2a.com/search?query={{{s}}}"
   ],
   [
     [
@@ -22960,6 +22936,12 @@
       "generasia"
     ],
     "https://www.generasia.com/w/index.php?title=Special:Search&search={{{s}}}&go=Go"
+  ],
+  [
+    [
+      "genereviews"
+    ],
+    "https://www.ncbi.nlm.nih.gov/books/n/gene/?term={{{s}}}"
   ],
   [
     [
@@ -26717,13 +26699,13 @@
   ],
   [
     [
-      "hnsearch",
+      "hn",
       "newsyc",
       "searchyc",
-      "hn",
+      "hnsearch",
       "hackernews"
     ],
-    "https://hn.algolia.com/#!/story/forever/0/{{{s}}}"
+    "https://hn.algolia.com/?q={{{s}}}"
   ],
   [
     [
@@ -26910,7 +26892,7 @@
     [
       "hashtag"
     ],
-    "https://twitter.com/search?q=\\#{{{s}}}"
+    "https://x.com/search?q=\\#{{{s}}}"
   ],
   [
     [
@@ -33400,12 +33382,6 @@
   ],
   [
     [
-      "lb"
-    ],
-    "https://letterboxd.com/search/{{{s}}}/"
-  ],
-  [
-    [
       "lbs"
     ],
     "https://www.logos.com/products/search?q={{{s}}}"
@@ -33413,6 +33389,7 @@
   [
     [
       "lbx",
+      "lb",
       "ltr",
       "letterboxd"
     ],
@@ -36840,6 +36817,18 @@
       "mcwm"
     ],
     "https://www.minecraftworldmap.com/search?ss={{{s}}}"
+  ],
+  [
+    [
+      "figura"
+    ],
+    "https://wiki.figuramc.org/index.php?search={{{s}}}"
+  ],
+  [
+    [
+      "figs"
+    ],
+    "https://applejuiceyy.github.io/figs/latest/search/?q={{{s}}}"
   ],
   [
     [
@@ -44684,6 +44673,12 @@
   ],
   [
     [
+      "plex"
+    ],
+    "https://app.plex.tv/desktop/#!/search?pivot=top&query={{{s}}}"
+  ],
+  [
+    [
       "pfi"
     ],
     "https://poinformowani.pl/szukaj?q={{{s}}}"
@@ -47453,14 +47448,20 @@
     [
       "qt4"
     ],
-    "https://doc.qt.io/qt-4.8/search-results.html?q={{{s}}}"
+    "/search?q={{{s}}}+site:doc.qt.io/archives/qt-4.8/"
   ],
   [
     [
-      "qt5",
+      "qt5"
+    ],
+    "/search?q={{{s}}}+site:doc.qt.io/archives/qt-5.15/"
+  ],
+  [
+    [
+      "qt6",
       "qt"
     ],
-    "https://doc.qt.io/qt-5/search-results.html?q={{{s}}}"
+    "/search?q={{{s}}}+site:doc.qt.io/qt-6/"
   ],
   [
     [
@@ -47983,7 +47984,7 @@
       "rb",
       "ruby"
     ],
-    "https://www.google.com/cse?q={{{s}}}&cx=013598269713424429640:g5orptiw95w&ie=UTF-8"
+    "https://docs.ruby-lang.org/en/master/?q={{{s}}}"
   ],
   [
     [
@@ -50410,12 +50411,6 @@
   ],
   [
     [
-      "samde"
-    ],
-    "https://smile.amazon.de/s/?url=search-alias=aps&field-keywords={{{s}}}"
-  ],
-  [
-    [
       "sampled"
     ],
     "http://www.whosampled.com/search/artists/?q={{{s}}}"
@@ -50599,12 +50594,6 @@
       "saugus"
     ],
     "https://www.saugus.net/cgi-bin/htsearch?config=htdig&restrict=&exclude=&words={{{s}}}&method=and&format=long"
-  ],
-  [
-    [
-      "sauk"
-    ],
-    "https://smile.amazon.co.uk/s/?field-keywords={{{s}}}"
   ],
   [
     [
@@ -52710,12 +52699,6 @@
       "smashwords"
     ],
     "https://www.smashwords.com/books/search?query={{{s}}}"
-  ],
-  [
-    [
-      "sma"
-    ],
-    "https://smile.amazon.com/s/&field-keywords={{{s}}}"
   ],
   [
     [
@@ -58554,15 +58537,6 @@
   ],
   [
     [
-      "twitter",
-      "twit",
-      "twid",
-      "tweet"
-    ],
-    "https://twitter.com/search?q={{{s}}}"
-  ],
-  [
-    [
       "twg",
       "twitchg"
     ],
@@ -58614,9 +58588,10 @@
   [
     [
       "twitters",
-      "twitteruser"
+      "twitteruser",
+      "xuser"
     ],
-    "https://twitter.com/{{{s}}}"
+    "https://x.com/{{{s}}}"
   ],
   [
     [
@@ -58634,7 +58609,7 @@
     [
       "twl"
     ],
-    "https://twitter.com/search?f=tweets&vertical=news&q={{{s}}}"
+    "https://x.com/search?f=tweets&vertical=news&q={{{s}}}"
   ],
   [
     [
@@ -58673,7 +58648,7 @@
     [
       "twuser"
     ],
-    "https://twitter.com/search/users?q={{{s}}}"
+    "https://x.com/search/users?q={{{s}}}"
   ],
   [
     [
@@ -59849,6 +59824,18 @@
       "usal"
     ],
     "https://www.usal.es/webusal/usal_buscador?query={{{s}}}"
+  ],
+  [
+    [
+      "ucsc"
+    ],
+    "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position={{{s}}}"
+  ],
+  [
+    [
+      "ucsc-eu"
+    ],
+    "https://genome-euro.ucsc.edu/cgi-bin/hgTracks?db=hg38&position={{{s}}}"
   ],
   [
     [
@@ -64466,7 +64453,11 @@
   ],
   [
     [
-      "x"
+      "x",
+      "twitter",
+      "twit",
+      "twid",
+      "tweet"
     ],
     "https://x.com/search?q={{{s}}}"
   ],
