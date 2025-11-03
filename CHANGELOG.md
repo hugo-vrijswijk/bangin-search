@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.4](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.5.3...v1.5.4) (2025-11-03)
+
+
+### Bug Fixes
+
+* **bangs:** update to latest bangs ([#169](https://github.com/hugo-vrijswijk/bangin-search/issues/169)) ([c545c1b](https://github.com/hugo-vrijswijk/bangin-search/commit/c545c1b768be638177d9c3c75973c783e1605498))
+
 ## [1.5.3](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.5.2...v1.5.3) (2025-09-10)
 
 
