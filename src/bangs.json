@@ -615,6 +615,12 @@
   ],
   [
     [
+      "7tv"
+    ],
+    "https://7tv.app/emotes?q={{{s}}}"
+  ],
+  [
+    [
       "800"
     ],
     "http://800notes.com/Phone.aspx/{{{s}}}"
@@ -1046,6 +1052,15 @@
       "abyss"
     ],
     "http://wall.alphacoders.com/search.php?search={{{s}}}"
+  ],
+  [
+    [
+      "a.ae",
+      "amazon_ae",
+      "amazonae",
+      "amazon.ae"
+    ],
+    "https://www.amazon.ae/s?k={{{s}}}"
   ],
   [
     [
@@ -1941,12 +1956,6 @@
   ],
   [
     [
-      "aje"
-    ],
-    "https://www.aljazeera.com/Search/?q={{{s}}}"
-  ],
-  [
-    [
       "aj",
       "ajl",
       "ajp",
@@ -2192,12 +2201,6 @@
       "alipaczka"
     ],
     "https://alipaczka.pl/?track={{{s}}}"
-  ],
-  [
-    [
-      "aljazeera"
-    ],
-    "https://english.aljazeera.net/Services/Search/?q={{{s}}}"
   ],
   [
     [
@@ -3205,7 +3208,7 @@
     [
       "ap"
     ],
-    "https://ap.org/Search/SearchResults?searchkeywords={{{s}}}"
+    "https://ap.org/?s={{{s}}}&orderby="
   ],
   [
     [
@@ -3522,9 +3525,29 @@
   ],
   [
     [
-      "appstore"
+      "appstore",
+      "iphoneapps",
+      "iosapps",
+      "iapp",
+      "ipa"
     ],
-    "/search?q=site:itunes.apple.com/us/app/+{{{s}}}"
+    "https://apps.apple.com/iphone/search?term={{{s}}}"
+  ],
+  [
+    [
+      "macapps",
+      "appstoremac",
+      "appsmac",
+      "dmg"
+    ],
+    "https://apps.apple.com/mac/search?term={{{s}}}"
+  ],
+  [
+    [
+      "ukappstore",
+      "appstoreuk"
+    ],
+    "https://apps.apple.com/gb/iphone/search?term={{{s}}}"
   ],
   [
     [
@@ -6053,6 +6076,12 @@
       "betches"
     ],
     "https://www.betches.com/search/{{{s}}}"
+  ],
+  [
+    [
+      "bttv"
+    ],
+    "https://betterttv.com/emotes/shared/search?query={{{s}}}"
   ],
   [
     [
@@ -11753,6 +11782,13 @@
       "crissue"
     ],
     "https://issues.chromium.org/issues?q={{{s}}}"
+  ],
+  [
+    [
+      "cge",
+      "cgerrit"
+    ],
+    "https://chromium-review.googlesource.com/q/{{{s}}}"
   ],
   [
     [
@@ -20639,13 +20675,13 @@
       "flathub",
       "fthub"
     ],
-    "https://flathub.org/apps/search/{{{s}}}"
+    "https://flathub.org/apps/search?q={{{s}}}"
   ],
   [
     [
       "flaticon"
     ],
-    "https://www.flaticon.com/search/{{{s}}}"
+    "https://www.flaticon.com/search?word={{{s}}}"
   ],
   [
     [
@@ -29851,9 +29887,11 @@
   ],
   [
     [
-      "intaljazeera"
+      "aljazeera",
+      "intaljazeera",
+      "aje"
     ],
-    "https://www.aljazeera.com/Services/Search/?q={{{s}}}"
+    "https://www.aljazeera.com/search/{{{s}}}"
   ],
   [
     [
@@ -45738,6 +45776,12 @@
   ],
   [
     [
+      "podnews"
+    ],
+    "https://podnews.net/search?q={{{s}}}"
+  ],
+  [
+    [
       "poedb"
     ],
     "https://poedb.tw/us/search.php?Search={{{s}}}"
@@ -46696,6 +46740,13 @@
       "protonmail"
     ],
     "https://mail.proton.me/#keyword={{{s}}}"
+  ],
+  [
+    [
+      "lumo",
+      "protonlumo"
+    ],
+    "https://lumo.proton.me/?q={{{s}}}"
   ],
   [
     [
@@ -48870,7 +48921,7 @@
       "reuq",
       "reuters"
     ],
-    "https://www.reuters.com/search/news?blob={{{s}}}"
+    "https://www.reuters.com/site-search/?query={{{s}}}"
   ],
   [
     [
@@ -49952,7 +50003,7 @@
     [
       "rtt"
     ],
-    "https://www.realtimetrains.co.uk/search/handler?type=basic&qs=true&search={{{s}}}"
+    "https://www.realtimetrains.co.uk/search/handler?type=basic&qsearch={{{s}}}"
   ],
   [
     [
@@ -51535,6 +51586,13 @@
       "serjunk"
     ],
     "/search?q={{{s}}}+site:www.serienjunkies.de"
+  ],
+  [
+    [
+      "sgr",
+      "seriesgraph"
+    ],
+    "https://seriesgraph.com/show/search/{{{s}}}"
   ],
   [
     [
@@ -57264,6 +57322,14 @@
   ],
   [
     [
+      "trainb",
+      "trainboard",
+      "zugtafel"
+    ],
+    "https://trainboard.eu/bang.html?station={{{s}}}"
+  ],
+  [
+    [
       "tlld"
     ],
     "https://www.thetrainline.com/live/departures/{{{s}}}"
@@ -59152,12 +59218,6 @@
       "uja"
     ],
     "https://www.ujaen.es/search?s={{{s}}}"
-  ],
-  [
-    [
-      "ukappstore"
-    ],
-    "/search?q={{{s}}}+site:apps.apple.com/gb/app/"
   ],
   [
     [
