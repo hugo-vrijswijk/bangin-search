@@ -33,8 +33,8 @@
     "prettier-plugin-tailwindcss": "0.7.1",
     "tailwindcss": "4.1.17",
     "vite-plugin-pwa": "1.1.0",
-    "workbox-precaching": "7.3.0",
-    "workbox-window": "7.3.0"
+    "workbox-precaching": "7.4.0",
+    "workbox-window": "7.4.0"
   },
   "lint-staged": {
     "*.{js,mjs,ts,astro,css,md,json,yml}": "prettier --write"
