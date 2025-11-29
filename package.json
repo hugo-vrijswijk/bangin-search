@@ -24,7 +24,7 @@
     "@tailwindcss/vite": "4.1.17",
     "@vite-pwa/assets-generator": "1.0.2",
     "@vite-pwa/astro": "1.2.0",
-    "astro": "5.16.2",
+    "astro": "5.16.3",
     "concurrently": "9.2.1",
     "husky": "9.1.7",
     "lint-staged": "16.2.7",
