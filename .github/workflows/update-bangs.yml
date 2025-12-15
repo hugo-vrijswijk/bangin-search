@@ -25,7 +25,7 @@ jobs:
       - run: bun run bangs:update
       - name: Create Pull Request
         id: cpr
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           title: 'fix(bangs): update to latest bangs'
           commit-message: 'fix(bangs): update to latest bangs'
