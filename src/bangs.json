@@ -2564,7 +2564,7 @@
       "amazonorders",
       "ao"
     ],
-    "https://www.amazon.com/gp/your-account/order-history?opt=ab&search={{{s}}}"
+    "https://www.amazon.com/your-orders/search?opt=ab&search={{{s}}}"
   ],
   [
     [
@@ -9687,7 +9687,7 @@
       "chatgpt",
       "cgpt"
     ],
-    "https://chatgpt.com/?q={{{s}}}"
+    "https://chatgpt.com/?prompt={{{s}}}"
   ],
   [
     [
@@ -21252,6 +21252,12 @@
   ],
   [
     [
+      "fosdem"
+    ],
+    "https://fosdem.org/2026/search/?q={{{s}}}"
+  ],
+  [
+    [
       "fossdroid",
       "fossd"
     ],
@@ -21353,6 +21359,12 @@
       "fpo"
     ],
     "http://www.freepatentsonline.com/result.html?sort=relevance&srch=top&query_txt={{{s}}}&submit=&patents=on"
+  ],
+  [
+    [
+      "fpop"
+    ],
+    "https://incendar.com/funko_pop_search.php?search={{{s}}}"
   ],
   [
     [
@@ -24088,6 +24100,14 @@
       "gmailh"
     ],
     "https://mail.google.com/mail/u/0/#search/{{{s}}}"
+  ],
+  [
+    [
+      "gmai",
+      "geminiai",
+      "gemai"
+    ],
+    "https://gemini.google.com/?prompt_text={{{s}}}"
   ],
   [
     [
@@ -27114,6 +27134,13 @@
   ],
   [
     [
+      "hblb",
+      "hubermanlab"
+    ],
+    "https://www.hubermanlab.com/search-results?q={{{s}}}"
+  ],
+  [
+    [
       "hbm"
     ],
     "https://www.heartbowsmakeup.com/?s={{{s}}}"
@@ -27799,6 +27826,12 @@
       "hmiku"
     ],
     "https://www5.atwiki.jp/hmiku/?cmd=search&keyword={{{s}}}"
+  ],
+  [
+    [
+      "hmo"
+    ],
+    "https://home-manager-options.extranix.com/?query={{{s}}}&release=master"
   ],
   [
     [
@@ -32071,7 +32104,8 @@
   ],
   [
     [
-      "kdic"
+      "kdic",
+      "word"
     ],
     "https://translate.kagi.com/dictionary?word={{{s}}}&from=auto"
   ],
@@ -38465,6 +38499,15 @@
   ],
   [
     [
+      "mmnt",
+      "mamont",
+      "мамонт",
+      "ммнт"
+    ],
+    "https://www.mmnt.ru/get?st={{{s}}}&in=w"
+  ],
+  [
+    [
       "mmoga"
     ],
     "https://www.mmoga.de/advanced_search.php?keywords={{{s}}}"
@@ -40078,7 +40121,7 @@
     [
       "namu"
     ],
-    "https://namu.wiki/Search?q={{{s}}}"
+    "https://namu.wiki/Go?q={{{s}}}"
   ],
   [
     [
@@ -45292,7 +45335,7 @@
       "phpnet",
       "php"
     ],
-    "https://secure.php.net/manual-lookup.php?pattern={{{s}}}"
+    "https://www.php.net/manual-lookup.php?pattern={{{s}}}"
   ],
   [
     [
@@ -46401,12 +46444,6 @@
       "poolsupplyworld"
     ],
     "https://www.poolsupplyworld.com/search.htm?searchBox={{{s}}}&x=0&y=0"
-  ],
-  [
-    [
-      "pop"
-    ],
-    "https://incendar.com/funko_pop_search.php?search={{{s}}}"
   ],
   [
     [
@@ -64767,8 +64804,7 @@
   [
     [
       "wnk",
-      "wordnik",
-      "word"
+      "wordnik"
     ],
     "https://www.wordnik.com/words/?myWord={{{s}}}"
   ],
