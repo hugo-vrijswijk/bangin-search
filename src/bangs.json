@@ -244,19 +244,7 @@
     [
       "2gis"
     ],
-    "https://2gis.ru/moscow/search/{{{s}}}"
-  ],
-  [
-    [
-      "2gissbp"
-    ],
-    "https://2gis.ru/spb/search/{{{s}}}"
-  ],
-  [
-    [
-      "2gisufa"
-    ],
-    "https://2gis.ru/ufa/search/{{{s}}}"
+    "https://2gis.ru/search/{{{s}}}"
   ],
   [
     [
@@ -287,12 +275,6 @@
       "35c3"
     ],
     "https://events.ccc.de/congress/2018/wiki/index.php?search={{{s}}}"
-  ],
-  [
-    [
-      "360"
-    ],
-    "http://www.360skate.com/catalogsearch/result/?q={{{s}}}"
   ],
   [
     [
@@ -393,9 +375,10 @@
   ],
   [
     [
-      "4_b"
+      "4_b",
+      "4chrandom"
     ],
-    "http://boards.4chan.org/b/catalog#s={{{s}}}"
+    "https://boards.4chan.org/b/catalog#s={{{s}}}"
   ],
   [
     [
@@ -425,7 +408,7 @@
     [
       "4chanb"
     ],
-    "http://4chan.org/b/{{{s}}}"
+    "https://4chan.org/b/{{{s}}}"
   ],
   [
     [
@@ -471,12 +454,6 @@
   ],
   [
     [
-      "4chrandom"
-    ],
-    "https://boards.4chan.org/b/catalog#s={{{s}}}"
-  ],
-  [
-    [
       "4chsearch"
     ],
     "https://4chansearch.com/?q={{{s}}}"
@@ -491,13 +468,13 @@
     [
       "4cvg"
     ],
-    "http://boards.4chan.org/vg/catalog#s={{{s}}}"
+    "https://boards.4chan.org/vg/catalog#s={{{s}}}"
   ],
   [
     [
       "4g"
     ],
-    "http://4chan.org/g/{{{s}}}"
+    "https://4chan.org/g/{{{s}}}"
   ],
   [
     [
@@ -509,7 +486,7 @@
     [
       "4pda"
     ],
-    "http://4pda.to/forum/index.php?act=search&source=all&forums[]=all&query={{{s}}}&x=0&y=0"
+    "https://4pda.to/forum/index.php?act=search&source=all&forums[]=all&query={{{s}}}&x=0&y=0"
   ],
   [
     [
@@ -552,7 +529,7 @@
     [
       "5"
     ],
-    "http://fiverr.com/gigs/search?query={{{s}}}"
+    "https://fiverr.com/gigs/search?query={{{s}}}"
   ],
   [
     [
@@ -637,7 +614,7 @@
     [
       "800"
     ],
-    "http://800notes.com/Phone.aspx/{{{s}}}"
+    "https://800notes.com/Phone.aspx/{{{s}}}"
   ],
   [
     [
@@ -925,12 +902,6 @@
   ],
   [
     [
-      "abandonia"
-    ],
-    "http://www.abandonia.com/en/search_abandonia/{{{s}}}"
-  ],
-  [
-    [
       "abb"
     ],
     "https://new.abb.com/search/results#query={{{s}}}"
@@ -1061,13 +1032,20 @@
     [
       "abs"
     ],
-    "http://www.allbookstores.com/search?q={{{s}}}"
+    "https://www.allbookstores.com/search?q={{{s}}}"
   ],
   [
     [
       "abshire"
     ],
     "https://aberdeenshire.gov.uk/search?search={{{s}}}"
+  ],
+  [
+    [
+      "abtimes",
+      "abandonia"
+    ],
+    "https://www.abandonedtimes.com/?s={{{s}}}"
   ],
   [
     [
@@ -1079,7 +1057,7 @@
     [
       "abyss"
     ],
-    "http://wall.alphacoders.com/search.php?search={{{s}}}"
+    "https://wall.alphacoders.com/search.php?search={{{s}}}"
   ],
   [
     [
@@ -1141,7 +1119,7 @@
     [
       "accuweather"
     ],
-    "http://www.accuweather.com/us-city-list.asp?zipcode={{{s}}}"
+    "https://www.accuweather.com/us-city-list.asp?zipcode={{{s}}}"
   ],
   [
     [
@@ -1251,7 +1229,7 @@
     [
       "acs"
     ],
-    "http://pubs.acs.org/action/doSearch?AllField={{{s}}}"
+    "https://pubs.acs.org/action/doSearch?AllField={{{s}}}"
   ],
   [
     [
@@ -1295,7 +1273,7 @@
     [
       "ada"
     ],
-    "http://www.ada-auth.org/search-rm05.cgi?SearchA={{{s}}}&SearchO=&SearchN="
+    "/search?q=site%3Awww.ada-auth.org+{{{s}}}"
   ],
   [
     [
@@ -1347,7 +1325,7 @@
     [
       "addons"
     ],
-    "http://addons.prestashop.com/fr/recherche?search_query={{{s}}}"
+    "https://addons.prestashop.com/fr/recherche?search_query={{{s}}}"
   ],
   [
     [
@@ -1396,13 +1374,13 @@
     [
       "adidas"
     ],
-    "http://www.adidas.fr/search?q={{{s}}}"
+    "https://www.adidas.fr/search?q={{{s}}}"
   ],
   [
     [
       "adjective"
     ],
-    "http://adjective1.com/?s={{{s}}}"
+    "/search?q=site%3Aadjective1.com+{{{s}}}"
   ],
   [
     [
@@ -1445,7 +1423,7 @@
     [
       "adobe"
     ],
-    "http://www.adobe.com/cfusion/search/index.cfm?loc=en_us&term={{{s}}}"
+    "https://www.adobe.com/cfusion/search/index.cfm?loc=en_us&term={{{s}}}"
   ],
   [
     [
@@ -1531,7 +1509,7 @@
     [
       "adverts"
     ],
-    "http://www.adverts.ie/for-sale/q_{{{s}}}/"
+    "https://www.adverts.ie/for-sale/q_{{{s}}}/"
   ],
   [
     [
@@ -1582,7 +1560,7 @@
     [
       "aeq"
     ],
-    "http://ae7q.com/query/data/CallHistory.php?CALL={{{s}}}"
+    "https://ae7q.com/query/data/CallHistory.php?CALL={{{s}}}"
   ],
   [
     [
@@ -1678,7 +1656,7 @@
     [
       "ag"
     ],
-    "http://www.android.gs/?s=&q={{{s}}}"
+    "https://www.android.gs/?s=&q={{{s}}}"
   ],
   [
     [
@@ -1797,7 +1775,7 @@
     [
       "ahw"
     ],
-    "http://www.arkhamhorrorwiki.com/wiki/index.php?title=Special:Search&search={{{s}}}&go=Go"
+    "/search?q=site%3Aarkhamhorrorwiki.com+{{{s}}}"
   ],
   [
     [
@@ -1869,7 +1847,7 @@
     [
       "airframes"
     ],
-    "http://www.airframes.org/reg/{{{s}}}"
+    "https://www.airframes.org/reg/{{{s}}}"
   ],
   [
     [
@@ -1904,9 +1882,10 @@
   ],
   [
     [
-      "ais"
+      "ais",
+      "archiveis"
     ],
-    "http://archive.is/{{{s}}}"
+    "https://archive.is/search/?q={{{s}}}"
   ],
   [
     [
@@ -1962,7 +1941,7 @@
     [
       "akakce"
     ],
-    "http://www.akakce.com/arama/?q={{{s}}}"
+    "https://www.akakce.com/arama/?q={{{s}}}"
   ],
   [
     [
@@ -2164,7 +2143,7 @@
     [
       "alibris"
     ],
-    "http://www.alibris.com/booksearch?keyword={{{s}}}"
+    "https://www.alibris.com/booksearch?keyword={{{s}}}"
   ],
   [
     [
@@ -2248,12 +2227,6 @@
   ],
   [
     [
-      "allelec"
-    ],
-    "http://www.allelectronics.com/index.php?page=seek&id[m]=pattern&id[q]={{{s}}}"
-  ],
-  [
-    [
       "allerhande"
     ],
     "https://www.ah.nl/allerhande/recepten-zoeken?Ntt={{{s}}}"
@@ -2275,12 +2248,6 @@
       "alliance"
     ],
     "https://alliancechampions.com/?s={{{s}}}"
-  ],
-  [
-    [
-      "alliedelec"
-    ],
-    "http://www.alliedelec.com/search/results.aspx?term={{{s}}}"
   ],
   [
     [
@@ -2328,14 +2295,14 @@
       "almaanyar",
       "ar-ar"
     ],
-    "http://www.almaany.com/ar/dict/ar-ar/{{{s}}}"
+    "https://www.almaany.com/ar/dict/ar-ar/{{{s}}}"
   ],
   [
     [
       "almaanyen",
       "maany"
     ],
-    "http://www.almaany.com/ar/dict/ar-en/{{{s}}}/"
+    "https://www.almaany.com/ar/dict/ar-en/{{{s}}}/"
   ],
   [
     [
@@ -2394,12 +2361,6 @@
   ],
   [
     [
-      "alt"
-    ],
-    "http://alternativeto.net/SearchResult.aspx?search={{{s}}}"
-  ],
-  [
-    [
       "altbe"
     ],
     "https://www.alternate.be/html/search.html?query={{{s}}}"
@@ -2418,21 +2379,6 @@
   ],
   [
     [
-      "alternative",
-      "a2"
-    ],
-    "http://alternativeto.net/searchresult.aspx?search={{{s}}}"
-  ],
-  [
-    [
-      "alternativeto",
-      "alto",
-      "altto"
-    ],
-    "http://alternativeto.net/browse/search?q={{{s}}}"
-  ],
-  [
-    [
       "alternet"
     ],
     "https://www.alternet.org/search/site/{{{s}}}"
@@ -2448,6 +2394,18 @@
       "altium"
     ],
     "https://techdocs.altium.com/search/wikinode/{{{s}}}"
+  ],
+  [
+    [
+      "alto",
+      "a2",
+      "ato",
+      "alt",
+      "altto",
+      "alternative",
+      "alternativeto"
+    ],
+    "https://alternativeto.net/browse/search/?q={{{s}}}"
   ],
   [
     [
@@ -2513,12 +2471,6 @@
   ],
   [
     [
-      "amara"
-    ],
-    "http://www.amara.org/search/#/?q={{{s}}}"
-  ],
-  [
-    [
       "amazonbe"
     ],
     "https://www.amazon.com.be/s?k={{{s}}}"
@@ -2564,7 +2516,7 @@
       "amazonorders",
       "ao"
     ],
-    "https://www.amazon.com/gp/your-account/order-history?opt=ab&search={{{s}}}"
+    "https://www.amazon.com/your-orders/search?opt=ab&search={{{s}}}"
   ],
   [
     [
@@ -2584,12 +2536,6 @@
   ],
   [
     [
-      "amc"
-    ],
-    "http://www.amctv.com/search#q={{{s}}}"
-  ],
-  [
-    [
       "amcloud"
     ],
     "https://www.amazon.com/clouddrive/#G=0&path={{{s}}}"
@@ -2598,7 +2544,7 @@
     [
       "amd"
     ],
-    "http://search.amd.com/en-us/Pages/results-all.aspx?k={{{s}}}"
+    "https://www.amd.com/en/search/site-search.html#q={{{s}}}"
   ],
   [
     [
@@ -2653,7 +2599,7 @@
     [
       "amiami"
     ],
-    "http://slist.amiami.com/top/search/list?s_keywords={{{s}}}"
+    "https://www.amiami.com/eng/search/list/?s_keywords={{{s}}}"
   ],
   [
     [
@@ -2824,7 +2770,7 @@
       "anarchopedia",
       "anaped"
     ],
-    "http://anarchopedia.org/Special:Search?search={{{s}}}"
+    "https://anarchopedia.org/Special:Search?search={{{s}}}"
   ],
   [
     [
@@ -3815,12 +3761,6 @@
   ],
   [
     [
-      "archiveis"
-    ],
-    "http://archive.is/search/?q={{{s}}}"
-  ],
-  [
-    [
       "archiveteam"
     ],
     "https://www.archiveteam.org/index.php?title=Special:Search&search={{{s}}}&fulltext=Search"
@@ -3924,6 +3864,13 @@
       "arena"
     ],
     "https://www.are.na/search/{{{s}}}"
+  ],
+  [
+    [
+      "aretronics",
+      "allelec"
+    ],
+    "https://aretronics.com/search?type=product&q={{{s}}}"
   ],
   [
     [
@@ -4460,12 +4407,6 @@
   ],
   [
     [
-      "ato"
-    ],
-    "https://alternativeto.net/browse/search/?q={{{s}}}"
-  ],
-  [
-    [
       "atom",
       "movies"
     ],
@@ -4810,7 +4751,7 @@
     [
       "avito"
     ],
-    "https://www.avito.ru/rossiya?q={{{s}}}"
+    "https://www.avito.ru/?q={{{s}}}"
   ],
   [
     [
@@ -9687,7 +9628,7 @@
       "chatgpt",
       "cgpt"
     ],
-    "https://chatgpt.com/?q={{{s}}}"
+    "https://chatgpt.com/?prompt={{{s}}}"
   ],
   [
     [
@@ -11381,7 +11322,7 @@
     [
       "copilot"
     ],
-    "https://bing.com/chat?q={{{s}}}&sendquery=1"
+    "https://copilot.microsoft.com/?q={{{s}}}&bypassredir=1"
   ],
   [
     [
@@ -21252,6 +21193,12 @@
   ],
   [
     [
+      "fosdem"
+    ],
+    "https://fosdem.org/2026/search/?q={{{s}}}"
+  ],
+  [
+    [
       "fossdroid",
       "fossd"
     ],
@@ -21353,6 +21300,12 @@
       "fpo"
     ],
     "http://www.freepatentsonline.com/result.html?sort=relevance&srch=top&query_txt={{{s}}}&submit=&patents=on"
+  ],
+  [
+    [
+      "fpop"
+    ],
+    "https://incendar.com/funko_pop_search.php?search={{{s}}}"
   ],
   [
     [
@@ -23064,6 +23017,15 @@
       "gematsu"
     ],
     "https://gematsu.com/?s={{{s}}}"
+  ],
+  [
+    [
+      "gemini",
+      "geminiai",
+      "gemai",
+      "gmai"
+    ],
+    "https://gemini.google.com/?prompt_text={{{s}}}"
   ],
   [
     [
@@ -25251,6 +25213,12 @@
   ],
   [
     [
+      "grokipedia"
+    ],
+    "https://grokipedia.com/search?q={{{s}}}"
+  ],
+  [
+    [
       "groovy"
     ],
     "/search?q={{{s}}}+site:docs.groovy-lang.org"
@@ -27114,6 +27082,13 @@
   ],
   [
     [
+      "hblb",
+      "hubermanlab"
+    ],
+    "https://www.hubermanlab.com/search-results?q={{{s}}}"
+  ],
+  [
+    [
       "hbm"
     ],
     "https://www.heartbowsmakeup.com/?s={{{s}}}"
@@ -27799,6 +27774,12 @@
       "hmiku"
     ],
     "https://www5.atwiki.jp/hmiku/?cmd=search&keyword={{{s}}}"
+  ],
+  [
+    [
+      "hmo"
+    ],
+    "https://home-manager-options.extranix.com/?query={{{s}}}&release=master"
   ],
   [
     [
@@ -30669,13 +30650,6 @@
   ],
   [
     [
-      "iya",
-      "ymg"
-    ],
-    "https://yandex.com/images/search?text={{{s}}}"
-  ],
-  [
-    [
       "iyanmv"
     ],
     "https://iyanmv.com/?s={{{s}}}"
@@ -31394,6 +31368,12 @@
   ],
   [
     [
+      "jpdb"
+    ],
+    "https://jpdb.io/search?q={{{s}}}"
+  ],
+  [
+    [
       "jpdic"
     ],
     "http://jpdic.naver.com/search.nhn?query={{{s}}}"
@@ -32071,7 +32051,8 @@
   ],
   [
     [
-      "kdic"
+      "kdic",
+      "word"
     ],
     "https://translate.kagi.com/dictionary?word={{{s}}}&from=auto"
   ],
@@ -35115,15 +35096,9 @@
   ],
   [
     [
-      "lolwiki"
+      "lolw"
     ],
-    "https://leagueoflegends.wikia.com/wiki/Special:Search?search={{{s}}}"
-  ],
-  [
-    [
-      "lolwikia"
-    ],
-    "https://leagueoflegends.wikia.com/wiki/Special:Search?query={{{s}}}"
+    "https://wiki.leagueoflegends.com/en-us/?search={{{s}}}"
   ],
   [
     [
@@ -38465,6 +38440,15 @@
   ],
   [
     [
+      "mmnt",
+      "mamont",
+      "мамонт",
+      "ммнт"
+    ],
+    "https://www.mmnt.ru/get?st={{{s}}}&in=w"
+  ],
+  [
+    [
       "mmoga"
     ],
     "https://www.mmoga.de/advanced_search.php?keywords={{{s}}}"
@@ -39777,7 +39761,8 @@
   [
     [
       "mya",
-      "yama"
+      "yama",
+      "yandexm"
     ],
     "https://market.yandex.ru/search?text={{{s}}}"
   ],
@@ -40078,7 +40063,7 @@
     [
       "namu"
     ],
-    "https://namu.wiki/Search?q={{{s}}}"
+    "https://namu.wiki/Go?q={{{s}}}"
   ],
   [
     [
@@ -41132,6 +41117,14 @@
   ],
   [
     [
+      "nitter",
+      "nit",
+      "ntr"
+    ],
+    "https://nitter.net/search?f=tweets&q={{{s}}}"
+  ],
+  [
+    [
       "niv"
     ],
     "https://www.biblestudytools.com/search/?q={{{s}}}&s=Bibles&t=niv"
@@ -41881,7 +41874,7 @@
       "na",
       "ㄴ"
     ],
-    "https://search.naver.com/search.naver?query={{{s}}}):"
+    "https://search.naver.com/search.naver?query={{{s}}}"
   ],
   [
     [
@@ -43988,7 +43981,7 @@
     [
       "ozon"
     ],
-    "http://www.ozon.ru/?context=search&text={{{s}}}"
+    "https://www.ozon.ru/search/?text={{{s}}}"
   ],
   [
     [
@@ -45292,7 +45285,7 @@
       "phpnet",
       "php"
     ],
-    "https://secure.php.net/manual-lookup.php?pattern={{{s}}}"
+    "https://www.php.net/manual-lookup.php?pattern={{{s}}}"
   ],
   [
     [
@@ -45488,12 +45481,6 @@
       "pio"
     ],
     "https://platformio.org/lib/search?query={{{s}}}"
-  ],
-  [
-    [
-      "pip"
-    ],
-    "https://pypi.python.org/pypi?:action=search&term={{{s}}}&submit=search"
   ],
   [
     [
@@ -46401,12 +46388,6 @@
       "poolsupplyworld"
     ],
     "https://www.poolsupplyworld.com/search.htm?searchBox={{{s}}}&x=0&y=0"
-  ],
-  [
-    [
-      "pop"
-    ],
-    "https://incendar.com/funko_pop_search.php?search={{{s}}}"
   ],
   [
     [
@@ -47566,8 +47547,9 @@
   ],
   [
     [
-      "pypa",
-      "pypi"
+      "pypi",
+      "pip",
+      "pypa"
     ],
     "https://pypi.org/search/?q={{{s}}}"
   ],
@@ -50086,6 +50068,13 @@
       "rseek"
     ],
     "https://www.rseek.org/?q={{{s}}}"
+  ],
+  [
+    [
+      "rselec",
+      "alliedelec"
+    ],
+    "https://us.rs-online.com/catalogsearch/result/?q={{{s}}}"
   ],
   [
     [
@@ -52831,7 +52820,7 @@
     [
       "sklearn"
     ],
-    "/search?q={{{s}}}+site:http://scikit-learn.org/stable/modules/generated/"
+    "/search?q={{{s}}}+site:https://scikit-learn.org/stable/"
   ],
   [
     [
@@ -53005,12 +52994,6 @@
       "slotech"
     ],
     "https://slo-tech.com/forum/isci/?q={{{s}}}"
-  ],
-  [
-    [
-      "slov"
-    ],
-    "https://slovari.yandex.ru/search.xml?text={{{s}}}"
   ],
   [
     [
@@ -64767,8 +64750,7 @@
   [
     [
       "wnk",
-      "wordnik",
-      "word"
+      "wordnik"
     ],
     "https://www.wordnik.com/words/?myWord={{{s}}}"
   ],
@@ -66571,9 +66553,11 @@
   ],
   [
     [
-      "ya"
+      "ya",
+      "yandex",
+      "я"
     ],
-    "https://yandex.ru/search/?text={{{s}}}"
+    "https://yandex.ru/search?text={{{s}}}"
   ],
   [
     [
@@ -66583,22 +66567,9 @@
   ],
   [
     [
-      "yad"
-    ],
-    "https://slovari.yandex.ru/{{{s}}}/"
-  ],
-  [
-    [
       "yad2"
     ],
     "https://www.yad2.co.il/products/all?info={{{s}}}"
-  ],
-  [
-    [
-      "yaen",
-      "yandexen"
-    ],
-    "https://yandex.com/yandsearch?text={{{s}}}"
   ],
   [
     [
@@ -66612,6 +66583,14 @@
       "yahoofinau"
     ],
     "https://au.finance.yahoo.com/quote/{{{s}}}"
+  ],
+  [
+    [
+      "yai",
+      "yak",
+      "як"
+    ],
+    "https://yandex.ru/images/search?text={{{s}}}"
   ],
   [
     [
@@ -66634,40 +66613,27 @@
   [
     [
       "yamusic",
-      "yamu"
+      "yamu",
+      "яму"
     ],
     "https://music.yandex.ru/search?text={{{s}}}"
   ],
   [
     [
-      "yan"
+      "yan",
+      "yaen",
+      "yandexen"
     ],
-    "https://www.yandex.com/?q={{{s}}}"
-  ],
-  [
-    [
-      "yandex"
-    ],
-    "https://www.yandex.ru/yandsearch?text={{{s}}}"
-  ],
-  [
-    [
-      "yandexm"
-    ],
-    "https://market.yandex.ru/search.xml?text={{{s}}}"
+    "https://yandex.com/search?text={{{s}}}"
   ],
   [
     [
       "yandexmaps",
-      "yxmaps"
+      "yamaps",
+      "yxmaps",
+      "якарты"
     ],
-    "https://maps.yandex.ru/?text={{{s}}}"
-  ],
-  [
-    [
-      "yandexw"
-    ],
-    "https://yandex.ru/pogoda/{{{s}}}"
+    "https://yandex.ru/maps/?text={{{s}}}"
   ],
   [
     [
@@ -66681,13 +66647,6 @@
       "yarn"
     ],
     "https://yarnpkg.com/en/packages?q={{{s}}}"
-  ],
-  [
-    [
-      "yaslovari",
-      "ys"
-    ],
-    "https://slovari.yandex.ru/{{{s}}}"
   ],
   [
     [
@@ -66713,12 +66672,6 @@
       "yav"
     ],
     "https://yandex.ru/video/search?text={{{s}}}"
-  ],
-  [
-    [
-      "yaw"
-    ],
-    "https://yandex.ru/pogoda/search?request={{{s}}}"
   ],
   [
     [
@@ -66941,6 +66894,13 @@
       "ymail"
     ],
     "https://mail.yahoo.com/d/search/keyword={{{s}}}"
+  ],
+  [
+    [
+      "ymg",
+      "iya"
+    ],
+    "https://yandex.com/images/search?text={{{s}}}"
   ],
   [
     [
@@ -67249,7 +67209,11 @@
   ],
   [
     [
-      "ytr"
+      "ytr",
+      "ys",
+      "yad",
+      "slov",
+      "yaslovari"
     ],
     "https://translate.yandex.ru/?text={{{s}}}"
   ],
@@ -67849,13 +67813,6 @@
   ],
   [
     [
-      "карты",
-      "ям"
-    ],
-    "https://yandex.ru/maps/?text={{{s}}}"
-  ],
-  [
-    [
       "л"
     ],
     "https://www.labirint.ru/search/{{{s}}}"
@@ -67883,24 +67840,6 @@
       "уики"
     ],
     "https://bg.wikipedia.org/wiki/{{{s}}}"
-  ],
-  [
-    [
-      "я"
-    ],
-    "https://yandex.ru/yandsearch?text={{{s}}}"
-  ],
-  [
-    [
-      "як"
-    ],
-    "https://yandex.ru/images/search?text={{{s}}}"
-  ],
-  [
-    [
-      "яму"
-    ],
-    "https://music.yandex.com/search?text={{{s}}}"
   ],
   [
     [
