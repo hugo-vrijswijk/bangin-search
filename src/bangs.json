@@ -5120,7 +5120,7 @@
     [
       "bam"
     ],
-    "https://www.booksamillion.com/search?query={{{s}}}"
+    "https://www.booksamillion.com/search2?query={{{s}}}"
   ],
   [
     [
@@ -6908,6 +6908,14 @@
       "blockexplorer"
     ],
     "https://blockexplorer.com/searchgo/{{{s}}}"
+  ],
+  [
+    [
+      "blockscan",
+      "bscan",
+      "bsc"
+    ],
+    "https://blockscan.com/home/searchaddress?searchAddress={{{s}}}"
   ],
   [
     [
@@ -31759,7 +31767,7 @@
     [
       "kakaku"
     ],
-    "https://kakaku.com/search_results/{{{s}}}"
+    "https://search.kakaku.com/{{{s}}}/"
   ],
   [
     [
@@ -36363,7 +36371,7 @@
     [
       "mari"
     ],
-    "https://putusan.mahkamahagung.go.id/main/pencarian/?q={{{s}}}"
+    "https://putusan3.mahkamahagung.go.id/search.html?q={{{s}}}"
   ],
   [
     [
@@ -41573,6 +41581,12 @@
   ],
   [
     [
+      "npmx"
+    ],
+    "https://npmx.dev/search?q={{{s}}}"
+  ],
+  [
+    [
       "npo",
       "uzg"
     ],
@@ -43052,13 +43066,6 @@
   ],
   [
     [
-      "openstreetmap",
-      "openstreet"
-    ],
-    "https://www.openstreetmap.org/?query={{{s}}}"
-  ],
-  [
-    [
       "opensusesoftware",
       "os",
       "susepkg"
@@ -43428,6 +43435,8 @@
   [
     [
       "osm",
+      "openstreetmap",
+      "openstreet",
       "openmaps",
       "omap",
       "ost"
@@ -52705,6 +52714,12 @@
   ],
   [
     [
+      "skills"
+    ],
+    "https://skills.sh/?q={{{s}}}"
+  ],
+  [
+    [
       "skillshare",
       "skill"
     ],
@@ -56794,6 +56809,15 @@
   ],
   [
     [
+      "tesaurus",
+      "sinonim",
+      "ttbi",
+      "tsbb"
+    ],
+    "https://tesaurus.kemendikdasmen.go.id/tematis/lema/{{{s}}}"
+  ],
+  [
+    [
       "tesco"
     ],
     "https://www.tesco.com/groceries/product/search/default.aspx?searchBox={{{s}}}"
@@ -57430,7 +57454,7 @@
     [
       "tidal"
     ],
-    "https://listen.tidal.com/search/{{{s}}}"
+    "https://tidal.com/search/?q={{{s}}}"
   ],
   [
     [
@@ -62073,7 +62097,7 @@
     [
       "waitrose"
     ],
-    "https://www.waitrose.com/shop/HeaderSearchCmd?searchTerm={{{s}}}"
+    "https://www.waitrose.com/ecom/shop/search?searchTerm={{{s}}}"
   ],
   [
     [
