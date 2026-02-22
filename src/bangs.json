@@ -3173,9 +3173,10 @@
   ],
   [
     [
-      "ap"
+      "ap",
+      "apnews"
     ],
-    "https://ap.org/?s={{{s}}}&orderby="
+    "https://apnews.com/search?q={{{s}}}"
   ],
   [
     [
@@ -5120,7 +5121,7 @@
     [
       "bam"
     ],
-    "https://www.booksamillion.com/search?query={{{s}}}"
+    "https://www.booksamillion.com/search2?query={{{s}}}"
   ],
   [
     [
@@ -6908,6 +6909,14 @@
       "blockexplorer"
     ],
     "https://blockexplorer.com/searchgo/{{{s}}}"
+  ],
+  [
+    [
+      "blockscan",
+      "bscan",
+      "bsc"
+    ],
+    "https://blockscan.com/home/searchaddress?searchAddress={{{s}}}"
   ],
   [
     [
@@ -9235,6 +9244,12 @@
       "cdnjs"
     ],
     "https://cdnjs.com/#q={{{s}}}"
+  ],
+  [
+    [
+      "cdomain"
+    ],
+    "https://domains.cloudflare.com/?domain={{{s}}}/"
   ],
   [
     [
@@ -15137,7 +15152,7 @@
     [
       "dmde"
     ],
-    "https://www.dm.de/search/468652.html?type=product&q={{{s}}}"
+    "https://www.dm.de/search?query={{{s}}}"
   ],
   [
     [
@@ -31759,7 +31774,7 @@
     [
       "kakaku"
     ],
-    "https://kakaku.com/search_results/{{{s}}}"
+    "https://search.kakaku.com/{{{s}}}/"
   ],
   [
     [
@@ -36363,7 +36378,7 @@
     [
       "mari"
     ],
-    "https://putusan.mahkamahagung.go.id/main/pencarian/?q={{{s}}}"
+    "https://putusan3.mahkamahagung.go.id/search.html?q={{{s}}}"
   ],
   [
     [
@@ -38868,7 +38883,7 @@
     [
       "mouser"
     ],
-    "https://www.mouser.com/Search/Refine.aspx?Keyword={{{s}}}"
+    "https://www.mouser.com/c/?q={{{s}}}"
   ],
   [
     [
@@ -41573,6 +41588,12 @@
   ],
   [
     [
+      "npmx"
+    ],
+    "https://npmx.dev/search?q={{{s}}}"
+  ],
+  [
+    [
       "npo",
       "uzg"
     ],
@@ -43052,13 +43073,6 @@
   ],
   [
     [
-      "openstreetmap",
-      "openstreet"
-    ],
-    "https://www.openstreetmap.org/?query={{{s}}}"
-  ],
-  [
-    [
       "opensusesoftware",
       "os",
       "susepkg"
@@ -43428,6 +43442,8 @@
   [
     [
       "osm",
+      "openstreetmap",
+      "openstreet",
       "openmaps",
       "omap",
       "ost"
@@ -52705,6 +52721,12 @@
   ],
   [
     [
+      "skills"
+    ],
+    "https://skills.sh/?q={{{s}}}"
+  ],
+  [
+    [
       "skillshare",
       "skill"
     ],
@@ -56794,6 +56816,15 @@
   ],
   [
     [
+      "tesaurus",
+      "sinonim",
+      "ttbi",
+      "tsbb"
+    ],
+    "https://tesaurus.kemendikdasmen.go.id/tematis/lema/{{{s}}}"
+  ],
+  [
+    [
       "tesco"
     ],
     "https://www.tesco.com/groceries/product/search/default.aspx?searchBox={{{s}}}"
@@ -57430,7 +57461,7 @@
     [
       "tidal"
     ],
-    "https://listen.tidal.com/search/{{{s}}}"
+    "https://tidal.com/search/?q={{{s}}}"
   ],
   [
     [
@@ -62073,7 +62104,7 @@
     [
       "waitrose"
     ],
-    "https://www.waitrose.com/shop/HeaderSearchCmd?searchTerm={{{s}}}"
+    "https://www.waitrose.com/ecom/shop/search?searchTerm={{{s}}}"
   ],
   [
     [
@@ -67506,6 +67537,12 @@
       "zic"
     ],
     "https://www.zic.it/?s={{{s}}}"
+  ],
+  [
+    [
+      "zig"
+    ],
+    "https://ziglang.org/documentation/master/std/#?{{{s}}}"
   ],
   [
     [
