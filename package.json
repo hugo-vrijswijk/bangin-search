@@ -12,7 +12,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "prepare": "bun run .husky/install.js",
+    "prepare": "bun run --bun .husky/install.js",
     "test": "playwright test",
     "bangs:update": "curl https://raw.githubusercontent.com/kagisearch/bangs/refs/heads/main/data/bangs.json | jq 'sort_by(.t) | map([[.t] + (.ts // []), .u])' > src/bangs.json"
   },

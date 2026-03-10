@@ -20,7 +20,7 @@ jobs:
           key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lock') }}
       - uses: oven-sh/setup-bun@v2
       - run: bun install --frozen-lockfile
-      - run: bun run check
+      - run: bun run --bun check
 
   test:
     runs-on: ubuntu-latest
