@@ -12,7 +12,7 @@ RUN bun install --frozen-lockfile --ignore-scripts
 
 COPY . /app
 
-RUN --mount=type=cache,id=bun,target=/bun/cache bun run build
+RUN --mount=type=cache,id=bun,target=/bun/cache bun run --bun build
 
 FROM base
 COPY --from=build /app/dist /app/dist
