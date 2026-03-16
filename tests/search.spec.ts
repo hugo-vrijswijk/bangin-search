@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, type Page } from '@playwright/test';
 
 test.beforeEach(async ({ page }) => {
   await page.goto('/');
@@ -9,65 +9,43 @@ test('has title', async ({ page }) => {
 });
 
 test('redirects to default search engine', async ({ page }) => {
-  await page.getByLabel('Search').fill('hello world');
-
-  await page.getByRole('button', { name: 'Search' }).click();
-
-  await expect.poll(() => page.url()).toBe('https://www.qwant.com/?q=hello+world');
+  await testSearchAndAssert(page, 'hello world', 'https://www.qwant.com/?q=hello+world&t=web');
 });
 
 test('supports bang search', async ({ page }) => {
-  await page.getByLabel('Search').fill('!w hello world');
-
-  await page.getByRole('button', { name: 'Search' }).click();
-
-  expect(page.url()).toBe('https://en.wikipedia.org/wiki/Hello_world');
+  await testSearchAndAssert(page, '!w hello world', 'https://en.wikipedia.org/wiki/%22Hello,_World!%22_program');
 });
 
 test('supports bangs in the middle of the query', async ({ page }) => {
-  await page.getByLabel('Search').fill('hello !w world');
-
-  await page.getByRole('button', { name: 'Search' }).click();
-
-  expect(page.url()).toBe('https://en.wikipedia.org/wiki/Hello_world');
+  await testSearchAndAssert(page, 'hello !w world', 'https://en.wikipedia.org/wiki/%22Hello,_World!%22_program');
 });
 
 test('properly handles slashes', async ({ page }) => {
-  await page.getByLabel('Search').fill('!ghr hugo-vrijswijk/bangin-search');
-
-  await page.getByRole('button', { name: 'Search' }).click();
-
-  expect(page.url()).toBe('https://github.com/hugo-vrijswijk/bangin-search');
+  await testSearchAndAssert(page, '!ghr hugo-vrijswijk/bangin-search', 'https://github.com/hugo-vrijswijk/bangin-search');
 });
 
 test('only ! results in default search', async ({ page }) => {
-  await page.getByLabel('Search').fill('! hello world');
-
-  await page.getByRole('button', { name: 'Search' }).click();
-
-  expect(page.url()).toBe('https://www.qwant.com/?q=%21+hello+world');
+  await testSearchAndAssert(page, '! hello world', 'https://www.qwant.com/?q=%21+hello+world&t=web');
 });
 
 test('two !! results in default search', async ({ page }) => {
-  await page.getByLabel('Search').fill('!! hello world');
-
-  await page.getByRole('button', { name: 'Search' }).click();
-
-  expect(page.url()).toBe('https://www.qwant.com/?q=%21%21+hello+world');
+  await testSearchAndAssert(page, '!! hello world', 'https://www.qwant.com/?q=%21%21+hello+world&t=web');
 });
 
 test('only ! with no query results in default search', async ({ page }) => {
-  await page.getByLabel('Search').fill('!');
-
-  await page.getByRole('button', { name: 'Search' }).click();
-
-  expect(page.url()).toBe('https://www.qwant.com/?q=%21');
+  await testSearchAndAssert(page, '!', 'https://www.qwant.com/?q=%21&t=web');
 });
 
 test('only bang with no query redirects to search engine', async ({ page }) => {
-  await page.getByLabel('Search').fill('!w');
-
-  await page.getByRole('button', { name: 'Search' }).click();
-
-  expect(page.url()).toBe('https://en.wikipedia.org/w/index.php?search=');
+  await testSearchAndAssert(page, '!w', 'https://en.wikipedia.org/w/index.php?search=');
 });
+
+test('handles encoding properly', async ({ page }) => {
+  await testSearchAndAssert(page, '&^%$#@!', 'https://www.qwant.com/?q=%26%5E%25%24%23%40%21&t=web');
+});
+
+async function testSearchAndAssert(page: Page, query: string, expectedUrl: string) {
+  await page.getByLabel('Search').fill(query);
+  await page.getByRole('button', { name: 'Search' }).click();
+  await expect.poll(() => page.url()).toBe(expectedUrl);
+}
