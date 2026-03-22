@@ -4277,7 +4277,7 @@
     [
       "ass"
     ],
-    "https://smile.amazon.com/s?url=srs=5856181011&field-keywords={{{s}}}"
+    "https://www.amazon.com/gp/subscribe-and-save/manager/"
   ],
   [
     [
@@ -9257,9 +9257,10 @@
   ],
   [
     [
-      "cdomain"
+      "cdomain",
+      "cdmn"
     ],
-    "https://domains.cloudflare.com/?domain={{{s}}}/"
+    "https://domains.cloudflare.com/?domain={{{s}}}"
   ],
   [
     [
@@ -14509,7 +14510,6 @@
     [
       "dictgr",
       "lext",
-      "test",
       "eldict"
     ],
     "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq={{{s}}}"
@@ -16529,7 +16529,7 @@
     [
       "e926"
     ],
-    "https://e926.net/post/search?tags={{{s}}}"
+    "https://e926.net/posts?tags={{{s}}}"
   ],
   [
     [
@@ -32614,6 +32614,12 @@
   ],
   [
     [
+      "kobouk"
+    ],
+    "https://www.kobo.com/gb/en/search?Query={{{s}}}"
+  ],
+  [
+    [
       "kobv"
     ],
     "https://portal.kobv.de/simpleSearch.do?query={{{s}}}"
@@ -44719,6 +44725,12 @@
       "pdqtopen"
     ],
     "https://pqdtopen.proquest.com/results.html?QryTxt={{{s}}}"
+  ],
+  [
+    [
+      "pdsls"
+    ],
+    "https://pds.ls/?q={{{s}}}"
   ],
   [
     [
@@ -60312,7 +60324,7 @@
     [
       "uptodown"
     ],
-    "https://en.uptodown.com/android/search/{{{s}}}"
+    "https://en.uptodown.com/android/search?query={{{s}}}"
   ],
   [
     [
