@@ -2471,7 +2471,8 @@
   ],
   [
     [
-      "amazonbe"
+      "amazonbe",
+      "abe"
     ],
     "https://www.amazon.com.be/s?k={{{s}}}"
   ],
@@ -4277,7 +4278,7 @@
     [
       "ass"
     ],
-    "https://smile.amazon.com/s?url=srs=5856181011&field-keywords={{{s}}}"
+    "https://www.amazon.com/gp/subscribe-and-save/manager/"
   ],
   [
     [
@@ -9257,9 +9258,10 @@
   ],
   [
     [
-      "cdomain"
+      "cdomain",
+      "cdmn"
     ],
-    "https://domains.cloudflare.com/?domain={{{s}}}/"
+    "https://domains.cloudflare.com/?domain={{{s}}}"
   ],
   [
     [
@@ -14509,7 +14511,6 @@
     [
       "dictgr",
       "lext",
-      "test",
       "eldict"
     ],
     "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq={{{s}}}"
@@ -16529,7 +16530,7 @@
     [
       "e926"
     ],
-    "https://e926.net/post/search?tags={{{s}}}"
+    "https://e926.net/posts?tags={{{s}}}"
   ],
   [
     [
@@ -32614,6 +32615,12 @@
   ],
   [
     [
+      "kobouk"
+    ],
+    "https://www.kobo.com/gb/en/search?Query={{{s}}}"
+  ],
+  [
+    [
       "kobv"
     ],
     "https://portal.kobv.de/simpleSearch.do?query={{{s}}}"
@@ -44719,6 +44726,12 @@
       "pdqtopen"
     ],
     "https://pqdtopen.proquest.com/results.html?QryTxt={{{s}}}"
+  ],
+  [
+    [
+      "pdsls"
+    ],
+    "https://pds.ls/?q={{{s}}}"
   ],
   [
     [
@@ -60312,7 +60325,7 @@
     [
       "uptodown"
     ],
-    "https://en.uptodown.com/android/search/{{{s}}}"
+    "https://en.uptodown.com/android/search?query={{{s}}}"
   ],
   [
     [
@@ -65245,6 +65258,14 @@
   ],
   [
     [
+      "wptfyi",
+      "wpts",
+      "wptf"
+    ],
+    "https://wpt.fyi/results/?q={{{s}}}"
+  ],
+  [
+    [
       "wpthemes"
     ],
     "https://wordpress.org/extend/themes/search.php?q={{{s}}}"
@@ -66513,7 +66534,7 @@
       "yandex",
       "я"
     ],
-    "https://yandex.ru/search?text={{{s}}}"
+    "https://ya.ru/search?text={{{s}}}"
   ],
   [
     [
@@ -66546,7 +66567,7 @@
       "yak",
       "як"
     ],
-    "https://yandex.ru/images/search?text={{{s}}}"
+    "https://ya.ru/images/search?text={{{s}}}"
   ],
   [
     [
@@ -66589,7 +66610,7 @@
       "yxmaps",
       "якарты"
     ],
-    "https://yandex.ru/maps/?text={{{s}}}"
+    "https://ya.ru/maps/?text={{{s}}}"
   ],
   [
     [
@@ -66627,7 +66648,7 @@
     [
       "yav"
     ],
-    "https://yandex.ru/video/search?text={{{s}}}"
+    "https://ya.ru/video/search?text={{{s}}}"
   ],
   [
     [
