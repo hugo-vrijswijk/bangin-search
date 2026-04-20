@@ -13,11 +13,11 @@ test('redirects to default search engine', async ({ page }) => {
 });
 
 test('supports bang search', async ({ page }) => {
-  await testSearchAndAssert(page, '!w hello world', 'https://en.wikipedia.org/wiki/%22Hello,_World!%22_program');
+  await testSearchAndAssert(page, '!w hello world', 'https://en.wikipedia.org/wiki/Hello,_world');
 });
 
 test('supports bangs in the middle of the query', async ({ page }) => {
-  await testSearchAndAssert(page, 'hello !w world', 'https://en.wikipedia.org/wiki/%22Hello,_World!%22_program');
+  await testSearchAndAssert(page, 'hello !w world', 'https://en.wikipedia.org/wiki/Hello,_world');
 });
 
 test('properly handles slashes', async ({ page }) => {
