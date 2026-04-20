@@ -242,7 +242,10 @@
   ],
   [
     [
-      "2gis"
+      "2gis",
+      "дубльгис",
+      "двагис",
+      "2гис"
     ],
     "https://2gis.ru/search/{{{s}}}"
   ],
@@ -1080,7 +1083,9 @@
   ],
   [
     [
-      "acad"
+      "acad",
+      "акад",
+      "академик"
     ],
     "https://dic.academic.ru/searchall.php?SWord={{{s}}}"
   ],
@@ -1403,7 +1408,8 @@
   ],
   [
     [
-      "adme"
+      "adme",
+      "адми"
     ],
     "https://www.adme.ru/search/?q={{{s}}}"
   ],
@@ -2471,7 +2477,8 @@
   ],
   [
     [
-      "amazonbe"
+      "amazonbe",
+      "abe"
     ],
     "https://www.amazon.com.be/s?k={{{s}}}"
   ],
@@ -3917,7 +3924,7 @@
     [
       "arin"
     ],
-    "https://whois.arin.net/ui/query.do?queryinput={{{s}}}"
+    "https://whois.arin.net/ui/?q={{{s}}}"
   ],
   [
     [
@@ -4277,7 +4284,7 @@
     [
       "ass"
     ],
-    "https://smile.amazon.com/s?url=srs=5856181011&field-keywords={{{s}}}"
+    "https://www.amazon.com/gp/subscribe-and-save/manager/"
   ],
   [
     [
@@ -4752,7 +4759,8 @@
   ],
   [
     [
-      "avito"
+      "avito",
+      "авито"
     ],
     "https://www.avito.ru/?q={{{s}}}"
   ],
@@ -6358,7 +6366,8 @@
   [
     [
       "bigenc",
-      "gre"
+      "gre",
+      "брэ"
     ],
     "https://bigenc.ru/search?q={{{s}}}"
   ],
@@ -8303,7 +8312,8 @@
       "c++",
       "cxx",
       "rcpp",
-      "stl"
+      "stl",
+      "cplusplus"
     ],
     "https://www.cplusplus.com/search.do?q={{{s}}}"
   ],
@@ -9257,9 +9267,10 @@
   ],
   [
     [
-      "cdomain"
+      "cdomain",
+      "cdmn"
     ],
-    "https://domains.cloudflare.com/?domain={{{s}}}/"
+    "https://domains.cloudflare.com/?domain={{{s}}}"
   ],
   [
     [
@@ -10998,7 +11009,8 @@
   ],
   [
     [
-      "compose"
+      "compose",
+      "письмо"
     ],
     "https://mail.google.com/mail/?view=cm&to=&su={{{s}}}"
   ],
@@ -11140,7 +11152,9 @@
   ],
   [
     [
-      "consplus"
+      "consplus",
+      "консультант",
+      "кплюс"
     ],
     "https://www.consultant.ru/search/?q={{{s}}}"
   ],
@@ -11162,7 +11176,8 @@
     [
       "contacts",
       "gc",
-      "gcontact"
+      "gcontact",
+      "контакты"
     ],
     "https://contacts.google.com/search/{{{s}}}"
   ],
@@ -11616,12 +11631,6 @@
       "cpl"
     ],
     "https://chipublib.bibliocommons.com/search?&t=title&search_category=title&q={{{s}}}"
-  ],
-  [
-    [
-      "cplusplus"
-    ],
-    "https://www.cplusplus.com/query/search.cgi?q={{{s}}}"
   ],
   [
     [
@@ -12473,7 +12482,9 @@
   ],
   [
     [
-      "cybl"
+      "cybl",
+      "кибл",
+      "киберленинка"
     ],
     "https://cyberleninka.ru/search?q={{{s}}}"
   ],
@@ -12581,7 +12592,10 @@
   ],
   [
     [
-      "d2r"
+      "d2r",
+      "drive2",
+      "драйв2",
+      "д2"
     ],
     "https://www.drive2.ru/search?text={{{s}}}"
   ],
@@ -12593,7 +12607,8 @@
   ],
   [
     [
-      "d3"
+      "d3",
+      "д3"
     ],
     "https://dirty.ru/search/?query={{{s}}}"
   ],
@@ -12630,7 +12645,8 @@
   ],
   [
     [
-      "daddyknows"
+      "daddyknows",
+      "папазнает"
     ],
     "https://daddyknows.ru/?s={{{s}}}"
   ],
@@ -14509,7 +14525,6 @@
     [
       "dictgr",
       "lext",
-      "test",
       "eldict"
     ],
     "https://www.greek-language.gr/greekLang/modern_greek/tools/lexica/triantafyllides/search.html?lq={{{s}}}"
@@ -15247,7 +15262,8 @@
   ],
   [
     [
-      "dnsshop"
+      "dnsshop",
+      "днс"
     ],
     "https://www.dns-shop.ru/search/?q={{{s}}}"
   ],
@@ -15883,7 +15899,9 @@
   [
     [
       "drive",
-      "gdrive"
+      "gdrive",
+      "гдиск",
+      "драйв"
     ],
     "https://drive.google.com/drive/search?q={{{s}}}"
   ],
@@ -15913,7 +15931,8 @@
   ],
   [
     [
-      "drom"
+      "drom",
+      "дром"
     ],
     "https://www.drom.ru/search/?q={{{s}}}"
   ],
@@ -16497,7 +16516,8 @@
   ],
   [
     [
-      "e1"
+      "e1",
+      "е1"
     ],
     "https://www.e1.ru/news/search/?search={{{s}}}"
   ],
@@ -16529,7 +16549,7 @@
     [
       "e926"
     ],
-    "https://e926.net/post/search?tags={{{s}}}"
+    "https://e926.net/posts?tags={{{s}}}"
   ],
   [
     [
@@ -16545,7 +16565,8 @@
   ],
   [
     [
-      "earth"
+      "earth",
+      "земля"
     ],
     "https://earth.google.com/web/search/{{{s}}}"
   ],
@@ -19391,7 +19412,8 @@
   ],
   [
     [
-      "faces"
+      "faces",
+      "лица"
     ],
     "https://www.google.com/search?tbm=isch&tbs=itp:face&q={{{s}}}"
   ],
@@ -19601,7 +19623,8 @@
   ],
   [
     [
-      "fantlab"
+      "fantlab",
+      "фантлаб"
     ],
     "https://fantlab.ru/searchmain?searchstr={{{s}}}"
   ],
@@ -20703,7 +20726,9 @@
     [
       "fl",
       "gluck",
-      "lucky"
+      "lucky",
+      "гмп",
+      "фл"
     ],
     "https://www.google.com/search?btnI&q={{{s}}}"
   ],
@@ -22039,7 +22064,8 @@
   ],
   [
     [
-      "g100"
+      "g100",
+      "г100"
     ],
     "https://www.google.com/search?q={{{s}}}&tbo=1&num=100"
   ],
@@ -22188,7 +22214,8 @@
   [
     [
       "gai",
-      "googleai"
+      "googleai",
+      "гии"
     ],
     "https://www.google.com/search?q={{{s}}}&udm=50"
   ],
@@ -22407,7 +22434,10 @@
       "gp",
       "gplay",
       "play",
-      "playstore"
+      "playstore",
+      "гплей",
+      "плей",
+      "плейстор"
     ],
     "https://play.google.com/store/search?q={{{s}}}"
   ],
@@ -22579,7 +22609,8 @@
   ],
   [
     [
-      "gbooks"
+      "gbooks",
+      "гкниги"
     ],
     "https://www.google.com/search?nfpr=1&tbm=bks&q={{{s}}}"
   ],
@@ -22634,7 +22665,9 @@
   [
     [
       "gcal",
-      "calendar"
+      "calendar",
+      "календарь",
+      "гкал"
     ],
     "https://calendar.google.com/calendar/b/0/r/search?q={{{s}}}"
   ],
@@ -22769,7 +22802,11 @@
   [
     [
       "gd",
-      "gdocs"
+      "gdocs",
+      "гд",
+      "гдок",
+      "гдокс",
+      "гдокументы"
     ],
     "https://docs.google.com/document/u/0/?q={{{s}}}"
   ],
@@ -22946,12 +22983,6 @@
       "geekbuying"
     ],
     "https://www.geekbuying.com/Search/?keyword={{{s}}}"
-  ],
-  [
-    [
-      "geeks"
-    ],
-    "https://www.geeksforgeeks.org/?s={{{s}}}"
   ],
   [
     [
@@ -23295,9 +23326,10 @@
   ],
   [
     [
-      "gfg"
+      "gfg",
+      "geeks"
     ],
-    "https://www.geeksforgeeks.org/?q={{{s}}}"
+    "https://www.geeksforgeeks.org/search/?gq={{{s}}}"
   ],
   [
     [
@@ -23374,7 +23406,8 @@
   [
     [
       "gg",
-      "ggroups"
+      "ggroups",
+      "гг"
     ],
     "https://groups.google.com/groups/search?q={{{s}}}&qt_s=Search+Groups"
   ],
@@ -23398,7 +23431,8 @@
   ],
   [
     [
-      "ggif"
+      "ggif",
+      "ггиф"
     ],
     "https://www.google.com/search?q={{{s}}}&site=webhp&tbm=isch&tbs=itp:animated"
   ],
@@ -23601,7 +23635,8 @@
   ],
   [
     [
-      "gic"
+      "gic",
+      "гкк"
     ],
     "https://www.google.com/search?q={{{s}}}&tbm=isch&sout=1"
   ],
@@ -24069,6 +24104,7 @@
       "gmap",
       "gmaps",
       "gm",
+      "гкарты",
       "googlemap",
       "googlemaps"
     ],
@@ -24364,7 +24400,8 @@
   ],
   [
     [
-      "gnru"
+      "gnru",
+      "гн"
     ],
     "https://www.google.ru/search?q={{{s}}}&tbm=nws&cad=h"
   ],
@@ -24918,7 +24955,8 @@
   ],
   [
     [
-      "gphotos"
+      "gphotos",
+      "гфото"
     ],
     "https://photos.google.com/search/{{{s}}}"
   ],
@@ -25056,7 +25094,8 @@
   ],
   [
     [
-      "gramota"
+      "gramota",
+      "грамота"
     ],
     "https://gramota.ru/slovari/dic/?word={{{s}}}&all=x"
   ],
@@ -25356,7 +25395,11 @@
       "gsheet",
       "gsheets",
       "gsh",
-      "gspreadsheets"
+      "gspreadsheets",
+      "гш",
+      "гтаблицы",
+      "гшит",
+      "гшитс"
     ],
     "https://docs.google.com/spreadsheets/u/0/?q={{{s}}}"
   ],
@@ -25386,7 +25429,12 @@
   ],
   [
     [
-      "gslides"
+      "gslides",
+      "гслайд",
+      "гслайдс",
+      "гс",
+      "гпрез",
+      "гпрезентации"
     ],
     "https://slides.google.com/presentation/u/0/?q={{{s}}}"
   ],
@@ -25917,7 +25965,8 @@
       "gt-english",
       "gtenglish",
       "gt",
-      "gtranslate"
+      "gtranslate",
+      "гп"
     ],
     "https://translate.google.com/#auto/en/{{{s}}}"
   ],
@@ -26523,7 +26572,8 @@
   ],
   [
     [
-      "gv"
+      "gv",
+      "гв"
     ],
     "https://www.google.com/search?tbm=vid&q={{{s}}}"
   ],
@@ -26789,7 +26839,8 @@
   ],
   [
     [
-      "habr"
+      "habr",
+      "хабр"
     ],
     "https://habr.com/ru/search/?&q={{{s}}}"
   ],
@@ -27581,7 +27632,9 @@
   ],
   [
     [
-      "hinews"
+      "hinews",
+      "хайн",
+      "хайньюс"
     ],
     "https://hi-news.ru/?s={{{s}}}"
   ],
@@ -28293,7 +28346,8 @@
   ],
   [
     [
-      "htmlbook"
+      "htmlbook",
+      "хтмлбук"
     ],
     "https://htmlbook.ru/search/?as_q={{{s}}}"
   ],
@@ -29677,7 +29731,9 @@
   ],
   [
     [
-      "inbox"
+      "inbox",
+      "гмейл",
+      "гпочта"
     ],
     "https://inbox.google.com/search/{{{s}}}"
   ],
@@ -30231,7 +30287,9 @@
   ],
   [
     [
-      "irecommend"
+      "irecommend",
+      "айрекомменд",
+      "айрек"
     ],
     "https://irecommend.ru/srch?query={{{s}}}"
   ],
@@ -32048,7 +32106,9 @@
   ],
   [
     [
-      "keep"
+      "keep",
+      "гзаметки",
+      "гз"
     ],
     "https://keep.google.com/#search/text={{{s}}}"
   ],
@@ -32144,7 +32204,8 @@
   ],
   [
     [
-      "kg"
+      "kg",
+      "кг"
     ],
     "https://kg-portal.ru/?search&s_str={{{s}}}"
   ],
@@ -32344,6 +32405,12 @@
   ],
   [
     [
+      "kingarthur"
+    ],
+    "https://www.kingarthurbaking.com/search?query={{{s}}}#all_indices"
+  ],
+  [
+    [
       "kinguin"
     ],
     "https://www.kinguin.net/catalogsearch/result/?q={{{s}}}"
@@ -32351,7 +32418,9 @@
   [
     [
       "kino",
-      "kpoisk"
+      "kpoisk",
+      "кп",
+      "кинопоиск"
     ],
     "https://www.kinopoisk.ru/index.php?first=no&what=&kp_query={{{s}}}"
   ],
@@ -32611,6 +32680,12 @@
       "kobonz"
     ],
     "https://www.kobo.com/nz/en/search?Query={{{s}}}"
+  ],
+  [
+    [
+      "kobouk"
+    ],
+    "https://www.kobo.com/gb/en/search?Query={{{s}}}"
   ],
   [
     [
@@ -33579,6 +33654,13 @@
   ],
   [
     [
+      "lc++",
+      "lcpp"
+    ],
+    "https://legacy.cplusplus.com/search.do?q={{{s}}}"
+  ],
+  [
+    [
       "lcauth"
     ],
     "https://authorities.loc.gov/cgi-bin/Pwebrecon.cgi?Search_0Arg={{{s}}}&Search_Code=SHED_&PID=pyauyDhI6ZL9vR3exz9cx8t8BF&SEQ=20161101104025&CNT=100&HIST=1"
@@ -33918,7 +34000,8 @@
   [
     [
       "leoru",
-      "leor"
+      "leor",
+      "лео"
     ],
     "https://dict.leo.org/russisch-deutsch/{{{s}}}"
   ],
@@ -34540,7 +34623,8 @@
   ],
   [
     [
-      "lingvo"
+      "lingvo",
+      "лингво"
     ],
     "https://lingvolive.ru/translate/en-ru/{{{s}}}"
   ],
@@ -34732,7 +34816,8 @@
   ],
   [
     [
-      "litres"
+      "litres",
+      "литрес"
     ],
     "https://www.litres.ru/pages/rmd_search/?q={{{s}}}"
   ],
@@ -35116,7 +35201,8 @@
   ],
   [
     [
-      "lor"
+      "lor",
+      "лор"
     ],
     "https://www.linux.org.ru/search.jsp?q={{{s}}}&range=ALL&interval=ALL&user=&_usertopic=on"
   ],
@@ -36017,7 +36103,8 @@
   ],
   [
     [
-      "mailru"
+      "mailru",
+      "мейлру"
     ],
     "https://go.mail.ru/search?fm=1&q={{{s}}}"
   ],
@@ -39740,7 +39827,10 @@
     [
       "mya",
       "yama",
-      "yandexm"
+      "yandexm",
+      "ям",
+      "яма",
+      "ямаркет"
     ],
     "https://market.yandex.ru/search?text={{{s}}}"
   ],
@@ -39886,7 +39976,8 @@
   ],
   [
     [
-      "myshows"
+      "myshows",
+      "мш"
     ],
     "https://myshows.me/search/?q={{{s}}}"
   ],
@@ -39919,7 +40010,8 @@
       "myt",
       "ytmusic",
       "ytmu",
-      "ytm"
+      "ytm",
+      "ютм"
     ],
     "https://music.youtube.com/search?q={{{s}}}"
   ],
@@ -43014,7 +43106,8 @@
   ],
   [
     [
-      "opennet"
+      "opennet",
+      "опеннет"
     ],
     "https://www.opennet.ru/search.shtml?exclude=index|/man.shtml&words={{{s}}}"
   ],
@@ -43947,7 +44040,8 @@
   ],
   [
     [
-      "ozon"
+      "ozon",
+      "озон"
     ],
     "https://www.ozon.ru/search/?text={{{s}}}"
   ],
@@ -44722,6 +44816,12 @@
   ],
   [
     [
+      "pdsls"
+    ],
+    "https://pds.ls/?q={{{s}}}"
+  ],
+  [
+    [
       "pe"
     ],
     "https://www.infopedia.pt/dicionarios/pesquisa/{{{s}}}"
@@ -45354,7 +45454,9 @@
   [
     [
       "pikabu",
-      "pkb"
+      "pkb",
+      "пикабу",
+      "пкб"
     ],
     "https://pikabu.ru/search.php?q={{{s}}}"
   ],
@@ -48494,7 +48596,8 @@
   ],
   [
     [
-      "rconj"
+      "rconj",
+      "спряжение"
     ],
     "https://bab.la/conjugaison/russe/{{{s}}}"
   ],
@@ -48518,7 +48621,9 @@
   ],
   [
     [
-      "rcruen"
+      "rcruen",
+      "реверсо",
+      "рк"
     ],
     "https://context.reverso.net/translation/russian-english/{{{s}}}"
   ],
@@ -50286,13 +50391,17 @@
   [
     [
       "ruen",
-      "кгут"
+      "кгут",
+      "руан",
+      "руен"
     ],
     "https://translate.google.com/#ru/en/{{{s}}}"
   ],
   [
     [
-      "rufr"
+      "rufr",
+      "кгак",
+      "руфр"
     ],
     "https://translate.google.com/#ru/fr/{{{s}}}"
   ],
@@ -50385,7 +50494,9 @@
   ],
   [
     [
-      "rutube"
+      "rutube",
+      "рт",
+      "рутуб"
     ],
     "https://rutube.ru/search.html?page=index&search={{{s}}}&search_type=track"
   ],
@@ -50434,7 +50545,9 @@
   ],
   [
     [
-      "rxp"
+      "rxp",
+      "рукс",
+      "руксперт"
     ],
     "https://ruxpert.ru/index.php?search={{{s}}}"
   ],
@@ -50612,22 +50725,9 @@
   ],
   [
     [
-      "safe",
-      "safeon"
-    ],
-    "/search?q={{{s}}}&kp=1"
-  ],
-  [
-    [
       "safebooru"
     ],
     "https://safebooru.org/index.php?page=post&s=list&tags={{{s}}}"
-  ],
-  [
-    [
-      "safeoff"
-    ],
-    "/search?q={{{s}}}&kp=-2"
   ],
   [
     [
@@ -51416,7 +51516,8 @@
   ],
   [
     [
-      "scpru"
+      "scpru",
+      "сцп"
     ],
     "https://scpfoundation.net/search:site/q/{{{s}}}"
   ],
@@ -53488,7 +53589,8 @@
   ],
   [
     [
-      "sokr"
+      "sokr",
+      "сокр"
     ],
     "https://sokr.ru/{{{s}}}/"
   ],
@@ -54172,7 +54274,8 @@
   ],
   [
     [
-      "sqfa"
+      "sqfa",
+      "скфа"
     ],
     "https://squarefaction.ru/main/search/google?searchQuery={{{s}}}"
   ],
@@ -54971,7 +55074,8 @@
   ],
   [
     [
-      "storygraph"
+      "storygraph",
+      "tsg"
     ],
     "https://app.thestorygraph.com/browse?search_term={{{s}}}"
   ],
@@ -56409,7 +56513,9 @@
   ],
   [
     [
-      "te-st"
+      "te-st",
+      "тст",
+      "теплица"
     ],
     "https://te-st.ru/?s={{{s}}}"
   ],
@@ -60312,7 +60418,7 @@
     [
       "uptodown"
     ],
-    "https://en.uptodown.com/android/search/{{{s}}}"
+    "https://en.uptodown.com/android/search?query={{{s}}}"
   ],
   [
     [
@@ -61537,7 +61643,8 @@
   ],
   [
     [
-      "vk"
+      "vk",
+      "вк"
     ],
     "https://vk.com/search?c[q]={{{s}}}&c[section]=auto"
   ],
@@ -61549,7 +61656,8 @@
   ],
   [
     [
-      "vkv"
+      "vkv",
+      "вкв"
     ],
     "https://vk.com/video?q={{{s}}}"
   ],
@@ -62143,7 +62251,8 @@
   ],
   [
     [
-      "wallpaper"
+      "wallpaper",
+      "обои"
     ],
     "https://google.com/search?tbm=isch&imgsz=xxlarge&gbv=2&safe=off&q={{{s}}}+wallpaper&btnG=Search+Images&tbs=imgo:1"
   ],
@@ -62252,7 +62361,8 @@
   [
     [
       "waru",
-      "worldart"
+      "worldart",
+      "ворлдарт"
     ],
     "https://www.world-art.ru/search.php?public_search={{{s}}}&global_sector=all"
   ],
@@ -62865,7 +62975,9 @@
   ],
   [
     [
-      "webref"
+      "webref",
+      "вебреф",
+      "вэбреф"
     ],
     "https://webref.ru/search/?s={{{s}}}"
   ],
@@ -63901,7 +64013,8 @@
   ],
   [
     [
-      "wikivoyageru"
+      "wikivoyageru",
+      "викивояж"
     ],
     "https://ru.wikivoyage.org/wiki/Special:Search?search={{{s}}}&go=Go"
   ],
@@ -64812,7 +64925,8 @@
   ],
   [
     [
-      "woo"
+      "woo",
+      "воо"
     ],
     "https://wooordhunt.ru/word/{{{s}}}"
   ],
@@ -65242,6 +65356,14 @@
       "wikipt"
     ],
     "https://pt.wikipedia.org/w/index.php?search={{{s}}}"
+  ],
+  [
+    [
+      "wptfyi",
+      "wpts",
+      "wptf"
+    ],
+    "https://wpt.fyi/results/?q={{{s}}}"
   ],
   [
     [
@@ -66513,7 +66635,7 @@
       "yandex",
       "я"
     ],
-    "https://yandex.ru/search?text={{{s}}}"
+    "https://ya.ru/search?text={{{s}}}"
   ],
   [
     [
@@ -66546,7 +66668,7 @@
       "yak",
       "як"
     ],
-    "https://yandex.ru/images/search?text={{{s}}}"
+    "https://ya.ru/images/search?text={{{s}}}"
   ],
   [
     [
@@ -66589,7 +66711,7 @@
       "yxmaps",
       "якарты"
     ],
-    "https://yandex.ru/maps/?text={{{s}}}"
+    "https://ya.ru/maps/?text={{{s}}}"
   ],
   [
     [
@@ -66625,9 +66747,10 @@
   ],
   [
     [
-      "yav"
+      "yav",
+      "яв"
     ],
-    "https://yandex.ru/video/search?text={{{s}}}"
+    "https://ya.ru/video/search?text={{{s}}}"
   ],
   [
     [
@@ -66946,7 +67069,8 @@
   ],
   [
     [
-      "youla"
+      "youla",
+      "юла"
     ],
     "https://youla.ru/?q={{{s}}}"
   ],
@@ -67037,6 +67161,8 @@
       "youtube",
       "you",
       "ytb",
+      "ют",
+      "ютуб",
       "υτ"
     ],
     "https://www.youtube.com/results?search_query={{{s}}}"
@@ -67164,7 +67290,9 @@
       "ys",
       "yad",
       "slov",
-      "yaslovari"
+      "yaslovari",
+      "яп",
+      "яс"
     ],
     "https://translate.yandex.ru/?text={{{s}}}"
   ],
@@ -67176,7 +67304,8 @@
   ],
   [
     [
-      "yttv"
+      "yttv",
+      "юттв"
     ],
     "https://tv.youtube.com/search/{{{s}}}"
   ],
