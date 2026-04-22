@@ -1,7 +1,7 @@
 {
   "name": "bang-search",
   "type": "module",
-  "version": "1.5.9",
+  "version": "1.6.0",
   "private": true,
   "main": "dist/server/entry.mjs",
   "scripts": {
