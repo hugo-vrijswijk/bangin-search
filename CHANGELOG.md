@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.5.9...v1.6.0) (2026-04-22)
+
+
+### Features
+
+* add background pattern ([#295](https://github.com/hugo-vrijswijk/bangin-search/issues/295)) ([eb54b2f](https://github.com/hugo-vrijswijk/bangin-search/commit/eb54b2f5ef620519099061edbce331519c0d3269))
+
 ## [1.5.9](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.5.8...v1.5.9) (2026-04-20)
 
 
