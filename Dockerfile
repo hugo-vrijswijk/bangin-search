@@ -1,25 +1,27 @@
-FROM oven/bun:alpine AS base
+FROM node:24-alpine AS base
 
 WORKDIR /app
 
 FROM base AS build
 
-ENV BUN_INSTALL_CACHE_DIR=/bun/cache
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME/bin:$PATH"
 
-COPY package.json bun.lock /app/
-
-RUN bun install --frozen-lockfile --ignore-scripts
+RUN corepack enable
+ENV HUSKY=0
 
 COPY . /app
 
-RUN --mount=type=cache,id=bun,target=/bun/cache bun run --bun build
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
+
+RUN pnpm run build
 
 FROM base
 COPY --from=build /app/dist /app/dist
 
 COPY ./tasks/healthcheck.js ./tasks/healthcheck.js
 
-USER bun
+USER node
 
 ENV NODE_ENV=production
 
@@ -27,6 +29,6 @@ ENV HOST=0.0.0.0
 ENV PORT=4321
 EXPOSE 4321
 
-HEALTHCHECK CMD ["bun", "run", "tasks/healthcheck.js"]
+HEALTHCHECK CMD ["node", "tasks/healthcheck.js"]
 
-ENTRYPOINT [ "bun", "run", "./dist/server/entry.mjs" ]
+CMD ["node", "./dist/server/entry.mjs"]

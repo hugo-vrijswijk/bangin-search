@@ -1,4 +1,4 @@
-#!/usr/bin/env bun
+#!/usr/bin/env node
 
 const url = `http://localhost:${process.env.PORT ?? 4321}/api/health`;
 const response = await fetch(url);

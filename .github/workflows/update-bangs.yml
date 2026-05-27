@@ -15,14 +15,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/cache@v5
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v6
         with:
-          path: |
-            ~/.bun/install/cache
-          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lock') }}
-      - uses: oven-sh/setup-bun@v2
-      - run: bun install --frozen-lockfile
-      - run: bun run bangs:update
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+      - run: pnpm ci --prefer-offline
+      - run: pnpm bangs:update
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v8
