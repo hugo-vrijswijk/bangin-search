@@ -13,3 +13,8 @@ eslint.config.js
 Dockerfile
 .dockerignore
 LICENSE
+.astro
+playwright-report
+test-results
+tests
+
