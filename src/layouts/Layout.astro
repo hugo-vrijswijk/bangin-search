@@ -1,9 +1,11 @@
 ---
 import '@fontsource-variable/inter';
 import '../styles/global.css';
-import { pwaInfo } from 'virtual:pwa-info';
-import { pwaAssetsHead } from 'virtual:pwa-assets/head';
+
 import { DEFAULT_BANG } from 'astro:env/server';
+import { pwaAssetsHead } from 'virtual:pwa-assets/head';
+import { pwaInfo } from 'virtual:pwa-info';
+import { baseOpenSearchParams } from '../opensearch';
 ---
 
 <!doctype html>
@@ -11,9 +13,9 @@ import { DEFAULT_BANG } from 'astro:env/server';
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bangin' Search</title>
-    <meta name="description" content="Search the web with fast Bangs" />
-    <link rel="search" type="application/opensearchdescription+xml" title="Bangin' Search" href="/opensearch.xml" />
+    <title>{baseOpenSearchParams.longName}</title>
+    <meta name="description" content={baseOpenSearchParams.description} />
+    <link rel="search" type="application/opensearchdescription+xml" title={baseOpenSearchParams.shortName} href="/opensearch.xml" />
     <script src="/src/pwa.ts"></script>
     {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
     {pwaAssetsHead.themeColor && <meta name="theme-color" content={pwaAssetsHead.themeColor.content} />}
