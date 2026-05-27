@@ -29,6 +29,6 @@ ENV HOST=0.0.0.0
 ENV PORT=4321
 EXPOSE 4321
 
-HEALTHCHECK CMD ["node", "tasks/healthcheck.js"]
+HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 CMD ["node", "tasks/healthcheck.js"]
 
 CMD ["node", "./dist/server/entry.mjs"]

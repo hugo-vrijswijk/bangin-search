@@ -6,7 +6,7 @@
   "private": true,
   "main": "dist/server/entry.mjs",
   "scripts": {
-    "check": "concurrently -c auto \"npm:lint:*\" \"npm:build\"",
+    "check": "concurrently -c auto \"pnpm:lint:*\" \"pnpm:build\"",
     "lint:astro": "astro check",
     "lint:prettier": "prettier --check .",
     "dev": "astro dev",

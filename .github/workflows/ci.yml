@@ -57,13 +57,56 @@ jobs:
         with:
           images: ${{ env.REGISTRY_IMAGE }}
       - uses: docker/build-push-action@v7
-        id: build
         with:
           context: .
           push: false
+          load: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           annotations: ${{ steps.meta.outputs.annotations }}
           platforms: linux/amd64
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+      - name: Start container and wait for healthy status
+        run: |
+          set -euo pipefail
+
+          IMAGE_REF="${{ env.REGISTRY_IMAGE }}:${{ steps.meta.outputs.version }}"
+          CONTAINER_NAME="bangin-search-healthcheck"
+          TIMEOUT_SECONDS=120
+          POLL_INTERVAL=2
+
+          docker run -d --name "$CONTAINER_NAME" "$IMAGE_REF"
+
+          cleanup() {
+            docker rm -f "$CONTAINER_NAME" >/dev/null 2>&1 || true
+          }
+          trap cleanup EXIT
+
+          fail_with_logs() {
+            echo "$1"
+            docker logs "$CONTAINER_NAME"
+            exit 1
+          }
+
+          ELAPSED=0
+          while true; do
+            STATUS="$(docker inspect --format='{{.State.Health.Status}}' "$CONTAINER_NAME")"
+            echo "Health status: $STATUS"
+
+            if [ "$STATUS" = "healthy" ]; then
+              break
+            fi
+
+            if [ "$STATUS" = "unhealthy" ]; then
+              fail_with_logs "Container failed healthcheck (status: $STATUS)."
+            fi
+
+            if [ "$ELAPSED" -ge "$TIMEOUT_SECONDS" ]; then
+              fail_with_logs "Timed out waiting for healthcheck to become healthy."
+            fi
+
+            sleep "$POLL_INTERVAL"
+            ELAPSED=$((ELAPSED + POLL_INTERVAL))
+          done
