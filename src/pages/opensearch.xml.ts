@@ -14,6 +14,7 @@ export const GET: APIRoute = ({ url, request }) => {
     {
       headers: {
         'Content-Type': 'application/opensearchdescription+xml',
+        'Cache-Control': 'public, max-age=604800',
       },
     },
   );

@@ -15,9 +15,13 @@ export default defineConfig({
       DEFAULT_BANG: envField.string({ default: 'qw', context: 'server', access: 'public' }),
     },
   },
+  security: {
+    csp: true,
+  },
   output: 'server',
   adapter: node({
     mode: 'standalone',
+    staticHeaders: true,
   }),
   integrations: [
     AstroPWA({
