@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.7.0...v1.7.1) (2026-05-27)
+
+
+### Miscellaneous Chores
+
+* release 1.7.1 ([c431769](https://github.com/hugo-vrijswijk/bangin-search/commit/c4317693ec40958323eb72d3b579a7b4a78311a5))
+
 ## [1.7.0](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.6.0...v1.7.0) (2026-05-27)
 
 
