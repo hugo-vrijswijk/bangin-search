@@ -1,5 +1,5 @@
 import type { APIRoute } from 'astro';
-import { makeOpenSearchXml } from '../opensearch';
+import { baseOpenSearchParams, makeOpenSearchXml } from '../opensearch';
 
 export const GET: APIRoute = ({ url, request }) => {
   const proto = request.headers.get('x-forwarded-proto') ?? url.protocol;
@@ -9,10 +9,7 @@ export const GET: APIRoute = ({ url, request }) => {
   return new Response(
     makeOpenSearchXml({
       baseUrl,
-      suggestions: 'https://api.qwant.com/v3/suggest/?q={searchTerms}&amp;client=opensearch',
-      description: 'Search the web with fast Bangs',
-      longName: "Bangin' Search",
-      shortName: "Bangin'",
+      ...baseOpenSearchParams,
     }),
     {
       headers: {
