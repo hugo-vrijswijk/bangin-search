@@ -7618,6 +7618,12 @@
   ],
   [
     [
+      "brewc"
+    ],
+    "https://formulae.brew.sh/cask/{{{s}}}"
+  ],
+  [
+    [
       "brewf"
     ],
     "https://formulae.brew.sh/formula/{{{s}}}"
@@ -12736,7 +12742,7 @@
     [
       "dalla"
     ],
-    "https://asturianu.elahorcado.net/search.php?search={{{s}}}"
+    "https://www.diccionariu.alladixital.org/index.php?pallabra={{{s}}}"
   ],
   [
     [
@@ -18741,7 +18747,7 @@
     [
       "esv"
     ],
-    "https://www.esvbible.org/search/?q={{{s}}}"
+    "https://www.esv.org/search/?q={{{s}}}"
   ],
   [
     [
@@ -22818,12 +22824,6 @@
   ],
   [
     [
-      "gdd"
-    ],
-    "https://docs.godotengine.org/en/latest/search.html?q={{{s}}}&check_keywords=yes&area=default"
-  ],
-  [
-    [
       "gde"
     ],
     "https://www.google.de/search?q={{{s}}}&meta=&aq=f&aqi=g10&aql=&gs_rfai="
@@ -24498,9 +24498,16 @@
   ],
   [
     [
-      "godot"
+      "godot",
+      "gdd"
     ],
     "https://docs.godotengine.org/en/stable/search.html?q={{{s}}}&check_keywords=yes&area=default"
+  ],
+  [
+    [
+      "godotl"
+    ],
+    "https://docs.godotengine.org/en/latest/search.html?q={{{s}}}&check_keywords=yes&area=default"
   ],
   [
     [
@@ -40648,6 +40655,12 @@
   ],
   [
     [
+      "netbible"
+    ],
+    "https://netbible.org/bible/search?q={{{s}}}"
+  ],
+  [
+    [
       "netbsd"
     ],
     "https://www.google.com/cse?cx=006277936787196004968:mbdhrauy1wm&q=guide#gsc.tab=0&gsc.q={{{s}}}&gsc.page=1"
@@ -42040,13 +42053,8 @@
   ],
   [
     [
+      "nytimes",
       "nyt"
-    ],
-    "https://query.nytimes.com/search/sitesearch?query={{{s}}}&srchst=cse"
-  ],
-  [
-    [
-      "nytimes"
     ],
     "https://www.nytimes.com/search?query={{{s}}}"
   ],
@@ -42674,6 +42682,12 @@
       "olivetti"
     ],
     "https://www.dizionario-italiano.it/dizionario-italiano.php?parola={{{s}}}"
+  ],
+  [
+    [
+      "oliveyoung"
+    ],
+    "https://global.oliveyoung.com/display/search?query={{{s}}}"
   ],
   [
     [
@@ -43398,10 +43412,15 @@
   ],
   [
     [
-      "orf",
-      "tvthek"
+      "orf"
     ],
-    "https://tvthek.orf.at/search?q={{{s}}}"
+    "https://orionfeedback.org/?q={{{s}}}"
+  ],
+  [
+    [
+      "orfd"
+    ],
+    "https://orionfeedback.org/?q={{{s}}}"
   ],
   [
     [
@@ -48125,9 +48144,9 @@
   [
     [
       "ra",
-      "residentadvisor"
+      "retroachievements"
     ],
-    "https://www.residentadvisor.net/search.aspx?searchstr={{{s}}}"
+    "https://retroachievements.org/search?query={{{s}}}"
   ],
   [
     [
@@ -59160,6 +59179,12 @@
   ],
   [
     [
+      "tvthek"
+    ],
+    "https://tvthek.orf.at/search?q={{{s}}}"
+  ],
+  [
+    [
       "tvtropes",
       "tvt",
       "trope"
@@ -61397,7 +61422,7 @@
     [
       "vidal"
     ],
-    "https://www.vidal.fr/recherche/index/q:{{{s}}}/"
+    "https://www.vidal.fr/recherche.html?query={{{s}}}/"
   ],
   [
     [
