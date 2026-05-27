@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.7.0](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.6.0...v1.7.0) (2026-05-27)
+
+
+### Features
+
+* update cache and CSP headers ([#313](https://github.com/hugo-vrijswijk/bangin-search/issues/313)) ([328721c](https://github.com/hugo-vrijswijk/bangin-search/commit/328721cf7d0e6f7deadc005cac063706e5943d57))
+* update icon and opensearch parameters ([#314](https://github.com/hugo-vrijswijk/bangin-search/issues/314)) ([1b58cc5](https://github.com/hugo-vrijswijk/bangin-search/commit/1b58cc574ce0a5131a41cd447aa5b2dcdd3dee52))
+
+
+### Bug Fixes
+
+* **bangs:** update to latest bangs ([#311](https://github.com/hugo-vrijswijk/bangin-search/issues/311)) ([d034032](https://github.com/hugo-vrijswijk/bangin-search/commit/d03403288f1b23aa2520a5f87465e82497753644))
+
 ## [1.6.0](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.5.9...v1.6.0) (2026-04-22)
 
 
