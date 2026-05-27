@@ -4,6 +4,7 @@
   "schedule": ["every weekend"],
   "timezone": "Europe/Amsterdam",
   "configMigration": true,
+  "minimumReleaseAge": "2 days",
   "lockFileMaintenance": {
     "enabled": true
   },
@@ -11,6 +12,9 @@
     "extends": [":preserveSemverRanges"]
   },
   "github-actions": {
+    "extends": [":preserveSemverRanges"]
+  },
+  "nvm": {
     "extends": [":preserveSemverRanges"]
   },
   "packageRules": [
