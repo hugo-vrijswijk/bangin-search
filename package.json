@@ -2,6 +2,7 @@
   "name": "bang-search",
   "type": "module",
   "version": "1.7.0",
+  "packageManager": "pnpm@11.4.0",
   "private": true,
   "main": "dist/server/entry.mjs",
   "scripts": {
@@ -12,7 +13,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "prepare": "bun run --bun .husky/install.js",
+    "prepare": "node .husky/install.js || true",
     "test": "playwright test",
     "bangs:update": "curl https://raw.githubusercontent.com/kagisearch/bangs/refs/heads/main/data/bangs.json | jq 'sort_by(.t) | map([[.t] + (.ts // []), .u])' > src/bangs.json"
   },

@@ -13,30 +13,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/cache@v5
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v6
         with:
-          path: |
-            ~/.bun/install/cache
-          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lock') }}
-      - uses: oven-sh/setup-bun@v2
-      - run: bun install --frozen-lockfile
-      - run: bun run --bun check
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+      - run: pnpm ci --prefer-offline
+      - run: pnpm run check
 
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/cache@v5
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v6
         with:
-          path: |
-            ~/.bun/install/cache
-          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lock') }}
-      - uses: oven-sh/setup-bun@v2
-      - run: bun install --frozen-lockfile
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
+      - run: pnpm ci --prefer-offline
       - name: Install Playwright Browsers
-        run: bun run --bun playwright install chromium
+        run: pnpm exec playwright install chromium --only-shell
       - name: Run Playwright tests
-        run: bun run test
+        run: pnpm test
       - uses: actions/upload-artifact@v7
         if: ${{ !cancelled() }}
         with:
