@@ -55699,6 +55699,12 @@
   ],
   [
     [
+      "swh"
+    ],
+    "https://archive.softwareheritage.org/browse/search/?q={{{s}}}"
+  ],
+  [
+    [
       "swi",
       "swipl"
     ],
