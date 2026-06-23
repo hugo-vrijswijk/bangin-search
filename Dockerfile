@@ -1,4 +1,4 @@
-FROM node:24-alpine AS base
+FROM node:26-alpine AS base
 
 WORKDIR /app
 
@@ -7,7 +7,7 @@ FROM base AS build
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME/bin:$PATH"
 
-RUN corepack enable
+RUN npm install -g corepack && corepack enable
 ENV HUSKY=0
 
 COPY . /app
