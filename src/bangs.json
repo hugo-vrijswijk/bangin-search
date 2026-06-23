@@ -5232,7 +5232,7 @@
       "b&n",
       "bn"
     ],
-    "https://www.barnesandnoble.com/s/{{{s}}}"
+    "https://www.barnesandnoble.com/search?q={{{s}}}"
   ],
   [
     [
@@ -6971,7 +6971,7 @@
     [
       "bloonswiki"
     ],
-    "https://bloons.wikia.com/search?query={{{s}}}"
+    "https://www.bloonswiki.com/index.php?search={{{s}}}&title=Special%3ASearch"
   ],
   [
     [
@@ -10046,6 +10046,12 @@
   ],
   [
     [
+      "chzzk"
+    ],
+    "https://chzzk.naver.com/search?query={{{s}}}"
+  ],
+  [
+    [
       "ci"
     ],
     "https://www.codeigniter.com/user_guide/search.html?q={{{s}}}"
@@ -11876,7 +11882,7 @@
     [
       "critrole"
     ],
-    "https://criticalrole.wikia.com/wiki/Special:Search?query={{{s}}}"
+    "https://criticalrole.miraheze.org/w/index.php?search={{{s}}}&title=Special:Search"
   ],
   [
     [
@@ -12592,12 +12598,6 @@
   ],
   [
     [
-      "d2gp"
-    ],
-    "https://dota2.gamepedia.com/Special:Search/{{{s}}}"
-  ],
-  [
-    [
       "d2r",
       "drive2",
       "драйв2",
@@ -13179,7 +13179,7 @@
     [
       "dbwiki"
     ],
-    "https://deathbattle.wikia.com/wiki/Special:Search?fulltext=Search&search={{{s}}}"
+    "https://deathbattle.miraheze.org/w/index.php?title=Special:Search&search={{{s}}}"
   ],
   [
     [
@@ -14045,6 +14045,12 @@
   ],
   [
     [
+      "deltarune"
+    ],
+    "https://deltarune.wiki/index.php?search={{{s}}}&title=Special:Search"
+  ],
+  [
+    [
       "demeureetjardin"
     ],
     "https://www.demeure-et-jardin.com/?q={{{s}}}"
@@ -14313,9 +14319,10 @@
     [
       "dfw",
       "dfwiki",
-      "dorf"
+      "dorf",
+      "dwarf"
     ],
-    "https://dwarffortresswiki.org/index.php?title=Special:Search&search={{{s}}}&go=Go"
+    "https://dwarffortresswiki.org/index.php?title=Special:Search&search={{{s}}}"
   ],
   [
     [
@@ -14861,9 +14868,10 @@
   ],
   [
     [
-      "discworld"
+      "discworld",
+      "pratchett"
     ],
-    "https://discworld.wikia.com/wiki/Special:Search?query={{{s}}}"
+    "https://wiki.lspace.org/index.php?search={{{s}}}&title=Special%3ASearch"
   ],
   [
     [
@@ -16385,12 +16393,6 @@
   ],
   [
     [
-      "dwarf"
-    ],
-    "https://dwarffortresswiki.org/index.php?search={{{s}}}"
-  ],
-  [
-    [
       "dwb"
     ],
     "https://woerterbuchnetz.de/DWB/?lemma={{{s}}}"
@@ -16587,7 +16589,7 @@
     [
       "earthbound"
     ],
-    "https://earthbound.wikia.com/wiki/Special:Search?search={{{s}}}"
+    "https://wikibound.info/w/index.php?title=Special%3ASearch&search={{{s}}}"
   ],
   [
     [
@@ -17471,12 +17473,6 @@
       "elconjugador"
     ],
     "https://www.elconjugador.com/conjugaison/verbe/espagnol/{{{s}}}.html"
-  ],
-  [
-    [
-      "elderwiki"
-    ],
-    "https://elderscrolls.wikia.com/wiki/index.php?search={{{s}}}&fulltext=Search"
   ],
   [
     [
@@ -25875,7 +25871,7 @@
     [
       "gtawiki"
     ],
-    "https://gta.fandom.com/search?query={{{s}}}"
+    "https://gta.wiki/?search={{{s}}}&title=Special%3ASearch"
   ],
   [
     [
@@ -28656,7 +28652,7 @@
     [
       "hysb"
     ],
-    "https://hypixel-skyblock.fandom.com/wiki/Special:Search?query={{{s}}}"
+    "https://hypixelskyblock.minecraft.wiki/?search={{{s}}}&title=Special:Search"
   ],
   [
     [
@@ -29081,12 +29077,6 @@
       "idl"
     ],
     "https://www.nv5geospatialsoftware.com/docs/SearchResults.aspx?q={{{s}}}"
-  ],
-  [
-    [
-      "idolmawiki"
-    ],
-    "https://idolmaster.wikia.com/wiki/Special:Search?search={{{s}}}&fulltext=Search"
   ],
   [
     [
@@ -29544,15 +29534,11 @@
   ],
   [
     [
-      "imas"
-    ],
-    "https://www.project-imas.com/w/index.php?search={{{s}}}&title=Special:Search&go=Go"
-  ],
-  [
-    [
+      "imas",
+      "idolmawiki",
       "imaswiki"
     ],
-    "https://www.project-imas.com/w/index.php?search={{{s}}}"
+    "https://project-imas.wiki/index.php?search={{{s}}}&title=Special%3ASearch"
   ],
   [
     [
@@ -35239,12 +35225,6 @@
   ],
   [
     [
-      "lotr"
-    ],
-    "https://lotr.wikia.com/wiki/Special:Search?query={{{s}}}"
-  ],
-  [
-    [
       "lotrow"
     ],
     "https://lotro-wiki.com/index.php?search={{{s}}}&button=&title=Special:Search"
@@ -37062,12 +37042,6 @@
   ],
   [
     [
-      "mcpew"
-    ],
-    "https://minecraftpocketedition.wikia.com/wiki/Special:Search?search={{{s}}}&fulltext=Search"
-  ],
-  [
-    [
       "mcpl"
     ],
     "https://mcpac.mcpl.lib.ny.us/search/t?{{{s}}}"
@@ -37290,6 +37264,13 @@
   ],
   [
     [
+      "mdproject",
+      "mrproject"
+    ],
+    "https://modrinth.com/project/{{{s}}}"
+  ],
+  [
+    [
       "mdr",
       "mdrde"
     ],
@@ -37488,15 +37469,10 @@
   ],
   [
     [
-      "megamitensei"
-    ],
-    "https://megamitensei.wikia.com/wiki/Special:Search?search={{{s}}}&fulltext=Search"
-  ],
-  [
-    [
+      "megamitensei",
       "megatenw"
     ],
-    "https://megamitensei.wikia.com/wiki/Special:Search?search={{{s}}}"
+    "https://megatenwiki.com/index.php?search={{{s}}}&title=Special%3ASearch"
   ],
   [
     [
@@ -38140,12 +38116,6 @@
   ],
   [
     [
-      "minecratwiki"
-    ],
-    "https://minecraft.gamepedia.com/index.php?search={{{s}}}"
-  ],
-  [
-    [
       "mingpao"
     ],
     "https://news.mingpao.com/cfm/search2.cfm?keywords={{{s}}}"
@@ -38392,7 +38362,7 @@
     [
       "mlp"
     ],
-    "https://mlp.wikia.com/wiki/Special:Search?search={{{s}}}"
+    "https://equestripedia.org/w/index.php?search={{{s}}}&title=Special%3ASearch"
   ],
   [
     [
@@ -41244,6 +41214,14 @@
       "nixdoc"
     ],
     "https://nix.dev/search.html?q={{{s}}}"
+  ],
+  [
+    [
+      "nixhopt",
+      "nixhmopt",
+      "nixhmo"
+    ],
+    "https://search.nixos.org/options?query={{{s}}}&source=home_manager"
   ],
   [
     [
@@ -46167,6 +46145,14 @@
   ],
   [
     [
+      "podindex",
+      "poddex",
+      "podcastindex"
+    ],
+    "https://podcastindex.org/search?{{{s}}}&type=all"
+  ],
+  [
+    [
       "podio"
     ],
     "https://podio.com/search#/query/{{{s}}}"
@@ -47529,7 +47515,7 @@
     [
       "pvz"
     ],
-    "https://plantsvszombies.wikia.com/wiki/Special:Search?query={{{s}}}"
+    "https://plantsvszombies.wiki.gg/wiki/Special:Search?search={{{s}}}"
   ],
   [
     [
@@ -48664,6 +48650,12 @@
       "rcw"
     ],
     "https://apps.leg.wa.gov/RCW/default.aspx?cite={{{s}}}"
+  ],
+  [
+    [
+      "rdap"
+    ],
+    "https://client.rdap.org/?object={{{s}}}"
   ],
   [
     [
@@ -53736,6 +53728,12 @@
   ],
   [
     [
+      "soop"
+    ],
+    "https://www.sooplive.com/search?szKeyword={{{s}}}"
+  ],
+  [
+    [
       "soph"
     ],
     "https://www.sophos.com/en-us/search-results.aspx?search={{{s}}}"
@@ -54144,15 +54142,10 @@
   ],
   [
     [
-      "sponge"
-    ],
-    "https://spongebob.fandom.com/wiki/Special:Search?search={{{s}}}"
-  ],
-  [
-    [
+      "sponge",
       "spongebob"
     ],
-    "https://spongebob.wikia.com/wiki/Special:Search?search={{{s}}}&fulltext=Search"
+    "https://spongebob.fandom.com/wiki/Special:Search?search={{{s}}}"
   ],
   [
     [
@@ -55205,7 +55198,7 @@
     [
       "stsw"
     ],
-    "https://slay-the-spire.fandom.com/wiki/Special:Search?query={{{s}}}"
+    "https://slaythespire.wiki.gg/wiki/Special:Search?search={{{s}}}"
   ],
   [
     [
@@ -55334,7 +55327,7 @@
     [
       "subnautica"
     ],
-    "https://subnautica.wikia.com/wiki/Special:Search?search={{{s}}}"
+    "https://wiki.subnautica.com/sn/?search={{{s}}}&title=Special%3ASearch"
   ],
   [
     [
@@ -55696,6 +55689,12 @@
       "swtr"
     ],
     "https://www.sweetwater.com/store/search.php?s={{{s}}}"
+  ],
+  [
+    [
+      "swh"
+    ],
+    "https://archive.softwareheritage.org/browse/search/?q={{{s}}}"
   ],
   [
     [
@@ -56975,12 +56974,6 @@
   ],
   [
     [
-      "teswiki"
-    ],
-    "https://elderscrolls.wikia.com/wiki/Special:Search?search={{{s}}}"
-  ],
-  [
-    [
       "teu"
     ],
     "https://eur-lex.europa.eu/search.html?wh0=DN=12012M*&lbStatus=ALL&qid=1459001887262&DTS_DOM=EU_LAW&ARTICLE_NUM={{{s}}}&treatyStatus=ARTICLE_NUMBER&type=advanced&lang=en&SUBDOM_INIT=TREATIES&legalCelex=TEU_2012&DTS_SUBDOM=TREATIES"
@@ -57117,7 +57110,8 @@
     [
       "tgate",
       "tolkiengateway",
-      "tolkien"
+      "tolkien",
+      "lotr"
     ],
     "https://tolkiengateway.net/wiki/Special:Search?search={{{s}}}&go=Go"
   ],
@@ -58249,7 +58243,7 @@
     [
       "tori"
     ],
-    "https://www.tori.fi/koko_suomi?q={{{s}}}"
+    "https://www.tori.fi/recommerce/forsale/search?q={{{s}}}"
   ],
   [
     [
@@ -59716,9 +59710,11 @@
   ],
   [
     [
-      "uesp"
+      "uesp",
+      "teswiki",
+      "elderwiki"
     ],
-    "https://en.uesp.net/w/index.php?title=Special:Search&profile=default&search={{{s}}}&fulltext=Search"
+    "https://en.uesp.net/w/index.php?title=Special%3ASearch&search={{{s}}}"
   ],
   [
     [
@@ -60057,7 +60053,7 @@
     [
       "undertale"
     ],
-    "https://undertale.wikia.com/wiki/Special:Search?search={{{s}}}&fulltext=Search"
+    "https://undertale.wiki/index.php?search={{{s}}}&title=Special:Search"
   ],
   [
     [
@@ -62477,6 +62473,14 @@
       "wave"
     ],
     "https://wave.webaim.org/report#/{{{s}}}"
+  ],
+  [
+    [
+      "wavedash",
+      "wvd",
+      "wvdsh"
+    ],
+    "https://wavedash.com/browse?q={{{s}}}"
   ],
   [
     [
@@ -66500,7 +66504,7 @@
     [
       "xenoblade"
     ],
-    "https://xenoblade.wikia.com/wiki/Special:Search?search={{{s}}}"
+    "https://www.xenoserieswiki.org/w/index.php?search={{{s}}}&title=Special%3ASearch"
   ],
   [
     [
@@ -67196,7 +67200,7 @@
     [
       "ytc"
     ],
-    "https://www.youtube.com/user/{{{s}}}"
+    "https://www.youtube.com/results?search_query={{{s}}}&sp=EgIQAg%253D%253D"
   ],
   [
     [
