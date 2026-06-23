@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.2](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.7.1...v1.7.2) (2026-06-23)
+
+
+### Bug Fixes
+
+* **bangs:** update to latest bangs ([#327](https://github.com/hugo-vrijswijk/bangin-search/issues/327)) ([e17d91a](https://github.com/hugo-vrijswijk/bangin-search/commit/e17d91a5b3e1ef9a5c9d884315fad66b6f1b31b9))
+
 ## [1.7.1](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.7.0...v1.7.1) (2026-05-27)
 
 
