@@ -43998,6 +43998,20 @@
   ],
   [
     [
+      "oxlint"
+    ],
+    "https://oxc.rs/docs/guide/usage/linter/rules/{{{s}}}"
+  ],
+  [
+    [
+      "oxlinte",
+      "oxlintes",
+      "oxlinteslint"
+    ],
+    "https://oxc.rs/docs/guide/usage/linter/rules/eslint/{{{s}}}"
+  ],
+  [
+    [
       "oxs",
       "oxt"
     ],
@@ -46149,7 +46163,7 @@
       "poddex",
       "podcastindex"
     ],
-    "https://podcastindex.org/search?{{{s}}}&type=all"
+    "https://podcastindex.org/search?q={{{s}}}&type=all"
   ],
   [
     [
@@ -49984,6 +49998,12 @@
   ],
   [
     [
+      "rpcs3"
+    ],
+    "https://wiki.rpcs3.net/index.php?title=Special%3ASearch&search={{{s}}}"
+  ],
+  [
+    [
       "rpf"
     ],
     "https://www.reddit.com/r/PublicFreakout/search/?q={{{s}}}&restrict_sr=1"
@@ -50874,12 +50894,6 @@
   ],
   [
     [
-      "sampled"
-    ],
-    "https://www.whosampled.com/search/artists/?q={{{s}}}"
-  ],
-  [
-    [
       "samsclub"
     ],
     "https://www.samsclub.com/sams/search/searchResults.jsp?searchTerm={{{s}}}&searchCategoryId=all"
@@ -51512,12 +51526,6 @@
       "scouts"
     ],
     "https://scouts.org.uk/cse-search/?query={{{s}}}"
-  ],
-  [
-    [
-      "scp"
-    ],
-    "https://www.scp-wiki.net/search:site/a/p/q/{{{s}}}"
   ],
   [
     [
@@ -63662,9 +63670,28 @@
   ],
   [
     [
-      "whosampled"
+      "whosama",
+      "whosamart",
+      "whosamartist",
+      "whosamartists",
+      "sampled"
+    ],
+    "https://www.whosampled.com/search/artists/?q={{{s}}}"
+  ],
+  [
+    [
+      "whosampled",
+      "whosam"
     ],
     "https://whosampled.com/search/?q={{{s}}}"
+  ],
+  [
+    [
+      "whosamt",
+      "whosamtrack",
+      "whosamtracks"
+    ],
+    "https://www.whosampled.com/search/tracks/?q={{{s}}}"
   ],
   [
     [
