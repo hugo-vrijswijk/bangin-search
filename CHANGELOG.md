@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.3](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.7.2...v1.7.3) (2026-07-21)
+
+
+### Bug Fixes
+
+* **bangs:** update to latest bangs ([#362](https://github.com/hugo-vrijswijk/bangin-search/issues/362)) ([252d9dc](https://github.com/hugo-vrijswijk/bangin-search/commit/252d9dc93089991b058aa262011554949b7efda9))
+* **security:** use hardened docker image ([#377](https://github.com/hugo-vrijswijk/bangin-search/issues/377)) ([d4130a1](https://github.com/hugo-vrijswijk/bangin-search/commit/d4130a1ee98439447e87b3a3579372212dbcc459))
+
 ## [1.7.2](https://github.com/hugo-vrijswijk/bangin-search/compare/v1.7.1...v1.7.2) (2026-06-23)
 
 
