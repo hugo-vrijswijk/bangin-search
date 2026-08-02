@@ -1791,6 +1791,12 @@
   ],
   [
     [
+      "aie"
+    ],
+    "https://www.amazon.ie/s?k={{{s}}}"
+  ],
+  [
+    [
       "aifit"
     ],
     "https://www.aifittings.com/searchResults?q={{{s}}}"
@@ -11201,6 +11207,13 @@
   ],
   [
     [
+      "context7",
+      "ctx7"
+    ],
+    "https://context7.com/?q={{{s}}}"
+  ],
+  [
+    [
       "continente"
     ],
     "https://www.continente.pt/stores/continente/pt-pt/public/Pages/searchResults.aspx?k={{{s}}}"
@@ -15633,7 +15646,7 @@
     [
       "downd"
     ],
-    "https://downdetector.co.uk/search/?q={{{s}}}"
+    "https://downdetector.com/status/{{{s}}}"
   ],
   [
     [
@@ -40313,6 +40326,13 @@
   ],
   [
     [
+      "nbarapm",
+      "rapm"
+    ],
+    "https://nbarapm.com/player/{{{s}}}"
+  ],
+  [
+    [
       "nbc"
     ],
     "https://www.notebookcheck.net/Google-Search.36690.0.html?q={{{s}}}"
@@ -47150,7 +47170,7 @@
     [
       "protonmail"
     ],
-    "https://mail.proton.me/#keyword={{{s}}}"
+    "https://mail.proton.me/u/0/all-mail#keyword={{{s}}}"
   ],
   [
     [
@@ -50237,6 +50257,12 @@
       "rsph"
     ],
     "https://ph.rs-online.com/web/c/?searchTerm={{{s}}}"
+  ],
+  [
+    [
+      "rsr"
+    ],
+    "https://reddit.com/r/$1/search?q=$2&restrict_sr=on"
   ],
   [
     [
@@ -58465,7 +58491,7 @@
     [
       "trakt"
     ],
-    "https://trakt.tv/search?utf8=%E2%9C%93&query={{{s}}}"
+    "https://app.trakt.tv/search?m=media&q={{{s}}}"
   ],
   [
     [
@@ -61605,10 +61631,10 @@
   ],
   [
     [
-      "virustotalfilesearch",
-      "virustotal"
+      "virustotal",
+      "vt"
     ],
-    "https://www.virustotal.com/en/search?query={{{s}}}"
+    "https://www.virustotal.com/gui/search?query={{{s}}}"
   ],
   [
     [
@@ -61984,9 +62010,9 @@
   ],
   [
     [
-      "vt"
+      "vtdomain"
     ],
-    "https://www.vulgumtechus.com/index.php?title=Spécial:Recherche&search={{{s}}}"
+    "https://www.virustotal.com/gui/domain/{{{s}}}"
   ],
   [
     [
@@ -62008,9 +62034,16 @@
   ],
   [
     [
+      "vtfile",
+      "vthash"
+    ],
+    "https://www.virustotal.com/gui/file/{{{s}}}"
+  ],
+  [
+    [
       "vtip"
     ],
-    "https://www.virustotal.com/en/ip-address/{{{s}}}/information/"
+    "https://www.virustotal.com/gui/ip-address/{{{s}}}"
   ],
   [
     [
@@ -66514,6 +66547,12 @@
       "xe"
     ],
     "/search?q={{{s}}}+site:www.xe.com/currency"
+  ],
+  [
+    [
+      "xec"
+    ],
+    "https://www.xe.com/currencyconverter/convert/?Amount=$3&From=$1&To=$2"
   ],
   [
     [
