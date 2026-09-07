@@ -1791,6 +1791,12 @@
   ],
   [
     [
+      "aie"
+    ],
+    "https://www.amazon.ie/s?k={{{s}}}"
+  ],
+  [
+    [
       "aifit"
     ],
     "https://www.aifittings.com/searchResults?q={{{s}}}"
@@ -3930,7 +3936,7 @@
     [
       "ark"
     ],
-    "https://ark.intel.com/search?q={{{s}}}"
+    "https://www.intel.com/content/www/us/en/search.html#cf-tabfilter=Products&q={{{s}}}"
   ],
   [
     [
@@ -4690,6 +4696,13 @@
       "avclub"
     ],
     "https://www.avclub.com/search?q={{{s}}}"
+  ],
+  [
+    [
+      "avakotw",
+      "wavakot"
+    ],
+    "https://wiki.avakot.org/?search={{{s}}}"
   ],
   [
     [
@@ -6850,12 +6863,6 @@
       "blf"
     ],
     "https://budgetlightforum.com/search?q_as={{{s}}}"
-  ],
-  [
-    [
-      "blickaa"
-    ],
-    "https://www.blickamabend.ch/suche/?q={{{s}}}"
   ],
   [
     [
@@ -11201,6 +11208,13 @@
   ],
   [
     [
+      "context7",
+      "ctx7"
+    ],
+    "https://context7.com/?q={{{s}}}"
+  ],
+  [
+    [
       "continente"
     ],
     "https://www.continente.pt/stores/continente/pt-pt/public/Pages/searchResults.aspx?k={{{s}}}"
@@ -11688,6 +11702,18 @@
       "cpt"
     ],
     "https://coder.aapc.com/cpt-codes/{{{s}}}"
+  ],
+  [
+    [
+      "cptdb"
+    ],
+    "https://cptdb.ca/search/?q={{{s}}}&quick=1"
+  ],
+  [
+    [
+      "cptdbwiki"
+    ],
+    "https://cptdb.ca/wiki/index.php?search={{{s}}}&title=Special:Search&go=Go"
   ],
   [
     [
@@ -13189,8 +13215,7 @@
   ],
   [
     [
-      "dc",
-      "forum"
+      "dc"
     ],
     "https://duck.co/forum/search?q={{{s}}}"
   ],
@@ -15633,7 +15658,7 @@
     [
       "downd"
     ],
-    "https://downdetector.co.uk/search/?q={{{s}}}"
+    "https://downdetector.com/status/{{{s}}}"
   ],
   [
     [
@@ -23534,6 +23559,13 @@
   ],
   [
     [
+      "ghpr",
+      "ghpull"
+    ],
+    "https://github.com/search?q={{{s}}}&type=pullrequests"
+  ],
+  [
+    [
       "ghrepo",
       "ghr"
     ],
@@ -26110,6 +26142,12 @@
       "gtjp"
     ],
     "https://translate.google.com/#auto/ja/{{{s}}}"
+  ],
+  [
+    [
+      "gtk4"
+    ],
+    "https://docs.gtk.org/gtk4/index.html?q={{{s}}}"
   ],
   [
     [
@@ -31221,7 +31259,7 @@
       "jl",
       "johnlewis"
     ],
-    "https://www.johnlewis.com/Search/Search.aspx?SearchTerm={{{s}}}"
+    "https://www.johnlewis.com/search?search-term={{{s}}}"
   ],
   [
     [
@@ -32575,6 +32613,12 @@
       "kleinezeitung"
     ],
     "https://www.kleinezeitung.at/user/search.do?searchText={{{s}}}&action=1&resetForm=1&resultsPage=0"
+  ],
+  [
+    [
+      "klipy"
+    ],
+    "https://klipy.com/search/{{{s}}}"
   ],
   [
     [
@@ -34199,6 +34243,12 @@
       "li-ion"
     ],
     "https://www.battdepot.com/nl/Search.aspx?keywords={{{s}}}"
+  ],
+  [
+    [
+      "libadwaita"
+    ],
+    "https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1-latest/index.html?q={{{s}}}"
   ],
   [
     [
@@ -40313,6 +40363,13 @@
   ],
   [
     [
+      "nbarapm",
+      "rapm"
+    ],
+    "https://nbarapm.com/player/{{{s}}}"
+  ],
+  [
+    [
       "nbc"
     ],
     "https://www.notebookcheck.net/Google-Search.36690.0.html?q={{{s}}}"
@@ -43234,7 +43291,8 @@
   ],
   [
     [
-      "opr"
+      "opr",
+      "openrouter"
     ],
     "https://openrouter.ai/models?q={{{s}}}"
   ],
@@ -47150,7 +47208,7 @@
     [
       "protonmail"
     ],
-    "https://mail.proton.me/#keyword={{{s}}}"
+    "https://mail.proton.me/u/0/all-mail#keyword={{{s}}}"
   ],
   [
     [
@@ -49239,6 +49297,14 @@
   ],
   [
     [
+      "resowiki",
+      "resow",
+      "resonitewiki"
+    ],
+    "https://wiki.resonite.com/index.php?search={{{s}}}"
+  ],
+  [
+    [
       "resp"
     ],
     "https://www.respaper.com/s?q={{{s}}}"
@@ -50240,6 +50306,12 @@
   ],
   [
     [
+      "rsr"
+    ],
+    "https://reddit.com/r/$1/search?q=$2&restrict_sr=on"
+  ],
+  [
+    [
       "rsssh"
     ],
     "https://www.rsssearchhub.com/feeds/?search={{{s}}}"
@@ -50603,10 +50675,17 @@
   [
     [
       "rym",
-      "rymf",
       "rateyourmusic"
     ],
     "https://rateyourmusic.com/search?searchterm={{{s}}}"
+  ],
+  [
+    [
+      "rymf",
+      "rymfilms",
+      "rateyourfilms"
+    ],
+    "https://rateyourmusic.com/search?searchtype=F&searchterm={{{s}}}"
   ],
   [
     [
@@ -58365,7 +58444,7 @@
     [
       "tpl"
     ],
-    "https://www.torontopubliclibrary.ca/search.jsp?Ntt={{{s}}}"
+    "https://tpl.bibliocommons.com/v2/search?query={{{s}}}&searchType=smart"
   ],
   [
     [
@@ -58465,7 +58544,7 @@
     [
       "trakt"
     ],
-    "https://trakt.tv/search?utf8=%E2%9C%93&query={{{s}}}"
+    "https://app.trakt.tv/search?m=media&q={{{s}}}"
   ],
   [
     [
@@ -61605,10 +61684,10 @@
   ],
   [
     [
-      "virustotalfilesearch",
-      "virustotal"
+      "virustotal",
+      "vt"
     ],
-    "https://www.virustotal.com/en/search?query={{{s}}}"
+    "https://www.virustotal.com/gui/search?query={{{s}}}"
   ],
   [
     [
@@ -61984,9 +62063,9 @@
   ],
   [
     [
-      "vt"
+      "vtdomain"
     ],
-    "https://www.vulgumtechus.com/index.php?title=Spécial:Recherche&search={{{s}}}"
+    "https://www.virustotal.com/gui/domain/{{{s}}}"
   ],
   [
     [
@@ -62008,9 +62087,16 @@
   ],
   [
     [
+      "vtfile",
+      "vthash"
+    ],
+    "https://www.virustotal.com/gui/file/{{{s}}}"
+  ],
+  [
+    [
       "vtip"
     ],
-    "https://www.virustotal.com/en/ip-address/{{{s}}}/information/"
+    "https://www.virustotal.com/gui/ip-address/{{{s}}}"
   ],
   [
     [
@@ -62468,7 +62554,7 @@
     [
       "watson"
     ],
-    "https://www.watson.ch/u/search?#{{{s}}}"
+    "https://www.watson.ch/u/search?q={{{s}}}"
   ],
   [
     [
@@ -66514,6 +66600,12 @@
       "xe"
     ],
     "/search?q={{{s}}}+site:www.xe.com/currency"
+  ],
+  [
+    [
+      "xec"
+    ],
+    "https://www.xe.com/currencyconverter/convert/?Amount=$3&From=$1&To=$2"
   ],
   [
     [
