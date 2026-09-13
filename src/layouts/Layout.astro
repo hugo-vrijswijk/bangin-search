@@ -18,7 +18,9 @@ import { baseOpenSearchParams } from '../opensearch';
     <script src="/src/pwa.ts"></script>
     {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
     {pwaAssetsHead.themeColor && <meta name="theme-color" content={pwaAssetsHead.themeColor.content} />}
-    {pwaAssetsHead.links.map((link) => <link {...link} />)}
+    {pwaAssetsHead.links.map((link) => (
+      <link {...link} />
+    ))}
   </head>
   <body
     class="bg-linear-to-br from-gray-50 via-zinc-50 to-stone-50 font-medium text-gray-800 antialiased transition-colors dark:from-gray-900 dark:via-zinc-900 dark:to-stone-900 dark:text-gray-50 dark:scheme-dark"
@@ -31,8 +33,10 @@ import { baseOpenSearchParams } from '../opensearch';
         <a
           href="https://github.com/hugo-vrijswijk/bangin-search"
           class="text-gray-500 hover:text-gray-600 dark:text-gray-400 dark:hover:text-gray-300"
-          target="_blank">github</a
+          target="_blank"
         >
+          github
+        </a>
       </footer>
     </div>
   </body>
