@@ -19615,7 +19615,7 @@
       "fangraphs",
       "fg"
     ],
-    "https://www.fangraphs.com/players.aspx?lastname={{{s}}}"
+    "https://www.fangraphs.com/search?q={{{s}}}"
   ],
   [
     [
