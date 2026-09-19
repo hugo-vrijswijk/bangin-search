@@ -170,8 +170,8 @@ importers:
         specifier: 0.9.10
         version: 0.9.10(prettier-plugin-astro@1.0.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(prettier@3.9.6))(prettier@3.9.6)(typescript@6.0.3)
       '@astrojs/node':
-        specifier: 11.1.5
-        version: 11.1.5(astro@7.3.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))(supports-color@10.2.2)
+        specifier: 11.1.6
+        version: 11.1.6(astro@7.3.3(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))(supports-color@10.2.2)
       '@fontsource-variable/inter':
         specifier: 5.3.0
         version: 5.3.0
@@ -186,10 +186,10 @@ importers:
         version: 1.0.2
       '@vite-pwa/astro':
         specifier: 1.2.0
-        version: 1.2.0(@vite-pwa/assets-generator@1.0.2)(astro@7.3.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))(vite-plugin-pwa@1.3.0(@vite-pwa/assets-generator@1.0.2)(supports-color@10.2.2)(vite@8.3.0(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))(workbox-build@7.4.1(supports-color@10.2.2))(workbox-window@7.4.1))
+        version: 1.2.0(@vite-pwa/assets-generator@1.0.2)(astro@7.3.3(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))(vite-plugin-pwa@1.3.0(@vite-pwa/assets-generator@1.0.2)(supports-color@10.2.2)(vite@8.3.0(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))(workbox-build@7.4.1(supports-color@10.2.2))(workbox-window@7.4.1))
       astro:
-        specifier: 7.3.2
-        version: 7.3.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1)
+        specifier: 7.3.3
+        version: 7.3.3(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1)
       concurrently:
         specifier: 10.0.5
         version: 10.0.5
@@ -321,8 +321,8 @@ packages:
   '@astrojs/markdown-satteri@0.4.1':
     resolution: {integrity: sha512-EniHbFNa6SQHDih7JnpPos3NWXO6hdt4raBcOosfGmlfc3gP9CI/sESA3VOf1PgJZ7SFfewlZW9Livn0JugEZg==}
 
-  '@astrojs/node@11.1.5':
-    resolution: {integrity: sha512-CgA+LmG4UWqHxg/Vdc5MdxjjJNZSjKYQQx4uEUwnbj+1ZD2CYumJI3OWg2twsVdj2FlYsB5yvmCC54Re+OK+UQ==}
+  '@astrojs/node@11.1.6':
+    resolution: {integrity: sha512-jNZ10/vAT+HuXkX0E/tITsIYCSn3BmAvsooVAN1OjagG+FEzelpUWToy1bA3x6Irmu0VaknWRfReY+1twd35sQ==}
     peerDependencies:
       astro: ^7.2.1
 
@@ -1980,8 +1980,8 @@ packages:
     resolution: {integrity: sha512-BNoCY6SXXPQ7gF2opIP4GBE+Xw7U+pHMYKuzjgCN3GwiaIR09UUeKfheyIry77QtrCBlC0KK0q5/TER/tYh3PQ==}
     engines: {node: '>= 0.4'}
 
-  astro@7.3.2:
-    resolution: {integrity: sha512-ysTcdpGP61XZpHoMRYC/CK19DQ94qkBvzXMtXEo0gEqPNkmOU/Tv++CtWmzaI4nF2Ck8RXFdiWvdlTWa2oOr9w==}
+  astro@7.3.3:
+    resolution: {integrity: sha512-NF08hk3edFkVmr9avf9HW/rQyf6NrpbVDyYj2cVN3JfijDhfJYh1ivWVTY5PUd5+rRZn/Vtu4iaeyNlP0Iv6mg==}
     engines: {node: '>=22.12.0', npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     peerDependencies:
@@ -2410,8 +2410,8 @@ packages:
   filelist@1.0.6:
     resolution: {integrity: sha512-5giy2PkLYY1cP39p17Ech+2xlpTRL9HLspOfEgm0L6CwBXBTgsK5ou0JtzYuepxkaQ/tvhCFIJ5uXo0OrM2DxA==}
 
-  find-proc@0.1.0:
-    resolution: {integrity: sha512-OaOpEYv2PiQ7SQ5LIrl+deA1XaWcxEjnpM6VuWXTUvn+teIXxeFTLDmu18/zDQpFmHN4o3oDBX+BT0AGwEhemg==}
+  find-proc@0.2.0:
+    resolution: {integrity: sha512-a6h2nTrgB3g5Wrn4au9Ux4kMk7IJtyF6oA8uGn+mk3weLZssUtc1cp6meHIzzuW2o1srrBAxzkmXLbqjRkgB6w==}
     engines: {node: ^20.19.0 || >=22.12.0}
 
   flattie@1.1.1:
@@ -3725,6 +3725,10 @@ packages:
     peerDependencies:
       browserslist: '>= 4.21.0'
 
+  verkit@0.4.0:
+    resolution: {integrity: sha512-sXMwN6DMHeouPfCxkxWkKAmxphWKEenHYY5H1nIBzU3PmDsmJp6kBXJdshjVdpMZuWCmL9SH7KFRx29AylpP6g==}
+    engines: {node: '>=18.12.0'}
+
   vfile-message@4.0.3:
     resolution: {integrity: sha512-QTHzsGd1EhbZs4AsQ20JX1rC3cOlt/IWJruk893DfLRr57lcnOeMaWG4K0JrRta4mIJZKth2Au3mM3u03/JWKw==}
 
@@ -4141,10 +4145,10 @@ snapshots:
       github-slugger: 2.0.0
       satteri: 0.10.5
 
-  '@astrojs/node@11.1.5(astro@7.3.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))(supports-color@10.2.2)':
+  '@astrojs/node@11.1.6(astro@7.3.3(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))(supports-color@10.2.2)':
     dependencies:
       '@astrojs/internal-helpers': 0.11.0
-      astro: 7.3.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1)
+      astro: 7.3.3(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1)
       send: 1.2.1(supports-color@10.2.2)
       server-destroy: 1.0.1
     transitivePeerDependencies:
@@ -5560,9 +5564,9 @@ snapshots:
       sharp-ico: 0.1.5
       unconfig: 7.5.0
 
-  '@vite-pwa/astro@1.2.0(@vite-pwa/assets-generator@1.0.2)(astro@7.3.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))(vite-plugin-pwa@1.3.0(@vite-pwa/assets-generator@1.0.2)(supports-color@10.2.2)(vite@8.3.0(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))(workbox-build@7.4.1(supports-color@10.2.2))(workbox-window@7.4.1))':
+  '@vite-pwa/astro@1.2.0(@vite-pwa/assets-generator@1.0.2)(astro@7.3.3(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))(vite-plugin-pwa@1.3.0(@vite-pwa/assets-generator@1.0.2)(supports-color@10.2.2)(vite@8.3.0(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))(workbox-build@7.4.1(supports-color@10.2.2))(workbox-window@7.4.1))':
     dependencies:
-      astro: 7.3.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1)
+      astro: 7.3.3(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1)
       vite-plugin-pwa: 1.3.0(@vite-pwa/assets-generator@1.0.2)(supports-color@10.2.2)(vite@8.3.0(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))(workbox-build@7.4.1(supports-color@10.2.2))(workbox-window@7.4.1)
     optionalDependencies:
       '@vite-pwa/assets-generator': 1.0.2
@@ -5672,7 +5676,7 @@ snapshots:
       get-intrinsic: 1.3.0
       is-array-buffer: 3.0.5
 
-  astro@7.3.2(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1):
+  astro@7.3.3(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1):
     dependencies:
       '@astrojs/compiler-rs': 0.4.0(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)
       '@astrojs/internal-helpers': 0.11.0
@@ -5693,7 +5697,7 @@ snapshots:
       dset: 3.1.4
       es-module-lexer: 2.3.2
       esbuild: 0.28.2
-      find-proc: 0.1.0
+      find-proc: 0.2.0
       flattie: 1.1.1
       fontace: 0.4.1
       get-tsconfig: 5.0.0-beta.4
@@ -5712,7 +5716,6 @@ snapshots:
       package-manager-detector: 1.8.0
       piccolore: 0.1.3
       picomatch: 4.0.7
-      semver: 7.8.5
       shiki: 4.4.3
       smol-toml: 1.8.0
       svgo: 4.1.0
@@ -5722,6 +5725,7 @@ snapshots:
       ultrahtml: 1.7.0
       unifont: 0.7.5
       unstorage: 1.17.5
+      verkit: 0.4.0
       vite: 8.3.0(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1)
       vitefu: 1.1.3(vite@8.3.0(esbuild@0.28.2)(jiti@2.7.0)(terser@5.51.2)(yaml@2.9.1))
       xxhash-wasm: 1.1.0
@@ -6235,7 +6239,7 @@ snapshots:
     dependencies:
       minimatch: 5.1.9
 
-  find-proc@0.1.0: {}
+  find-proc@0.2.0: {}
 
   flattie@1.1.1: {}
 
@@ -7558,6 +7562,8 @@ snapshots:
       browserslist: 4.28.9
       escalade: 3.2.0
       picocolors: 1.1.1
+
+  verkit@0.4.0: {}
 
   vfile-message@4.0.3:
     dependencies:
