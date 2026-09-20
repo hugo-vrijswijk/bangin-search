@@ -14090,7 +14090,7 @@
     [
       "denicheur"
     ],
-    "https://ledenicheur.fr/#rparams=ss={{{s}}}"
+    "https://ledenicheur.fr/search?query={{{s}}}"
   ],
   [
     [
@@ -15600,7 +15600,7 @@
     [
       "dota"
     ],
-    "https://dota2.gamepedia.com/index.php?search={{{s}}}"
+    "https://liquipedia.net/dota2/index.php?search={{{s}}}"
   ],
   [
     [
@@ -19615,7 +19615,7 @@
       "fangraphs",
       "fg"
     ],
-    "https://www.fangraphs.com/players.aspx?lastname={{{s}}}"
+    "https://www.fangraphs.com/search?q={{{s}}}"
   ],
   [
     [
@@ -45696,7 +45696,14 @@
       "prisjakt",
       "pris"
     ],
-    "https://www.prisjakt.nu/search?search={{{s}}}"
+    "https://www.prisjakt.nu/search?query={{{s}}}"
+  ],
+  [
+    [
+      "pjdk",
+      "prisjagt"
+    ],
+    "https://www.prisjagt.dk/search?query={{{s}}}"
   ],
   [
     [
@@ -45708,7 +45715,7 @@
     [
       "pjno"
     ],
-    "https://www.prisjakt.no/search?search={{{s}}}"
+    "https://www.prisjakt.no/search?query={{{s}}}"
   ],
   [
     [
@@ -46971,9 +46978,10 @@
   ],
   [
     [
-      "pricespy"
+      "pricespy",
+      "psnz"
     ],
-    "https://pricespy.co.nz/search?search={{{s}}}"
+    "https://pricespy.co.nz/search?query={{{s}}}"
   ],
   [
     [
@@ -47332,12 +47340,6 @@
   ],
   [
     [
-      "psnz"
-    ],
-    "https://pricespy.co.nz/search?q={{{s}}}"
-  ],
-  [
-    [
       "pso"
     ],
     "https://www.psoriasis-netz.de/?s={{{s}}}"
@@ -47364,7 +47366,7 @@
     [
       "psuk"
     ],
-    "https://pricespy.co.uk/search?q={{{s}}}"
+    "https://pricespy.co.uk/search?query={{{s}}}"
   ],
   [
     [
@@ -52346,7 +52348,7 @@
       "shiki",
       "shm"
     ],
-    "https://shikimori.org/animes?search={{{s}}}"
+    "https://shikimori.io/animes?search={{{s}}}"
   ],
   [
     [
@@ -55486,9 +55488,32 @@
   ],
   [
     [
+      "sumb",
+      "sumk",
+      "sumkey",
+      "summarizekey",
+      "summarisekey",
+      "sumt",
+      "sumbullet",
+      "summarizebullet",
+      "summarisebullet"
+    ],
+    "https://kagi.com/summarizer?url={{{s}}}&summary=keypoints"
+  ],
+  [
+    [
       "sumc"
     ],
     "https://learn.sharedusemobilitycenter.org/search/?keyword={{{s}}}"
+  ],
+  [
+    [
+      "sume",
+      "sumeli5",
+      "summarizeeli5",
+      "summariseeli5"
+    ],
+    "https://kagi.com/summarizer?url={{{s}}}&summary=eli5"
   ],
   [
     [
@@ -55501,16 +55526,6 @@
       "summitpost"
     ],
     "https://www.summitpost.org/object_list.php?object_type=0&object_name_0={{{s}}}&page=1"
-  ],
-  [
-    [
-      "sumt",
-      "sumk",
-      "sumkey",
-      "summarizekey",
-      "summarisekey"
-    ],
-    "https://kagi.com/summarizer?url={{{s}}}&summary=takeaway"
   ],
   [
     [
