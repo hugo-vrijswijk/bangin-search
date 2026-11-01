@@ -41346,13 +41346,8 @@
   ],
   [
     [
+      "nixpkgs",
       "nixpkg"
-    ],
-    "https://nixos.org/nixos/packages.html?query={{{s}}}"
-  ],
-  [
-    [
-      "nixpkgs"
     ],
     "https://search.nixos.org/packages?query={{{s}}}"
   ],
@@ -55876,7 +55871,7 @@
       "swisspost",
       "postch"
     ],
-    "https://www.post.ch/EasyTrack/submitParcelData.do?formattedParcelCodes={{{s}}}"
+    "https://mys.post.ch/my-consignments/deeplink-search?formattedParcelCodes={{{s}}}"
   ],
   [
     [
