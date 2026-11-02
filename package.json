@@ -1,7 +1,7 @@
 {
   "name": "bang-search",
   "type": "module",
-  "version": "1.7.4",
+  "version": "1.7.5",
   "packageManager": "pnpm@12.16.1",
   "private": true,
   "main": "dist/server/entry.mjs",
