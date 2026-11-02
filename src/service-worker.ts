@@ -1,8 +1,12 @@
 /// <reference lib="WebWorker" />
-import { cleanupOutdatedCaches, precacheAndRoute } from 'workbox-precaching';
+import { clientsClaim } from '@vite-pwa/workbox-swkit/core';
+import { cleanupOutdatedCaches, precacheAndRoute } from '@vite-pwa/workbox-swkit/precaching';
 import { getBangRedirectUrl } from './bang';
 
 declare let self: ServiceWorkerGlobalScope;
+
+self.skipWaiting();
+clientsClaim();
 
 cleanupOutdatedCaches();
 
@@ -14,7 +18,7 @@ const defaultBangCacheName = '/default-bang';
 self.addEventListener('message', (event: ExtendableMessageEvent) => {
   const data = event.data as { defaultBang: string };
   if (data && data.defaultBang) {
-    saveValue(bangCacheName, defaultBangCacheName, data.defaultBang);
+    event.waitUntil(saveValue(bangCacheName, defaultBangCacheName, data.defaultBang));
   }
 });
 

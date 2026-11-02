@@ -1,7 +1,10 @@
 import { registerSW } from 'virtual:pwa-register';
 
 registerSW({
-  onRegisteredSW(_swScriptUrl, registration) {
-    if (document.body.dataset.defaultBang) registration?.active?.postMessage({ defaultBang: document.body.dataset.defaultBang });
+  onRegisteredSW() {
+    const defaultBang = document.body.dataset.defaultBang;
+    if (!defaultBang) return;
+
+    navigator.serviceWorker.ready.then((registration) => registration.active?.postMessage({ defaultBang }));
   },
 });

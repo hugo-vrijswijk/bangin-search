@@ -1,7 +1,7 @@
 // @ts-check
 import node from '@astrojs/node';
 import tailwindcss from '@tailwindcss/vite';
-import AstroPWA from '@vite-pwa/astro';
+import { AstroPWAIntegration } from '@vite-pwa/astro';
 import { defineConfig, envField } from 'astro/config';
 
 // https://astro.build/config
@@ -23,10 +23,9 @@ export default defineConfig({
     staticHeaders: true,
   }),
   integrations: [
-    AstroPWA({
-      srcDir: 'src',
-      filename: 'service-worker.ts',
-      strategies: 'injectManifest',
+    AstroPWAIntegration({
+      filename: 'service-worker.js',
+      strategies: 'buildSW',
       registerType: 'autoUpdate',
       manifest: {
         name: "Bangin' Search",
@@ -35,7 +34,8 @@ export default defineConfig({
         background_color: '#18181b',
         description: 'Search the web with fast Bangs',
       },
-      injectManifest: {
+      buildSW: {
+        swSrc: 'src/service-worker.ts',
         manifestTransforms: [
           (arr) => ({
             manifest: arr.filter((e) => e.url !== '404.html'),
