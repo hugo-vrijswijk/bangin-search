@@ -3,6 +3,6 @@
   "include": [".astro/types.d.ts", "**/*"],
   "exclude": ["dist", "dev-dist", "node_modules"],
   "compilerOptions": {
-    "types": ["astro/client", "vite-plugin-pwa/client", "vite-plugin-pwa/info", "vite-plugin-pwa/pwa-assets"]
+    "types": ["astro/client", "@unplugin-pwa/core/client", "@unplugin-pwa/core/info", "@unplugin-pwa/core/pwa-assets"]
   }
 }
