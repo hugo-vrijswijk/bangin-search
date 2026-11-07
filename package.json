@@ -36,7 +36,7 @@
     "prettier-plugin-astro": "1.1.2",
     "prettier-plugin-tailwindcss": "0.8.1",
     "tailwindcss": "4.3.4",
-    "vite": "8.3.5"
+    "vite": "8.3.6"
   },
   "lint-staged": {
     "*.{js,mjs,ts,astro,css,md,json,yml}": "prettier --write"
