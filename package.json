@@ -2,7 +2,7 @@
   "name": "bang-search",
   "type": "module",
   "version": "1.7.5",
-  "packageManager": "pnpm@12.16.1",
+  "packageManager": "pnpm@12.18.0",
   "private": true,
   "main": "dist/server/entry.mjs",
   "scripts": {
