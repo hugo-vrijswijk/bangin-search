@@ -10019,7 +10019,7 @@
     [
       "chs"
     ],
-    "https://chain.so/address/{{{s}}}"
+    "https://sochain.com/search?q={{{s}}}"
   ],
   [
     [
@@ -16798,13 +16798,6 @@
   ],
   [
     [
-      "ebaykleinanzeigen",
-      "eka"
-    ],
-    "https://www.ebay-kleinanzeigen.de/s-{{{s}}}/k0"
-  ],
-  [
-    [
       "ebaymy",
       "ebmy",
       "emy"
@@ -17396,48 +17389,6 @@
       "ek"
     ],
     "https://www.elektronik-kompendium.de/service/suchen/suchen.php?q={{{s}}}"
-  ],
-  [
-    [
-      "ekac"
-    ],
-    "https://www.ebay-kleinanzeigen.de/s-aachen/{{{s}}}/k0l1921"
-  ],
-  [
-    [
-      "ekb"
-    ],
-    "https://kleinanzeigen.ebay.de/anzeigen/s-berlin/{{{s}}}/k0l3331"
-  ],
-  [
-    [
-      "ekh"
-    ],
-    "https://www.ebay-kleinanzeigen.de/s-hamburg/{{{s}}}/k0l9409"
-  ],
-  [
-    [
-      "ekhr"
-    ],
-    "https://www.ebay-kleinanzeigen.de/s-hannover/{{{s}}}/k0l3155"
-  ],
-  [
-    [
-      "ekk"
-    ],
-    "https://www.ebay-kleinanzeigen.de/s-koeln/{{{s}}}/k0l945"
-  ],
-  [
-    [
-      "ekl"
-    ],
-    "https://www.ebay-kleinanzeigen.de/s-leipzig/{{{s}}}/k0l4233"
-  ],
-  [
-    [
-      "ekm"
-    ],
-    "https://www.ebay-kleinanzeigen.de/s-muenchen/{{{s}}}/k0l6411"
   ],
   [
     [
@@ -26743,6 +26694,12 @@
   ],
   [
     [
+      "gweb"
+    ],
+    "https://www.google.com/search?udm=web&q={{{s}}}"
+  ],
+  [
+    [
       "gweek"
     ],
     "https://www.google.com/search?q={{{s}}}&tbs=qdr:w"
@@ -31857,9 +31814,21 @@
   ],
   [
     [
+      "kaac"
+    ],
+    "https://www.kleinanzeigen.de/s-aachen/{{{s}}}/k0l1921"
+  ],
+  [
+    [
       "kaartje"
     ],
     "https://www.kaartje2go.nl/zoeken?q={{{s}}}"
+  ],
+  [
+    [
+      "kab"
+    ],
+    "https://www.kleinanzeigen.de/s-berlin/{{{s}}}/k0l3331"
   ],
   [
     [
@@ -31881,15 +31850,33 @@
   ],
   [
     [
+      "kah"
+    ],
+    "https://www.kleinanzeigen.de/s-hamburg/{{{s}}}/k0l9409"
+  ],
+  [
+    [
       "kahoot"
     ],
     "https://create.kahoot.it/search?filter=1&query=science&tags={{{s}}}"
   ],
   [
     [
+      "kahr"
+    ],
+    "https://www.kleinanzeigen.de/s-hannover/{{{s}}}/k0l3155"
+  ],
+  [
+    [
       "kahta"
     ],
     "https://www.kahtahaber.com/search?q={{{s}}}"
+  ],
+  [
+    [
+      "kak"
+    ],
+    "https://www.kleinanzeigen.de/s-koeln/{{{s}}}/k0l945"
   ],
   [
     [
@@ -31908,6 +31895,12 @@
       "kakosepise"
     ],
     "https://kakosepise.com/?s={{{s}}}"
+  ],
+  [
+    [
+      "kal"
+    ],
+    "https://www.kleinanzeigen.de/s-leipzig/{{{s}}}/k0l4233"
   ],
   [
     [
@@ -31952,6 +31945,12 @@
       "kamelopedia"
     ],
     "https://kamelopedia.mormo.org/index.php?title=Spezial:Suche&search={{{s}}}&button=Senden"
+  ],
+  [
+    [
+      "kamuc"
+    ],
+    "https://www.kleinanzeigen.de/s-muenchen/{{{s}}}/k0l6411"
   ],
   [
     [
@@ -32666,9 +32665,10 @@
   ],
   [
     [
-      "klein"
+      "kleinanzeigen",
+      "kad"
     ],
-    "https://www.ebay-kleinanzeigen.de/{{{s}}}/k0"
+    "https://www.kleinanzeigen.de/s-{{{s}}}/k0"
   ],
   [
     [
@@ -47976,7 +47976,7 @@
     [
       "qrz"
     ],
-    "https://www.qrz.com/db/?callsign={{{s}}}&cmd=Search"
+    "https://www.qrz.com/db/{{{s}}}"
   ],
   [
     [
@@ -52684,6 +52684,12 @@
       "similarweb"
     ],
     "https://www.similarweb.com/website/{{{s}}}"
+  ],
+  [
+    [
+      "simkl"
+    ],
+    "https://simkl.com/search/?type=all&q={{{s}}}"
   ],
   [
     [
