@@ -182,8 +182,8 @@ importers:
         specifier: 4.3.5
         version: 4.3.5(vite@8.3.6(jiti@2.7.0)(yaml@2.9.1))
       '@unplugin-pwa/core':
-        specifier: 0.0.3
-        version: 0.0.3(@vite-pwa/assets-generator@2.0.0)(magicast@0.5.5)(rolldown@1.3.1)(typescript@6.0.3)(vite@8.3.6(jiti@2.7.0)(yaml@2.9.1))
+        specifier: 0.0.6
+        version: 0.0.6(@vite-pwa/assets-generator@2.0.0)(magicast@0.5.5)(rolldown@1.3.1)(typescript@6.0.3)(vite@8.3.6(jiti@2.7.0)(yaml@2.9.1))
       '@vite-pwa/assets-generator':
         specifier: 2.0.0
         version: 2.0.0
@@ -1055,6 +1055,21 @@ packages:
 
   '@unplugin-pwa/core@0.0.3':
     resolution: {integrity: sha512-udhrh9bpBay2SA2c571TVw7OwqHM4UA64brl6tH7YFHvIahNpjghyXDeK6vYjxO1tpNhOmPH+3xWC9+gqccxCw==}
+    engines: {node: '>=22.14.0'}
+    peerDependencies:
+      '@vite-pwa/assets-generator': ^1.0.0 || ^2.0.0
+      rolldown: ^1.0.0-0
+      vite: ^3.1.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+    peerDependenciesMeta:
+      '@vite-pwa/assets-generator':
+        optional: true
+      rolldown:
+        optional: true
+      vite:
+        optional: true
+
+  '@unplugin-pwa/core@0.0.6':
+    resolution: {integrity: sha512-tYMu0nA4nNWftYLQlbSE9AX4K8TfvXG11PmdzybAKUDYdHwTsH7+RmXP3gyhGHxzrImObpNoLNI3SLGim7csvA==}
     engines: {node: '>=22.14.0'}
     peerDependencies:
       '@vite-pwa/assets-generator': ^1.0.0 || ^2.0.0
@@ -3075,6 +3090,21 @@ snapshots:
   '@unplugin-pwa/core@0.0.3(@vite-pwa/assets-generator@2.0.0)(magicast@0.5.5)(rolldown@1.3.1)(typescript@6.0.3)(vite@8.3.6(jiti@2.7.0)(yaml@2.9.1))':
     dependencies:
       '@vite-pwa/workbox-build': 8.0.15(magicast@0.5.5)(rolldown@1.3.1)(typescript@6.0.3)(vite@8.3.6(jiti@2.7.0)(yaml@2.9.1))
+      hookable: 6.1.2
+    optionalDependencies:
+      '@vite-pwa/assets-generator': 2.0.0
+      rolldown: 1.3.1
+      vite: 8.3.6(jiti@2.7.0)(yaml@2.9.1)
+    transitivePeerDependencies:
+      - '@rspack/core'
+      - magicast
+      - typescript
+      - webpack
+
+  '@unplugin-pwa/core@0.0.6(@vite-pwa/assets-generator@2.0.0)(magicast@0.5.5)(rolldown@1.3.1)(typescript@6.0.3)(vite@8.3.6(jiti@2.7.0)(yaml@2.9.1))':
+    dependencies:
+      '@vite-pwa/workbox-build': 8.0.15(magicast@0.5.5)(rolldown@1.3.1)(typescript@6.0.3)(vite@8.3.6(jiti@2.7.0)(yaml@2.9.1))
+      '@vite-pwa/workbox-window': 8.0.15
       hookable: 6.1.2
     optionalDependencies:
       '@vite-pwa/assets-generator': 2.0.0
