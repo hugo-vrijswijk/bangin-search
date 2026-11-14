@@ -191,8 +191,8 @@ importers:
         specifier: 2.0.0
         version: 2.0.0(@vite-pwa/assets-generator@2.0.0)(astro@7.4.11(jiti@2.7.0)(yaml@2.9.1))(magicast@0.5.5)(rolldown@1.2.18)(typescript@6.0.3)(vite@8.3.6(jiti@2.7.0)(yaml@2.9.1))
       '@vite-pwa/workbox-swkit':
-        specifier: 8.0.13
-        version: 8.0.13
+        specifier: 8.0.15
+        version: 8.0.15
       '@vite-pwa/workbox-window':
         specifier: 8.0.13
         version: 8.0.13
